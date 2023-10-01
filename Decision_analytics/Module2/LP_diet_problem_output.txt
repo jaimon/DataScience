@@ -1,0 +1,56 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/b337847768bc49a18cb03606d31a9ed6-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/b337847768bc49a18cb03606d31a9ed6-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 48 RHS
+At line 56 BOUNDS
+At line 57 ENDATA
+Problem MODEL has 7 rows, 5 columns and 30 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 7 (0) rows, 5 (0) columns and 30 (0) elements
+0  Obj 0 Primal inf 44.499999 (6)
+2  Obj 13.965
+Optimal - objective value 13.965
+Optimal objective 13.965 - 2 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/be68582138de4d20aa9859e87c1b4bd3-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/be68582138de4d20aa9859e87c1b4bd3-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 14 COLUMNS
+At line 55 RHS
+At line 65 BOUNDS
+At line 66 ENDATA
+Problem MODEL has 9 rows, 5 columns and 35 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 9 (0) rows, 5 (0) columns and 35 (0) elements
+0  Obj 0 Primal inf 56.784966 (8)
+3  Obj 19.886474
+Optimal - objective value 19.886474
+Optimal objective 19.88647421 - 3 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Number of servings of Almonds: 11.75
+Number of servings of Chicken: 0.0
+Number of servings of Spinach: 4.5
+Number of servings of Quinoa: 0.0
+Number of servings of Salmon: 0.0
+Total Cost of Diet: $13.965
+Number of servings of Almonds: 5.1241395
+Number of servings of Chicken: 3.6584423
+Number of servings of Spinach: 10.714286
+Number of servings of Quinoa: 0.0
+Number of servings of Salmon: 0.0
+Total Cost of Diet: $19.8864745486
