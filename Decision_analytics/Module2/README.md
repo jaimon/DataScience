@@ -1,2 +1,2 @@
-This location contains python script, jupyter notebook, html file outputs of "The Diet problem using LP" assignment.
+This location contains the Python script, Jupyter notebook, HTML file outputs of "The Diet problem using LP" assignment.
 The  diet problem takes a linear programming approach to optimize the minimum-cost diet that satisfies several nutritional constraints. It focuses on data collection from five packaged food items, with price calculations for serving sizes and presents the linear programming problem in standard form with decision variables and constraints and analyzes the impact of additional nutritional constraints recommended by the U.S. Food and Drug Administration.
