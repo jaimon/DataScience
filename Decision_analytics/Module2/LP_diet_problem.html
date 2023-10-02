@@ -14660,7 +14660,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14670,7 +14670,129 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Define the objective function</span>
 
-<span class="n">problem</span> <span class="o">+=</span>  <span class="mf">0.75</span> <span class="o">*</span> <span class="n">x1</span> <span class="o">+</span> <span class="mf">1.032</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mf">1.145</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">3.49</span> <span class="o">*</span> <span class="n">x5</span>
+<span class="n">problem</span> <span class="o">+=</span>  <span class="mf">0.75</span> <span class="o">*</span> <span class="n">x1</span> <span class="o">+</span> <span class="mf">1.032</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mf">1.145</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mf">0.5482</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">3.49</span> <span class="o">*</span> <span class="n">x5</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solve the Problem</span>
+<span class="n">problem</span><span class="o">.</span><span class="n">solve</span><span class="p">()</span>
+
+<span class="c1"># Output the results</span>
+<span class="k">if</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpStatus</span><span class="p">[</span><span class="n">problem</span><span class="o">.</span><span class="n">status</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Optimal&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Almonds: </span><span class="si">{</span><span class="n">x1</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Chicken: </span><span class="si">{</span><span class="n">x2</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Spinach: </span><span class="si">{</span><span class="n">x3</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Quinoa: </span><span class="si">{</span><span class="n">x4</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Salmon: </span><span class="si">{</span><span class="n">x5</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total Cost of Diet: $</span><span class="si">{</span><span class="n">pulp</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">problem</span><span class="o">.</span><span class="n">objective</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No optimal solution found.&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/252819f5a33140ec8e17dc140e16047a-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/252819f5a33140ec8e17dc140e16047a-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 48 RHS
+At line 56 BOUNDS
+At line 57 ENDATA
+Problem MODEL has 7 rows, 5 columns and 30 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 7 (0) rows, 5 (0) columns and 30 (0) elements
+0  Obj 0 Primal inf 44.499999 (6)
+2  Obj 13.965
+Optimal - objective value 13.965
+Optimal objective 13.965 - 2 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Number of servings of Almonds: 11.75
+Number of servings of Chicken: 0.0
+Number of servings of Spinach: 4.5
+Number of servings of Quinoa: 0.0
+Number of servings of Salmon: 0.0
+Total Cost of Diet: $13.965
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">problem2</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpProblem</span><span class="p">(</span><span class="s2">&quot;Minimum Cost Diet&quot;</span><span class="p">,</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpMinimize</span><span class="p">)</span>
+
+<span class="c1"># Define the decision variables</span>
+<span class="c1">#x1 = pulp.LpVariable(name=&quot;Almonds&quot;,lowBound=0) #Almonds</span>
+<span class="n">x2</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Chicken&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Chicken</span>
+<span class="n">x3</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Spinach&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Spinach</span>
+<span class="n">x4</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Quinoa&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Quinoa</span>
+<span class="n">x5</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Salmon&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Salmon</span>
+
+
+<span class="c1">#Add additional food items</span>
+<span class="n">x6</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Rice&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Rice</span>
+<span class="n">x7</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Waffles&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Waffles</span>
+<span class="n">x8</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Yogurt&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1">#Yogurt</span>
+<span class="n">x9</span> <span class="o">=</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Bread&quot;</span><span class="p">,</span><span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>  <span class="c1">#Bread</span>
+
+
+<span class="c1">#Add additional nutrients(Vitamin A and Vitamin C) to the constraints to see if it changes the total cost</span>
+
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">90</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">65</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mi">80</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">390</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">75</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">170</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&lt;=</span> <span class="mi">5000</span> <span class="c1"># Sodium</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">250</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">20</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">170</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mi">160</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">170</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">250</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">140</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">130</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">2000</span> <span class="c1"># Energy</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">19</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">6</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mi">23</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">12</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">6</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">50</span> <span class="c1"># Protein</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">8</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">65</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mi">80</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="c1"># Vitamin D</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">9</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">80</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">20</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">50</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">30</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">1300</span> <span class="c1"># Calcium</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mf">0.8</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mf">2.3</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mf">2.3</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mf">2.1</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">0.72</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mf">0.4</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mf">1.4</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mf">1.3</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">18</span> <span class="c1"># Iron</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">230</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">470</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">376</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">50</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">130</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mf">0.04</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">40</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">4700</span> <span class="c1"># Potassium</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">0</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">58.10</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">900</span> <span class="c1">#Vitamin A</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mi">0</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">7.7</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x9</span> <span class="o">&gt;=</span> <span class="mi">90</span> <span class="c1">#Vitamin C</span>
 </pre></div>
 
      </div>
@@ -14692,86 +14814,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/pulp.py:1668: UserWarning: Overwriting previously set objective.
-  warnings.warn(&#34;Overwriting previously set objective.&#34;)
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solve the Problem</span>
-<span class="n">problem</span><span class="o">.</span><span class="n">solve</span><span class="p">()</span>
-
-<span class="c1"># Output the results</span>
-<span class="k">if</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpStatus</span><span class="p">[</span><span class="n">problem</span><span class="o">.</span><span class="n">status</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Optimal&#39;</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Almonds: </span><span class="si">{</span><span class="n">x1</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Chicken: </span><span class="si">{</span><span class="n">x2</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Spinach: </span><span class="si">{</span><span class="n">x3</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Quinoa: </span><span class="si">{</span><span class="n">x4</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Salmon: </span><span class="si">{</span><span class="n">x5</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total Cost of Diet: $</span><span class="si">{</span><span class="n">pulp</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">problem</span><span class="o">.</span><span class="n">objective</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No optimal solution found.&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Welcome to the CBC MILP Solver 
-Version: 2.10.3 
-Build Date: Dec 15 2019 
-
-command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/7d690c2e6ba34ab89146e4663c36c4a4-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/7d690c2e6ba34ab89146e4663c36c4a4-pulp.sol (default strategy 1)
-At line 2 NAME          MODEL
-At line 3 ROWS
-At line 26 COLUMNS
-At line 127 RHS
-At line 149 BOUNDS
-At line 150 ENDATA
-Problem MODEL has 21 rows, 5 columns and 95 elements
-Coin0008I MODEL read with 0 errors
-Option for timeMode changed from cpu to elapsed
-Presolve 21 (0) rows, 5 (0) columns and 95 (0) elements
-0  Obj 0 Primal inf 77.025251 (18)
-2  Obj 13.965
-Optimal - objective value 13.965
-Optimal objective 13.965 - 2 iterations time 0.002
-Option for printingOptions changed from normal to all
-Total time (CPU seconds):       0.00   (Wallclock seconds):       0.06
-
-Number of servings of Almonds: 11.75
-Number of servings of Chicken: 0.0
-Number of servings of Spinach: 4.5
-Number of servings of Quinoa: 0.0
-Number of servings of Salmon: 0.0
-Total Cost of Diet: $13.965
+<pre>/Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/pulp.py:1313: UserWarning: Spaces are not permitted in the name. Converted to &#39;_&#39;
+  warnings.warn(&#34;Spaces are not permitted in the name. Converted to &#39;_&#39;&#34;)
 </pre>
 </div>
 </div>
@@ -14788,11 +14832,9 @@ Total Cost of Diet: $13.965
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Add additional nutrients(Vitamin A and Vitamin C) to the constraints to see if it changes the total cost</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Define the objective function after adding new food items and additional nutrients</span>
 
-<span class="c1"># Define the constraints</span>
-<span class="n">problem</span> <span class="o">+=</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x1</span> <span class="o">+</span> <span class="mi">31</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mi">573</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">58.10</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">&gt;=</span> <span class="mi">900</span> <span class="c1">#Vitamin A</span>
-<span class="n">problem</span> <span class="o">+=</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x1</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mf">8.4</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span> <span class="mi">0</span> <span class="o">*</span> <span class="n">x4</span> <span class="o">+</span> <span class="mf">7.7</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">&gt;=</span> <span class="mi">90</span> <span class="c1">#Vitamin C</span>
+<span class="n">problem2</span> <span class="o">+=</span>  <span class="mf">1.032</span> <span class="o">*</span> <span class="n">x2</span> <span class="o">+</span> <span class="mf">1.145</span> <span class="o">*</span> <span class="n">x3</span> <span class="o">+</span>  <span class="mf">0.5482</span> <span class="o">*</span> <span class="n">x4</span>  <span class="o">+</span> <span class="mf">3.49</span> <span class="o">*</span> <span class="n">x5</span> <span class="o">+</span> <span class="mf">0.845</span> <span class="o">*</span> <span class="n">x6</span> <span class="o">+</span> <span class="mf">1.484</span> <span class="o">*</span> <span class="n">x7</span> <span class="o">+</span> <span class="mf">1.14</span> <span class="o">*</span> <span class="n">x8</span> <span class="o">+</span> <span class="mf">0.28</span> <span class="o">*</span> <span class="n">x9</span>
 </pre></div>
 
      </div>
@@ -14809,16 +14851,20 @@ Total Cost of Diet: $13.965
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solve the Problem</span>
-<span class="n">problem</span><span class="o">.</span><span class="n">solve</span><span class="p">()</span>
+<span class="n">problem2</span><span class="o">.</span><span class="n">solve</span><span class="p">()</span>
 
 <span class="c1"># Output the results</span>
 <span class="k">if</span> <span class="n">pulp</span><span class="o">.</span><span class="n">LpStatus</span><span class="p">[</span><span class="n">problem</span><span class="o">.</span><span class="n">status</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Optimal&#39;</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Almonds: </span><span class="si">{</span><span class="n">x1</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Chicken: </span><span class="si">{</span><span class="n">x2</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Spinach: </span><span class="si">{</span><span class="n">x3</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Quinoa: </span><span class="si">{</span><span class="n">x4</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Salmon: </span><span class="si">{</span><span class="n">x5</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total Cost of Diet: $</span><span class="si">{</span><span class="n">pulp</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">problem</span><span class="o">.</span><span class="n">objective</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Rice: </span><span class="si">{</span><span class="n">x6</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Waffles: </span><span class="si">{</span><span class="n">x7</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Yogurt: </span><span class="si">{</span><span class="n">x8</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of servings of Bread: </span><span class="si">{</span><span class="n">x9</span><span class="o">.</span><span class="n">value</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total Cost of Diet: $</span><span class="si">{</span><span class="n">pulp</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">problem2</span><span class="o">.</span><span class="n">objective</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No optimal solution found.&quot;</span><span class="p">)</span>
 </pre></div>
@@ -14846,30 +14892,34 @@ Total Cost of Diet: $13.965
 Version: 2.10.3 
 Build Date: Dec 15 2019 
 
-command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/0f1a74830adc4161909f0978d9be9107-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/0f1a74830adc4161909f0978d9be9107-pulp.sol (default strategy 1)
+command line - /Users/Jai/anaconda3/lib/python3.7/site-packages/pulp/apis/../solverdir/cbc/osx/64/cbc /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/b80198bc1dfc4e418bf070b79afa5d54-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/mg/gn4s4j_94_j8j560qd6pnnzm0000gp/T/b80198bc1dfc4e418bf070b79afa5d54-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
-At line 28 COLUMNS
-At line 134 RHS
-At line 158 BOUNDS
-At line 159 ENDATA
-Problem MODEL has 23 rows, 5 columns and 100 elements
+At line 14 COLUMNS
+At line 71 RHS
+At line 81 BOUNDS
+At line 82 ENDATA
+Problem MODEL has 9 rows, 8 columns and 48 elements
 Coin0008I MODEL read with 0 errors
 Option for timeMode changed from cpu to elapsed
-Presolve 23 (0) rows, 5 (0) columns and 100 (0) elements
-0  Obj 0 Primal inf 89.310217 (20)
-4  Obj 20.121686
-Optimal - objective value 20.121686
-Optimal objective 20.12168571 - 4 iterations time 0.002
-Option for printingOptions changed from normal to all
-Total time (CPU seconds):       0.00   (Wallclock seconds):       0.02
-
-Number of servings of Almonds: 10.0
-Number of servings of Chicken: 0.34285714
-Number of servings of Spinach: 10.714286
+Presolve 3 (-6) rows, 8 (0) columns and 20 (-28) elements
+0  Obj 54.061962 Primal inf 314.4956 (2)
+2  Obj 69.894061
+Optimal - objective value 69.894061
+After Postsolve, objective 69.894061, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 69.89406085 - 2 iterations time 0.002, Presolve 0.00
+Option for prNumber of servings of Chicken: 0.0
+Number of servings of Spinach: 9.2856035
 Number of servings of Quinoa: 0.0
-Number of servings of Salmon: 0.0
-Total Cost of Diet: $20.12168603848
+Number of servings of Salmon: 15.490534
+Number of servings of Rice: 0.0
+Number of servings of Waffles: 0.0
+Number of servings of Yogurt: 0.0
+Number of servings of Bread: 18.571724
+Total Cost of Diet: $69.8940623875
+intingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
 </pre>
 </div>
 </div>
