@@ -209,3 +209,5 @@ print("\nSolution variable values:")
 for var in prob.variables():
     if var.name != "_dummy":
         print(var.name, "=", var.varValue)
+        
+print('Test git update commit')
