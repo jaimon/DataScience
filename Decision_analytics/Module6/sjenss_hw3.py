@@ -1,9 +1,9 @@
-# data sources:
+### Data sources:
 # populations https://www.michigan-demographics.com/counties_by_population
 # geopoints https://public.opendatasoft.com/explore/dataset/us-county-boundaries/export/?flg=en-us&disjunctive.statefp&disjunctive.countyfp&disjunctive.name&disjunctive.namelsad&disjunctive.stusab&disjunctive.state_name&sort=stusab
 # shapefile https://public.opendatasoft.com/explore/dataset/us-county-boundaries/export/?flg=en-us&disjunctive.statefp&disjunctive.countyfp&disjunctive.name&disjunctive.namelsad&disjunctive.stusab&disjunctive.state_name&sort=stusab&refine.statefp=26
 
-# import libraries
+# Import necessary libraries
 import numpy as np
 import geopandas as gpd   
 import pandas as pd 
@@ -12,11 +12,26 @@ from pulp import *
 
 ### SECTION 1: CALCULATE DISTANCES BETWEEN COUNTY PAIRS
 
-# define Dr. Miller functions to calculate distance between two sets of longitudes / latitudes
-def degrees_to_radians(x):
-     return((pi / 180) * x)
+# Define Dr. Miller functions to calculate distance between two sets of longitudes / latitudes
 
+# Function to convert degrees to radians
+def degrees_to_radians(x):
+    return((pi / 180) * x)
+
+# Function to calculate distance between two points on a sphere (in miles) given their longitudes and latitudes
 def lon_lat_distance_miles(lon_a, lat_a, lon_b, lat_b):
+    """
+    Calculates the great-circle distance between two points on a sphere given their longitudes and latitudes.
+    
+    Parameters:
+    lon_a (float): longitude of point A in degrees
+    lat_a (float): latitude of point A in degrees
+    lon_b (float): longitude of point B in degrees
+    lat_b (float): latitude of point B in degrees
+    
+    Returns:
+    float: distance between the two points in miles
+    """
     radius_of_earth = 24872 / (2 * pi)
     c = sin((degrees_to_radians(lat_a) - \
     degrees_to_radians(lat_b)) / 2)**2 + \
@@ -24,55 +39,61 @@ def lon_lat_distance_miles(lon_a, lat_a, lon_b, lat_b):
     cos(degrees_to_radians(lat_b)) * \
     sin((degrees_to_radians(lon_a) - \
     degrees_to_radians(lon_b))/2)**2
-    return(2 * radius_of_earth * (asin(sqrt(c))))    
+    return(2 * radius_of_earth * (asin(sqrt(c))))
 
+# Function to convert the distance between two points on a sphere (in miles) to meters
 def lon_lat_distance_meters (lon_a, lat_a, lon_b, lat_b):
     return(lon_lat_distance_miles(lon_a, lat_a, lon_b, lat_b) * 1609.34)
 
-# read in file with county id, county names, latitudes, longitudes, and populations
-file_path = '/Users/forreststrodel/Desktop/Northwestern/MSDS 460/Assignments/Assignment 3/michigan_counties.xlsx'
+# Read in file with county id, county names, latitudes, longitudes, and populations
+file_path = '/Users/stefanjenss/Desktop/DataScience/Decision_analytics/Module6/michigan_counties.xlsx'
 michigan_counties = pd.read_excel(file_path, index_col = None)
 
-# remove population to allow easy joining of long and lat for each county pair
+# Remove population to allow easy joining of long and lat for each county pair
 lat_lon = ['county_names', 'latitude', 'longitude']
 lat_lon = michigan_counties[lat_lon]
 
-# create list of county names for pairing        
+# Create list of county names for pairing        
 county_names = michigan_counties['county_names'].to_numpy()
 
-# create each unique pair
+# Create each unique pair
 pairs = []
 
+# Loop through each county name and create a pair with each other county name
 for i in range(len(county_names)):
     for j in range(i + 1, len(county_names)):
         pairs.append((county_names[i], county_names[j]))
 
+# Create column names for county pairs df
 col_names = ['county_1', 'county_2']
-                
+
+# Create df of county pairs                
 county_pairs = pd.DataFrame(pairs, columns = col_names)
 
-# add first county longitude and latitdue
+ # Add first county longitude and latitude
 county_pairs = county_pairs.merge(lat_lon, left_on = 'county_1', right_on = 'county_names', how = 'left')
-county_pairs.drop('county_names', axis = 1, inplace = True)
-county_pairs = county_pairs.rename(columns={'latitude': 'county_1_lat', 'longitude': 'county_1_long'})
+county_pairs.drop('county_names', axis = 1, inplace = True) # Drop county names column
+county_pairs = county_pairs.rename(columns={'latitude': 'county_1_lat', 'longitude': 'county_1_long'}) # Rename columns
 
-# add second county longitude and latitude
+# Add second county longitude and latitude
 county_pairs = county_pairs.merge(lat_lon, left_on = 'county_2', right_on = 'county_names', how = 'left')
-county_pairs.drop('county_names', axis = 1, inplace = True)
-county_pairs = county_pairs.rename(columns={'latitude': 'county_2_lat', 'longitude': 'county_2_long'})
+county_pairs.drop('county_names', axis = 1, inplace = True) # Drop county names column
+county_pairs = county_pairs.rename(columns={'latitude': 'county_2_lat', 'longitude': 'county_2_long'}) # Rename columns
 
-# add distance between each county pair in miles and meters;
-distance_miles = []
-distance_meters = []
+# Add distance between each county pair in miles and meters;
+distance_miles = [] # Create empty list to store distance in miles
+distance_meters = [] # Create empty list to store distance in meters
 
+# Loop through each county pair and calculate distance in miles and meters
 for i in range(len(county_pairs)):
     distance_miles.append(lon_lat_distance_miles(county_pairs.iloc[i, 2], county_pairs.iloc[i, 3], county_pairs.iloc[i, 4], county_pairs.iloc[i, 5]))
     distance_meters.append(lon_lat_distance_meters(county_pairs.iloc[i, 2], county_pairs.iloc[i, 3], county_pairs.iloc[i, 4], county_pairs.iloc[i, 5]))
 
+# Add distance columns to county pairs df
 county_pairs['distance_miles'] = distance_miles
 county_pairs['distance_meters'] = distance_meters
 
-# check table
+# Check table
 county_pairs.head()
 county_pairs.tail()
 
