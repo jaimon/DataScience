@@ -97,6 +97,9 @@ county_pairs['distance_meters'] = distance_meters
 county_pairs.head()
 county_pairs.tail()
 
+
+
+
 ### SECTION 2: READ IN SHAPEFILE FOR MAPPING
 
 # read in shapefile
@@ -110,7 +113,6 @@ map_population_by_county_data = map_population_by_county_data.drop(columns = dro
 
 # check population df; believe that 'geometry' is what's used to create the shape of the state in gpd
 map_population_by_county_data.head()
-
 
 
 
