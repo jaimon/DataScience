@@ -76,6 +76,8 @@ county_pairs['distance_meters'] = distance_meters
 county_pairs.head()
 county_pairs.tail()
 
+county_populations = np.array(map_population_by_county_data['pop2020'])
+
 ### SECTION 2: READ IN SHAPEFILE FOR MAPPING
 
 # read in shapefile
@@ -90,47 +92,89 @@ map_population_by_county_data = map_population_by_county_data.drop(columns = dro
 # check population df; believe that 'geometry' is what's used to create the shape of the state in gpd
 map_population_by_county_data.head()
 
+# SECTION 3: IDENTIFY ADJACENT COUNTIES
 
+# Determine adjacency between counties based on their geometries
+adjacency_matrix = []
 
+# Loop through each county in the GeoJSON file and determine its adjacency to all other counties
+for index_1, county_1 in map_population_by_county_data.iterrows(): # Loop through each county in the GeoJSON file
+    neighbors = [] # Create an empty list to store the names of neighboring counties
+    for index_2, county_2 in map_population_by_county_data.iterrows(): # Loop through each county in the GeoJSON file
+        # Check if the two counties are the same to avoid self-comparison
+        if county_1['name'] != county_2['name']:
+            if county_1['geometry'].touches(county_2['geometry']): # Check if the two counties touch
+                neighbors.append(county_2['name']) # If they do, add the name of the second county to the list of neighbors
+    adjacency_matrix.append(neighbors) # Add the list of neighbors to the adjacency matrix
 
+# Add adjacency information to the dataframe
+map_population_by_county_data['adjacent_counties'] = adjacency_matrix
 
+# Check the adjacency information for the first few counties
+map_population_by_county_data[['name', 'adjacent_counties']].head()
 
+# SECTION 3: DEFINE THE INTEGER PROGRAMMING PROBLEM
 
-
-
-
-
-
-
-
-
-
-
-# model variables
-n_counties = 83
+# constants
+n_counties = len(county_pairs['county_1'].unique())
 n_districts = 14
+districts = list(range(1, n_districts + 1))
+population_tolerance = 0.20
+total_state_population = map_population_by_county_data['pop2020'].sum()
 
-model = LpProblem('Compacted-Redistricting', LpMinimize) 
-variable_names = [str(i) + ' ' + str(j) for j in range(1, n_districts + 1) \
-                                        for i in range(1, n_counties + 1)]
+# create binary decision variables
+x = LpVariable.dicts('x', [(i, j) for i in range(n_counties) for j in range(n_districts)], cat = LpBinary)
 
-variable_names.sort() 
+# create the PuLP model
+model = LpProblem("County_District_Assignment", LpMinimize)
 
-
-dv_variable_y = LpVariable.matrix('Y', variable_names, cat = 'Binary')
-assignment = np.array(dv_variable_y).reshape(83, 14)
-dv_variable_x = LpVariable.matrix('X', variable_names, cat = 'Integer', lowBound = 0)
-allocation = np.array(dv_variable_x).reshape(83, 14)
-
-df['count_id']
-
-
-
-# objective function
-objective_function = lpSum(assignment) 
-model += objective_function
-
-# constraints
+# define the objective function
 for i in range(n_counties):
-    model += lpSum(allocation[i][j] for j in range(n_districts)) == county_populations[i] , "Allocate All " + str(i)
+    for j in range(n_districts):
+        distance = 0
+        matching_rows = county_pairs[(county_pairs['county_1'] == county_names[i]) & (county_pairs['county_2'] == county_names[j])]
+        if not matching_rows.empty: # need this constraint because there is no pair for county 1 = county 1 or county 2 = county 2
+            distance = matching_rows['distance_miles'].values[0]
+        model += distance * x[i, j]
+
+# add constraint that each county must be assigned to one district
+for i in range(n_counties):
+    model += lpSum(x[i, j] for j in range(n_districts)) == 1
     
+# TO DO: Add constraint that says each district should be ~20% =/- total state popultion
+county_population = {county: map_population_by_county_data[map_population_by_county_data['name'] == county]['pop2020'].values[0] for county in county_names}
+
+district_population = []
+
+for j in range(n_districts):
+    district_population.append(value(lpSum(x[i, j] * county_population[county_names[i]] for i in range(n_counties))))
+
+for j in range(n_districts):
+    # Create a LpConstraintVar for the lower bound
+    lower_bound = (1 - population_tolerance) * total_state_population
+    lower_bound_constraint = LpConstraint(e=lower_bound, sense = LpConstraintLE, name=f'Lower_Bound_District_{j}')
+
+    # Create a LpConstraintVar for the upper bound
+    upper_bound = (1 + population_tolerance) * total_state_population
+    upper_bound_constraint = LpConstraint(e=upper_bound, sense=LpConstraintGE, name=f'Upper_Bound_District_{j}')
+
+    # Add the constraints to the model
+    model += lower_bound_constraint
+    model += upper_bound_constraint
+
+# solve the model
+model.solve()
+
+# create an assignment to see what counties are assigned to what districts
+# 'assignments' contains 1 if a county is assigned to a district, and 0 otherwise
+assignments = {}
+
+for i in range(n_counties):
+    for j in range(n_districts):
+        assignments[(county_names[i], str(districts[j]))] = x[i, j].varValue
+
+# print the results for each county and sitrict
+for (county, district), assignment in assignments.items():
+    if assignment == 1:
+        #print(f'{county} is assigned to district {district}')
+        print({district})
