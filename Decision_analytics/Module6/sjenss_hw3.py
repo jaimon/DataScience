@@ -100,21 +100,19 @@ county_pairs.tail()
 
 
 
-### SECTION 2: READ IN SHAPEFILE FOR MAPPING
+# ### SECTION 2: READ IN SHAPEFILE FOR MAPPING
 
-# read in shapefile
-file_path = '/Users/forreststrodel/Desktop/Northwestern/MSDS 460/Assignments/Assignment 3/michigan_counties.geojson'
-shapefile_michigan = gpd.read_file(file_path)
-map_population_by_county_data = shapefile_michigan.merge(michigan_counties, left_on = 'name', right_on = 'county_names', suffixes = ('_left', '_right'))
+# # read in shapefile
+# file_path = '/Users/forreststrodel/Desktop/Northwestern/MSDS 460/Assignments/Assignment 3/michigan_counties.geojson'
+# shapefile_michigan = gpd.read_file(file_path)
+# map_population_by_county_data = shapefile_michigan.merge(michigan_counties, left_on = 'name', right_on = 'county_names', suffixes = ('_left', '_right'))
 
-# drop unwanted columns
-drop_cols = ['statefp', 'countyfp', 'countyns', 'namelsad', 'lsad', 'csafp', 'classfp', 'metdivfp', 'mtfcc', 'cbsafp', 'state_name', 'countyfp_nozero', 'count_id', 'county_names', 'aland', 'awater', 'funcstat']
-map_population_by_county_data = map_population_by_county_data.drop(columns = drop_cols)
+# # drop unwanted columns
+# drop_cols = ['statefp', 'countyfp', 'countyns', 'namelsad', 'lsad', 'csafp', 'classfp', 'metdivfp', 'mtfcc', 'cbsafp', 'state_name', 'countyfp_nozero', 'count_id', 'county_names', 'aland', 'awater', 'funcstat']
+# map_population_by_county_data = map_population_by_county_data.drop(columns = drop_cols)
 
-# check population df; believe that 'geometry' is what's used to create the shape of the state in gpd
-map_population_by_county_data.head()
-
-
+# # check population df; believe that 'geometry' is what's used to create the shape of the state in gpd
+# map_population_by_county_data.head()
 
 
 
@@ -129,31 +127,33 @@ map_population_by_county_data.head()
 
 
 
-# model variables
-n_counties = 83
-n_districts = 14
-
-model = LpProblem('Compacted-Redistricting', LpMinimize) 
-variable_names = [str(i) + ' ' + str(j) for j in range(1, n_districts + 1) \
-                                        for i in range(1, n_counties + 1)]
-
-variable_names.sort() 
 
 
-dv_variable_y = LpVariable.matrix('Y', variable_names, cat = 'Binary')
-assignment = np.array(dv_variable_y).reshape(83, 14)
-dv_variable_x = LpVariable.matrix('X', variable_names, cat = 'Integer', lowBound = 0)
-allocation = np.array(dv_variable_x).reshape(83, 14)
+# # model variables
+# n_counties = 83
+# n_districts = 14
 
-df['count_id']
+# model = LpProblem('Compacted-Redistricting', LpMinimize) 
+# variable_names = [str(i) + ' ' + str(j) for j in range(1, n_districts + 1) \
+#                                         for i in range(1, n_counties + 1)]
+
+# variable_names.sort() 
+
+
+# dv_variable_y = LpVariable.matrix('Y', variable_names, cat = 'Binary')
+# assignment = np.array(dv_variable_y).reshape(83, 14)
+# dv_variable_x = LpVariable.matrix('X', variable_names, cat = 'Integer', lowBound = 0)
+# allocation = np.array(dv_variable_x).reshape(83, 14)
+
+# df['count_id']
 
 
 
-# objective function
-objective_function = lpSum(assignment) 
-model += objective_function
+# # objective function
+# objective_function = lpSum(assignment) 
+# model += objective_function
 
-# constraints
-for i in range(n_counties):
-    model += lpSum(allocation[i][j] for j in range(n_districts)) == county_populations[i] , "Allocate All " + str(i)
+# # constraints
+# for i in range(n_counties):
+#     model += lpSum(allocation[i][j] for j in range(n_districts)) == county_populations[i] , "Allocate All " + str(i)
     
