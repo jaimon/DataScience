@@ -1,0 +1,1 @@
+When creating the adjacency dictionary for the adjacency matrix, the conties with two-word names were not being includes. So, I created copies of the datafiles and modified them to not include the space in those counties.
