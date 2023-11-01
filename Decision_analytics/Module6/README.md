@@ -31,7 +31,7 @@ Our model primarily employed a combination of optimization and manual adjustment
    - With each manual iteration, the model refined its solutions, guiding subsequent manual adjustments.
 
 2. **Why This Approach?**:
-   - We faced challenges in developing a contiguous constraint that mandated all counties within a district to be interconnected. The combination approach helped us bypass this constraint.
+   - We faced challenges in developing a contiguous constraint that mandated all counties within a district to be interconnected. Therefore, this combination approach helped us still achieve a feasible solution without this constraint.
 
 ### Model Details:
 - **Objective Function**: Minimize the population deviation in each district from the average ("ideal") population.
