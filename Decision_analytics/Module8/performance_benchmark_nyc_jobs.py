@@ -6,7 +6,7 @@ import time
 params = {
     'database': 'NYC_Jobs',
     'user': 'postgres',
-    'password': 'jimbo',
+    'password': '****',
     'host': 'localhost',
     'port': 5432
 }
