@@ -40,7 +40,6 @@ queries = [
     'select distinct a.* from public.real_estate_sales a;' 
 ]
 
-
 # Number of times you want to run each query
 num_runs = 100
 query_averages = {}
@@ -63,6 +62,5 @@ finally:
 
 for query, avg_time in query_averages.items():
     print(f"Query: {query}\nAverage Run Time: {avg_time:.4f} seconds\n")
-
 
 
