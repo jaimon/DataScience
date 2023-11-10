@@ -6,7 +6,7 @@ import time
 db_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/SQLite/performance_benchmark_bev_sqlite.db'
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Electric_Vehicle_Population_Data.csv')
+df = pd.read_csv('/Users/Jai/Desktop/Data/Electric_Vehicle_Population_Data.csv')
 
 # Establish a connection to the database and create the table
 conn = sqlite3.connect(db_file_path)
