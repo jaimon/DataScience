@@ -23,13 +23,12 @@ queries = [
     'SELECT * FROM electric_vehicle_pop_data;',
     'SELECT COUNT(*),County FROM electric_vehicle_pop_data GROUP BY County;',
     'SELECT * FROM electric_vehicle_pop_data WHERE County = \'Yakima\';',
-    'select distinct a.* from electric_vehicle_pop_data a;',
-    'select count(distinct Make) as make,count(distinct Model) as model,Year from electric_vehicle_pop_data group by Year' 
+    'select distinct a.* from electric_vehicle_pop_data a;'
 ]
 #conn.close()
 
 # Number of times you want to run each query
-num_runs = 1000
+num_runs = 100
 query_averages = {}
 
 try:
