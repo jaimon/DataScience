@@ -28,7 +28,7 @@ queries = [
 #conn.close()
 
 # Number of times you want to run each query
-num_runs = 200
+num_runs = 100
 query_averages = {}
 
 try:
