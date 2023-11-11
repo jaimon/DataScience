@@ -14,7 +14,7 @@ params = {
 }
 
 # CSV file path
-csv_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Jobs_NYC_Postings.csv'
+csv_file_path = '/Users/Jai/Desktop/Data/Jobs_NYC_Postings.csv'
 
 
 # SQLAlchemy engine
@@ -50,9 +50,12 @@ try:
         run_times = []
 
         for _ in range(num_runs):
-            start_time = time.time()
+            start_time = time.perf_counter()
+
             cur.execute(query)
-            end_time = time.time()
+            cur.fetchall()
+            end_time = time.perf_counter()
+
             run_times.append(end_time - start_time)
 
         average_run_time = sum(run_times)/num_runs
@@ -63,6 +66,7 @@ finally:
 
 for query, avg_time in query_averages.items():
     print(f"Query: {query}\nAverage Run Time: {avg_time:.4f} seconds\n")
+
 
 
 
