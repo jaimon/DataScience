@@ -38,6 +38,7 @@ try:
         for _ in range(num_runs):
             start_time = time.time()
             cur.execute(query)
+            cur.fetchall()
             end_time = time.time()
             run_times.append(end_time - start_time)
 
