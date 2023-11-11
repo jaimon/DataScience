@@ -6,7 +6,7 @@ import time
 db_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/SQLite/performance_benchmark_nycs_jobs_sqlite.db'
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Jobs_NYC_Postings.csv')
+df = pd.read_csv('/Users/Jai/Desktop/Data/Jobs_NYC_Postings.csv')
 
 # Establish a connection to the database and create the table
 conn = sqlite3.connect(db_file_path)
@@ -39,6 +39,7 @@ try:
             start_time = time.perf_counter()
 
             cur.execute(query)
+            cur.fetchall()
             end_time = time.perf_counter()
 
             run_times.append(end_time - start_time)
