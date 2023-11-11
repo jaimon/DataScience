@@ -14,7 +14,7 @@ params = {
 }
 
 # CSV file path
-csv_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Real_Estate_Sales_2001-2020_GL.csv'
+csv_file_path = '/Users/Jai/Desktop/Data/Real_Estate_Sales_2001-2020_GL.csv'
 
 # SQLAlchemy engine
 engine = create_engine(f'postgresql://{params["user"]}:{params["password"]}@{params["host"]}:{params["port"]}/{params["database"]}')
@@ -36,24 +36,28 @@ conn.commit()
 
 # Define your queries
 queries = [
-    'SELECT * FROM real_estate_sales;',
-    'SELECT sum("Sale_Amount"),"Town" FROM real_estate_sales GROUP BY "Town";',
-    'SELECT * FROM real_estate_sales WHERE "Serial_Number" = \'2020348\';',
-    'select distinct a.* from real_estate_sales a;' 
+    'SELECT * FROM real_estate_sales where "List_Year"=\'2020\';',
+    'SELECT sum("Sale_Amount"),"Town" FROM real_estate_sales where "List_Year"=\'2020\' GROUP BY "Town";',
+    'SELECT * FROM real_estate_sales WHERE "List_Year"=\'2020\' and "Serial_Number" = \'2020348\';',
+    'select distinct a.* from real_estate_sales a where "List_Year"=\'2020\';' 
 ]
 
 # Number of times you want to run each query
 num_runs = 100
 query_averages = {}
 
+
 try:
     for query in queries:
         run_times = []
 
         for _ in range(num_runs):
-            start_time = time.time()
+            start_time = time.perf_counter()
+
             cur.execute(query)
-            end_time = time.time()
+            cur.fetchall()
+            end_time = time.perf_counter()
+
             run_times.append(end_time - start_time)
 
         average_run_time = sum(run_times)/num_runs
