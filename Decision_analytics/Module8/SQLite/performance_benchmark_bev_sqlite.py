@@ -20,8 +20,8 @@ conn.commit()
 
 # Define your queries
 queries = [
-    'SELECT * FROM electric_vehicle_pop_data;',
-    'SELECT COUNT(*),County FROM electric_vehicle_pop_data GROUP BY County;',
+    'SELECT * FROM electric_vehicle_pop_data ;',
+    'SELECT COUNT(*),County FROM electric_vehicle_pop_data  GROUP BY County;',
     'SELECT * FROM electric_vehicle_pop_data WHERE County = \'Yakima\';',
     'select distinct a.* from electric_vehicle_pop_data a;'
 ]
