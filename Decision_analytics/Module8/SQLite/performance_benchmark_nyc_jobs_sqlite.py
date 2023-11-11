@@ -14,7 +14,7 @@ df.to_sql('nyc_jobs_detail', conn, if_exists='replace')
 
 cur = conn.cursor()
 
-conn.commit()
+conn.commit() 
 #conn.close()
 
 
