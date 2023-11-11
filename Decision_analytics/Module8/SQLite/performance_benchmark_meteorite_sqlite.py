@@ -9,7 +9,7 @@ db_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/SQLit
 df = pd.read_csv('/Users/Jai/Desktop/Data/Meteorite_Landings.csv')
 
 # Establish a connection to the database and create the table
-conn = sqlite3.connect(db_file_path)
+conn = sqlite3.connect(db_file_path) 
 df.to_sql('Meteorite_Landings', conn, if_exists='replace')
 
 cur = conn.cursor()
