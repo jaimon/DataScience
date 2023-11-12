@@ -6,7 +6,7 @@ import time
 db_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/SQLite/performance_benchmark_bev_sqlite.db'
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Electric_Vehicle_Population_Data.csv')
+df = pd.read_csv('/Users/Jai/Desktop/Data/Electric_Vehicle_Population_Data.csv')
 
 # Establish a connection to the database and create the table
 conn = sqlite3.connect(db_file_path)
@@ -20,16 +20,15 @@ conn.commit()
 
 # Define your queries
 queries = [
-    'SELECT * FROM electric_vehicle_pop_data;',
-    'SELECT COUNT(*),County FROM electric_vehicle_pop_data GROUP BY County;',
+    'SELECT * FROM electric_vehicle_pop_data ;',
+    'SELECT COUNT(*),County FROM electric_vehicle_pop_data  GROUP BY County;',
     'SELECT * FROM electric_vehicle_pop_data WHERE County = \'Yakima\';',
-    'select distinct a.* from electric_vehicle_pop_data a;',
-    'select count(distinct Make) as make,count(distinct Model) as model,Year from electric_vehicle_pop_data group by Year' 
+    'select distinct a.* from electric_vehicle_pop_data a;'
 ]
 #conn.close()
 
 # Number of times you want to run each query
-num_runs = 1000
+num_runs = 100
 query_averages = {}
 
 try:
@@ -39,6 +38,7 @@ try:
         for _ in range(num_runs):
             start_time = time.time()
             cur.execute(query)
+            cur.fetchall()
             end_time = time.time()
             run_times.append(end_time - start_time)
 
