@@ -4,7 +4,7 @@ The data sources used for the benchmark comparisons between the DBMSs are the be
 
 https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69’ 
 
-https://catalog.data.gov/dataset/real-estate-sales-2001-2018Links to an external site. 
+https://catalog.data.gov/dataset/real-estate-sales-2001-2018
 
 https://catalog.data.gov/dataset/nyc-jobs 
 
