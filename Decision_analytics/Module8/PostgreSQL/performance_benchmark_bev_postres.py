@@ -13,7 +13,7 @@ params = {
 }
 
 # CSV file path
-csv_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/Data/Electric_Vehicle_Population_Data.csv'
+csv_file_path = '/Users/Jai/Desktop/Data/Electric_Vehicle_Population_Data.csv'
 
 # SQLAlchemy engine
 engine = create_engine(f'postgresql://{params["user"]}:{params["password"]}@{params["host"]}:{params["port"]}/{params["database"]}')
@@ -44,29 +44,27 @@ queries = [
 
 # Number of times you want to run each query
 num_runs = 100
+query_averages = {}
 
-# Store the total time for each query
-total_times = [0] * len(queries)
+try:
+    for query in queries:
+        run_times = []
 
-# Run each query num_executions times
-for i, query in enumerate(queries):
-    print(f"Running query {i+1}...")
-    for _ in range(num_runs):
-        start_time = time.time()  # Start timing
-        cur.execute(query)        # Execute the query
-        end_time = time.time()    # End timing
+        for _ in range(num_runs):
+            start_time = time.time()
+            cur.execute(query)
+            cur.fetchall()
+            end_time = time.time()
+            run_times.append(end_time - start_time)
 
-        # Update the total time for this query
-        total_times[i] += (end_time - start_time)
+        average_run_time = sum(run_times)/num_runs
+        query_averages[query] = average_run_time
+finally:
+    cur.close()
+    conn.close()
 
-    # Calculate the average time for this query
-    average_time = total_times[i] / num_runs
-    print(f"Average runtime for query {i+1}: {average_time:.4f} seconds")
-
-
-# Close the cursor and connection
-cur.close()
-conn.close()
+for query, avg_time in query_averages.items():
+    print(f"Query: {query}\nAverage Run Time: {avg_time:.4f} seconds\n")
 
 
 
