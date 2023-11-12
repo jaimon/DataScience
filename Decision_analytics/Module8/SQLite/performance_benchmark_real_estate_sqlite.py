@@ -7,7 +7,6 @@ db_file_path = '/Users/Jai/Documents/Git_remote/Decision_analytics/Module8/SQLit
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv('/Users/Jai/Desktop/Data/Real_Estate_Sales_2001-2020_GL.csv')
-df = pd.read_csv('/Users/Jai/Desktop/Data/Real_Estate_Sales_2001-2020_GL.csv')
 
 # Establish a connection to the database and create the table
 conn = sqlite3.connect(db_file_path)
@@ -26,11 +25,7 @@ queries = [
     'SELECT * FROM real_estate_sales where List_Year=\'2020\';',
     'SELECT sum(Sale_Amount),Town FROM real_estate_sales where List_Year=\'2020\' GROUP BY Town;',
     'SELECT * FROM real_estate_sales WHERE List_Year=\'2020\' and Serial_Number = \'2020348\';',
-    'select distinct a.* from real_estate_sales a where List_Year=\'2020\';' 
-    'SELECT * FROM real_estate_sales where List_Year=\'2020\';',
-    'SELECT sum(Sale_Amount),Town FROM real_estate_sales where List_Year=\'2020\' GROUP BY Town;',
-    'SELECT * FROM real_estate_sales WHERE List_Year=\'2020\' and Serial_Number = \'2020348\';',
-    'select distinct a.* from real_estate_sales a where List_Year=\'2020\';' 
+    'select distinct a.* from real_estate_sales a where List_Year=\'2020\';'
 ]
 #conn.close()
 
@@ -46,7 +41,6 @@ try:
             start_time = time.perf_counter()
 
             cur.execute(query)
-            cur.fetchall()
             cur.fetchall()
             end_time = time.perf_counter()
 

@@ -1,0 +1,10 @@
+.DS_Store
+Decision_analytics/Module8/Data/Real_Estate_Sales_2001-2020_GL.csv
+Decision_analytics/Module8/Data/Electric_Vehicle_Population_Data.csv
+Decision_analytics/Module8/Data/Jobs_NYC_Postings.csv
+Decision_analytics/Module8/Data/Meteorite_Landings.csv
+Decision_analytics/Module8/SQLite/performance_benchmark_real_estate_sales_sqlite.db
+Decision_analytics/Module8/SQLite/performance_benchmark_nycs_jobs_sqlite.db
+Decision_analytics/Module8/SQLite/performance_benchmark_meteorite_sqlite.db
+Decision_analytics/Module8/SQLite/performance_benchmark_bev_sqlite.db
+
