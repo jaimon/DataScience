@@ -2,7 +2,7 @@ This research utilizes benchmarking to solve the managerial problem of deciding 
 The benchmarking study compares the run-time performance of two DBMSs—PostgreSQL and SQLite—by performing a series of frequently used SQL queries, including GROUP BY, WHERE, and SELECT DISTINCT clauses.
 The data sources used for the benchmark comparisons between the DBMSs are the below:
 
-https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69’ 
+https://catalog.data.gov/dataset/electric-vehicle-population-data/resource/fa51be35-691f-45d2-9f3e-535877965e69
 
 https://catalog.data.gov/dataset/real-estate-sales-2001-2018
 - Note that this dataset was too large to run efficiently in either DBSM. As such, we filtered the records to only those with year = '2020' for processing comparison purposes.
