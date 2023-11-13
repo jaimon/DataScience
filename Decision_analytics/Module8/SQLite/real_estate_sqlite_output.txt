@@ -1,0 +1,11 @@
+Query: SELECT * FROM real_estate_sales where List_Year='2020';
+Average Run Time: 0.3234 seconds
+
+Query: SELECT sum(Sale_Amount),Town FROM real_estate_sales where List_Year='2020' GROUP BY Town;
+Average Run Time: 0.1332 seconds
+
+Query: SELECT * FROM real_estate_sales WHERE List_Year='2020' and Serial_Number = '2020348';
+Average Run Time: 0.1053 seconds
+
+Query: select distinct a.* from real_estate_sales a where List_Year='2020';
+Average Run Time: 0.4658 seconds

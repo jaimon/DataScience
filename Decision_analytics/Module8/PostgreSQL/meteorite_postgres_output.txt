@@ -1,0 +1,11 @@
+Query: SELECT * FROM meteorite_landings;
+Average Run Time: 0.0981 seconds
+
+Query: SELECT SUM(mass) as total_mass,name FROM meteorite_landings GROUP BY NAME;
+Average Run Time: 0.0549 seconds
+
+Query: SELECT * FROM meteorite_landings WHERE name = 'Aachen';
+Average Run Time: 0.0034 seconds
+
+Query: select distinct a.* from meteorite_landings a;
+Average Run Time: 0.1492 seconds

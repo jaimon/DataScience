@@ -1,0 +1,11 @@
+Query: SELECT * FROM nyc_jobs_detail;
+Average Run Time: 0.1306 seconds
+
+Query: SELECT COUNT(*),Level FROM nyc_jobs_detail GROUP BY Level;
+Average Run Time: 0.0086 seconds
+
+Query: SELECT * FROM nyc_jobs_detail WHERE trim(Agency) = 'HOUSING PRESERVATION & DVLPMNT';
+Average Run Time: 0.0097 seconds
+
+Query: select distinct a.* from nyc_jobs_detail a;
+Average Run Time: 0.3730 seconds
