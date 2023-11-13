@@ -1,0 +1,11 @@
+Query: SELECT * FROM electric_vehicle_pop_data;
+Average Run Time: 0.5895 seconds
+
+Query: SELECT COUNT(*),County FROM electric_vehicle_pop_data GROUP BY County;
+Average Run Time: 0.0208 seconds
+
+Query: SELECT * FROM electric_vehicle_pop_data WHERE County = 'Yakima';
+Average Run Time: 0.0198 seconds
+
+Query: select distinct a.* from electric_vehicle_pop_data a;
+Average Run Time: 0.9340 seconds
