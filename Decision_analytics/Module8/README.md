@@ -14,3 +14,5 @@ https://catalog.data.gov/dataset/meteorite-landings
 Both DBMSs were subjected to 1600 query runs using these 4 databases, 4 queries per database, 100 runs per query—totaling 3200 query runs.
 The output of each python script contains the average run time for each query across both the DBMSs. When assessing the results, 
 PostgreSQL outperformed SQLite with lower average run times in 14 of the 16 distinct queries.
+
+Python scripts used to run each of the 4 queries using each of SQLite and PostgreSQL are found in the subsequent PostgreSQL and SQLite folders.
