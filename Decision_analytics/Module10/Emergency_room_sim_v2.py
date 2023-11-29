@@ -3,6 +3,8 @@ import simpy
 import random
 import statistics
 import os
+import numpy as np
+
 
 # %%
 import logging
@@ -41,37 +43,49 @@ class ER(object):
         self.imaging_rooms = simpy.Resource(env, num_imaging_rooms)
         self.consultation = simpy.Resource(env, num_doctors)  # Assuming doctors do the consultation
 
+# Try to make these service times more realistic
 
 #service times
     def arrival(self, patient):
-        yield self.env.timeout(random.randint(1, 30))
+        # Normal distribution with mean 5 minutes and standard deviation 2
+        service_time = max(1, np.random.normal(5, 2))
+        yield self.env.timeout(service_time)
         event_data = ['Arrival', patient, self.env.now]
 
 
 #service times
     def triage(self, patient):
-        yield self.env.timeout(random.randint(1, 10))
+         # Exponential distribution with mean 10 minutes
+        service_time = np.random.exponential(10)
+        yield self.env.timeout(service_time)
         event_data = ['Triage', patient, self.env.now]
 
 #service times
     def exam_room(self, patient):
-        yield self.env.timeout(random.randint(1, 10))
+        # Normal distribution with mean 15 minutes and standard deviation 5
+        service_time = max(1, np.random.normal(15, 5))
+        yield self.env.timeout(service_time)
         event_data = ['Exam_room', patient, self.env.now]
 
 
 #service times
     def trauma_room(self, patient):
-        yield self.env.timeout(random.randint(1, 10))
+        # Normal distribution with mean 20 minutes and standard deviation 7
+        service_time = max(1, np.random.normal(20, 7))
+        yield self.env.timeout(service_time)
         event_data = ['Trauma_room', patient, self.env.now]
 
 
 #service times
     def imaging(self, patient):
-        yield self.env.timeout(random.randint(5, 15))  # Example duration
+        # Exponential distribution with mean 15 minutes
+        service_time = np.random.exponential(15)
+        yield self.env.timeout(service_time)
 
 #service times         
-    def consultation(self, patient):
-        yield self.env.timeout(random.randint(5, 15))
+    def doctor_consultation(self, patient):
+        service_time = np.random.exponential(12)
+        yield self.env.timeout(service_time)
 
 # %%
 def go_to_er(env, patient, er_instance):
@@ -93,37 +107,45 @@ def go_to_er(env, patient, er_instance):
             log_event(f"Patient {patient} left Trauma room at time {trauma_end_time}")
             write_event_to_csv(['Trauma_Room_Service_End_time', patient, trauma_end_time])
     else:
-        with er_instance.reception.request() as request:
+        with er_instance.nurses.request() as request:
             yield request
-            reception_start_time = env.now
-            log_event(f"Patient {patient} arrived in reception at time {reception_start_time}")
-            write_event_to_csv(['Reception_Start_time', patient, reception_start_time])
-            yield env.process(er_instance.arrival(patient))
-            reception_end_time = env.now
-            log_event(f"Patient {patient} left reception at time {reception_end_time}")
-            write_event_to_csv(['Reception_End_time', patient, reception_end_time])
+            triage_start_time = env.now
+            log_event(f"Patient {patient} received by Triage at time {triage_start_time}")
+            write_event_to_csv(['Triage_Start_time', patient, triage_start_time])
+            yield env.process(er_instance.triage(patient))
+            triage_end_time = env.now
+            log_event(f"Patient {patient} completed Triage at time {triage_end_time}")
+            write_event_to_csv(['Triage_End_time', patient, triage_end_time])
 
-    with er_instance.nurses.request() as request:
+        with er_instance.exam_rooms.request() as request:
+            yield request
+            exam_room_start_time = env.now
+            log_event(f"Patient {patient} arrived in exam room at time {exam_room_start_time}")
+            write_event_to_csv(['Exam_Room_Service_Start_time', patient, exam_room_start_time])
+            yield env.process(er_instance.exam_room(patient))
+            exam_room_end_time = env.now
+            log_event(f"Patient {patient} left exam room at time {exam_room_end_time}")
+            write_event_to_csv(['Exam_Room_Service_End_time', patient, exam_room_end_time])
+
+    needs_imaging = random.choice([True, False])
+    if needs_imaging:
+        with er_instance.imaging_rooms.request() as request:
+            yield request
+            yield env.process(er_instance.imaging(patient))
+            log_event(f"Patient {patient} completed imaging at time {env.now}")
+            
+      # Doctor consultation for every patient
+    with er_instance.consultation.request() as request:
         yield request
-        triage_start_time = env.now
-        log_event(f"Patient {patient} received by Triage at time {triage_start_time}")
-        write_event_to_csv(['Triage_Start_time', patient, triage_start_time])
-        yield env.process(er_instance.triage(patient))
-        triage_end_time = env.now
-        log_event(f"Patient {patient} completed Triage at time {triage_end_time}")
-        write_event_to_csv(['Triage_End_time', patient, triage_end_time])
+        yield env.process(er_instance.doctor_consultation(patient))
+        log_event(f"Patient {patient} had a consultation at time {env.now}")
 
-
-    if random.choice([True, False]):
-        with er_instance.doctors.request() as request:
-            yield request
-            trauma_start_time = env.now
-            log_event(f"Patient {patient} arrived in Trauma room at time {trauma_start_time}")
-            write_event_to_csv(['Trauma_Room_Service_Start_time', patient, trauma_start_time])
-            yield env.process(er_instance.trauma_room(patient))
-            trauma_end_time = env.now
-            log_event(f"Patient {patient} left Trauma room at time {trauma_end_time}")
-            write_event_to_csv(['Trauma_Room_Service_End_time', patient, trauma_end_time])
+        # Decide whether to admit or discharge
+    needs_admission = random.choice([True, False]) 
+    if needs_admission:
+        log_event(f"Patient {patient} admitted to the hospital at time {env.now}")
+    else:
+        log_event(f"Patient {patient} discharged from the ER at time {env.now}")
 
 
     wait_times.append(env.now - arrival_time)
@@ -132,8 +154,8 @@ def go_to_er(env, patient, er_instance):
     write_event_to_csv(['Patient_Departure', patient, departure_time])
 
 # %%
-def run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms):
-    er_instance = ER(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms)
+def run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms, num_imaging_rooms):
+    er_instance = ER(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms, num_imaging_rooms)
     log_event("ER simulation run starts")
     for patient in range(3):
         env.process(go_to_er(env, patient, er_instance))
@@ -159,23 +181,24 @@ def get_user_input():
     num_doctors = int(input("Input # of doctors working: "))
     num_trauma_rooms = int(input("Input # of trauma rooms: "))
     num_exam_rooms = int(input("Input # of exam rooms: "))
-    return num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms
+    num_imaging_rooms = int(input("Input # of imaging rooms: "))
+    return num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms,num_imaging_rooms
 
 
 # %%
 def main():
     # Reset the CSV file at the start
     write_event_to_csv([], mode='w')
-    random.seed(42)
-    num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms = get_user_input()
+   # random.seed(42)
+    num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms,num_imaging_rooms = get_user_input()
 
-    total_simulation_runs = 50
+    total_simulation_runs = 10
     average_waiting_times = []
     log_event("Simulation starts")
     for _ in range(total_simulation_runs):
         wait_times.clear()  # Reset wait times for each simulation run
         env = simpy.Environment()
-        env.process(run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms))
+        env.process(run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms,num_imaging_rooms))
         env.run(until=90)
 
         mins, secs = get_average_wait_time(wait_times)

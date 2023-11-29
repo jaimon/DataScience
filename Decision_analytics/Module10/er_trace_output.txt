@@ -3,2146 +3,652 @@ ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 received by Triage at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 received by Triage at time 0
+Patient 0 completed Triage at time 2.839677147493177
+Patient 0 arrived in exam room at time 2.839677147493177
 Patient 3 arrived in ER at time 10
+Patient 3 arrived in Trauma room at time 10
+Patient 1 left Trauma room at time 12.021691480170993
+Patient 2 completed Triage at time 12.994199141551743
+Patient 2 arrived in exam room at time 12.994199141551743
+Patient 1 completed imaging at time 15.262318501680934
 Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 21
-Patient 0 received by Triage at time 21
-Patient 1 arrived in reception at time 21
-Patient 1 left reception at time 22
-Patient 2 arrived in reception at time 22
-Patient 0 completed Triage at time 23
-Patient 0 left the ER at time 23
-Patient 1 received by Triage at time 23
-Patient 1 completed Triage at time 27
-Patient 1 arrived in Trauma room at time 27
+Patient 4 received by Triage at time 20
+Patient 4 completed Triage at time 21.52241876143126
+Patient 4 arrived in exam room at time 21.52241876143126
+Patient 0 left exam room at time 29.26352787266585
 Patient 5 arrived in ER at time 30
-Patient 1 left Trauma room at time 30
-Patient 1 left the ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 2 left exam room at time 31.755505590921953
+Patient 1 had a consultation at time 32.053728032227966
+Patient 1 discharged from the ER at time 32.053728032227966
+Patient 1 left the ER at time 32.053728032227966
+Patient 4 left exam room at time 32.1693114979017
 Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 46
-Patient 2 received by Triage at time 46
-Patient 3 arrived in reception at time 46
-Patient 2 completed Triage at time 48
-Patient 2 arrived in Trauma room at time 48
+Patient 6 received by Triage at time 40
+Patient 4 had a consultation at time 41.7883116520463
+Patient 4 admitted to the hospital at time 41.7883116520463
+Patient 4 left the ER at time 41.7883116520463
+Patient 3 left Trauma room at time 42.4514641053114
+Patient 0 completed imaging at time 43.62835799416173
+Patient 5 left Trauma room at time 46.57739714680384
+Patient 5 had a consultation at time 48.65286293235294
+Patient 5 admitted to the hospital at time 48.65286293235294
+Patient 5 left the ER at time 48.65286293235294
 Patient 7 arrived in ER at time 50
-Patient 2 left Trauma room at time 58
-Patient 2 left the ER at time 58
+Patient 7 received by Triage at time 50
+Patient 2 had a consultation at time 53.56493079598726
+Patient 2 admitted to the hospital at time 53.56493079598726
+Patient 2 left the ER at time 53.56493079598726
+Patient 0 had a consultation at time 57.19544844594704
+Patient 0 discharged from the ER at time 57.19544844594704
+Patient 0 left the ER at time 57.19544844594704
 Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 68
-Patient 3 received by Triage at time 68
-Patient 4 arrived in reception at time 68
+Patient 8 received by Triage at time 60
 Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 70
-Patient 5 arrived in reception at time 70
-Patient 5 left reception at time 71
-Patient 6 arrived in reception at time 71
-Patient 6 left reception at time 74
-Patient 7 arrived in reception at time 74
-Patient 3 completed Triage at time 75
-Patient 3 arrived in Trauma room at time 75
-Patient 4 received by Triage at time 75
+Patient 9 received by Triage at time 70
+Patient 3 completed imaging at time 71.55170868840793
+Patient 7 completed Triage at time 72.14736214844066
+Patient 7 arrived in exam room at time 72.14736214844066
+Patient 6 completed Triage at time 77.09927147641535
+Patient 6 arrived in exam room at time 77.09927147641535
+Patient 9 completed Triage at time 77.47244224893346
+Patient 9 arrived in exam room at time 77.47244224893346
 Patient 10 arrived in ER at time 80
-Patient 7 left reception at time 81
-Patient 8 arrived in reception at time 81
-Patient 8 left reception at time 82
-Patient 9 arrived in reception at time 82
-Patient 3 left Trauma room at time 84
-Patient 3 left the ER at time 84
-Patient 4 completed Triage at time 85
-Patient 4 arrived in Trauma room at time 85
-Patient 5 received by Triage at time 85
+Patient 10 arrived in Trauma room at time 80
+Patient 8 completed Triage at time 82.25942807598115
+Patient 8 arrived in exam room at time 82.25942807598115
+Patient 3 had a consultation at time 86.89860135874119
+Patient 3 discharged from the ER at time 86.89860135874119
+Patient 3 left the ER at time 86.89860135874119
+Patient 9 left exam room at time 87.22318684776991
+Patient 7 left exam room at time 87.27091217455119
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 8
-Patient 0 received by Triage at time 8
-Patient 1 arrived in reception at time 8
+Patient 0 arrived in Trauma room at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 arrived in Trauma room at time 0
 Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 16
-Patient 0 left the ER at time 16
+Patient 3 received by Triage at time 10
+Patient 1 left Trauma room at time 10.20093046232357
+Patient 3 completed Triage at time 10.950120699516717
+Patient 3 arrived in exam room at time 10.950120699516717
+Patient 0 left Trauma room at time 17.622215390005685
+Patient 1 completed imaging at time 18.169453180259698
+Patient 2 left Trauma room at time 18.431118675195183
+Patient 1 had a consultation at time 19.074249049052785
+Patient 1 admitted to the hospital at time 19.074249049052785
+Patient 1 left the ER at time 19.074249049052785
+Patient 2 had a consultation at time 19.944587639839764
+Patient 2 admitted to the hospital at time 19.944587639839764
+Patient 2 left the ER at time 19.944587639839764
 Patient 4 arrived in ER at time 20
-Patient 1 left reception at time 27
-Patient 1 received by Triage at time 27
-Patient 2 arrived in reception at time 27
-Patient 1 completed Triage at time 28
-Patient 1 arrived in Trauma room at time 28
+Patient 4 arrived in Trauma room at time 20
+Patient 0 completed imaging at time 25.02164294977639
+Patient 0 had a consultation at time 28.236902397042982
+Patient 0 discharged from the ER at time 28.236902397042982
+Patient 0 left the ER at time 28.236902397042982
 Patient 5 arrived in ER at time 30
-Patient 1 left Trauma room at time 35
-Patient 1 left the ER at time 35
+Patient 5 received by Triage at time 30
+Patient 3 left exam room at time 31.63545032827876
+Patient 3 completed imaging at time 32.39910333541488
+Patient 5 completed Triage at time 32.72219987969093
+Patient 5 arrived in exam room at time 32.72219987969093
+Patient 4 left Trauma room at time 36.8613854444108
+Patient 4 had a consultation at time 38.87687466116638
+Patient 4 discharged from the ER at time 38.87687466116638
+Patient 4 left the ER at time 38.87687466116638
 Patient 6 arrived in ER at time 40
+Patient 6 arrived in Trauma room at time 40
 Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 52
-Patient 2 received by Triage at time 52
-Patient 3 arrived in reception at time 52
-Patient 2 completed Triage at time 58
-Patient 2 arrived in Trauma room at time 58
+Patient 7 arrived in Trauma room at time 50
+Patient 5 left exam room at time 50.522888682336664
+Patient 3 had a consultation at time 59.64254842827335
+Patient 3 discharged from the ER at time 59.64254842827335
+Patient 3 left the ER at time 59.64254842827335
 Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 61
-Patient 3 received by Triage at time 61
-Patient 4 arrived in reception at time 61
-Patient 2 left Trauma room at time 62
-Patient 2 left the ER at time 62
-Patient 4 left reception at time 65
-Patient 5 arrived in reception at time 65
-Patient 3 completed Triage at time 67
-Patient 3 left the ER at time 67
-Patient 4 received by Triage at time 67
-Patient 5 left reception at time 68
-Patient 6 arrived in reception at time 68
-Patient 4 completed Triage at time 69
-Patient 4 left the ER at time 69
-Patient 5 received by Triage at time 69
+Patient 8 arrived in Trauma room at time 60
+Patient 6 left Trauma room at time 61.55747256024562
+Patient 7 left Trauma room at time 66.39299631354268
+Patient 5 completed imaging at time 69.52807752338114
 Patient 9 arrived in ER at time 70
-Patient 5 completed Triage at time 79
-Patient 5 left the ER at time 79
+Patient 9 received by Triage at time 70
+Patient 8 left Trauma room at time 78.71788011667516
 Patient 10 arrived in ER at time 80
-Patient 6 left reception at time 80
-Patient 6 received by Triage at time 80
-Patient 7 arrived in reception at time 80
-Patient 6 completed Triage at time 81
-Patient 6 left the ER at time 81
+Patient 10 received by Triage at time 80
+Patient 9 completed Triage at time 82.89517172443831
+Patient 9 arrived in exam room at time 82.89517172443831
+Patient 6 had a consultation at time 83.68752806373872
+Patient 6 admitted to the hospital at time 83.68752806373872
+Patient 6 left the ER at time 83.68752806373872
+Patient 10 completed Triage at time 84.63350118876323
+Patient 10 arrived in exam room at time 84.63350118876323
+Patient 5 had a consultation at time 88.95674066091794
+Patient 5 admitted to the hospital at time 88.95674066091794
+Patient 5 left the ER at time 88.95674066091794
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
 Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 18
-Patient 0 received by Triage at time 18
-Patient 1 arrived in reception at time 18
+Patient 3 arrived in Trauma room at time 10
+Patient 1 completed Triage at time 12.174784027709343
+Patient 1 arrived in exam room at time 12.174784027709343
+Patient 2 left Trauma room at time 17.88184583057598
 Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 20
-Patient 0 left the ER at time 20
+Patient 4 arrived in Trauma room at time 20
+Patient 2 had a consultation at time 22.215458821095332
+Patient 2 admitted to the hospital at time 22.215458821095332
+Patient 2 left the ER at time 22.215458821095332
+Patient 3 left Trauma room at time 27.357264094308686
+Patient 3 had a consultation at time 27.634615008436096
+Patient 3 admitted to the hospital at time 27.634615008436096
+Patient 3 left the ER at time 27.634615008436096
+Patient 1 left exam room at time 28.79725516815111
 Patient 5 arrived in ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 1 had a consultation at time 30.29943799123306
+Patient 1 admitted to the hospital at time 30.29943799123306
+Patient 1 left the ER at time 30.29943799123306
+Patient 0 left Trauma room at time 33.2630038976158
+Patient 4 left Trauma room at time 35.661889934494965
+Patient 5 left Trauma room at time 37.41441481755868
 Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 48
-Patient 1 received by Triage at time 48
-Patient 2 arrived in reception at time 48
+Patient 6 arrived in Trauma room at time 40
+Patient 0 completed imaging at time 40.1406098630471
+Patient 4 completed imaging at time 43.469935705306895
 Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 50
-Patient 1 left the ER at time 50
+Patient 7 arrived in Trauma room at time 50
+Patient 5 had a consultation at time 50.144723645013116
+Patient 5 admitted to the hospital at time 50.144723645013116
+Patient 5 left the ER at time 50.144723645013116
+Patient 4 had a consultation at time 52.70610494524392
+Patient 4 discharged from the ER at time 52.70610494524392
+Patient 4 left the ER at time 52.70610494524392
+Patient 0 had a consultation at time 56.09412664186458
+Patient 0 discharged from the ER at time 56.09412664186458
+Patient 0 left the ER at time 56.09412664186458
 Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 66
-Patient 2 received by Triage at time 66
-Patient 3 arrived in reception at time 66
+Patient 8 received by Triage at time 60
+Patient 8 completed Triage at time 62.823962525201566
+Patient 8 arrived in exam room at time 62.823962525201566
+Patient 6 left Trauma room at time 63.039456902687384
+Patient 6 had a consultation at time 64.32711649566276
+Patient 6 discharged from the ER at time 64.32711649566276
+Patient 6 left the ER at time 64.32711649566276
+Patient 8 left exam room at time 68.60243872430283
 Patient 9 arrived in ER at time 70
-Patient 2 completed Triage at time 76
-Patient 2 left the ER at time 76
+Patient 9 received by Triage at time 70
+Patient 7 left Trauma room at time 76.71918452290761
+Patient 9 completed Triage at time 78.36908480074464
+Patient 9 arrived in exam room at time 78.36908480074464
 Patient 10 arrived in ER at time 80
+Patient 10 received by Triage at time 80
+Patient 10 completed Triage at time 84.52406638732701
+Patient 10 arrived in exam room at time 84.52406638732701
+Patient 8 completed imaging at time 85.41593136801819
+Patient 7 completed imaging at time 87.66943183762926
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 received by Triage at time 0
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 0 completed Triage at time 9.440881055639883
+Patient 0 arrived in exam room at time 9.440881055639883
 Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 19
-Patient 0 received by Triage at time 19
-Patient 1 arrived in reception at time 19
+Patient 3 arrived in Trauma room at time 10
+Patient 1 completed Triage at time 12.339101579534963
+Patient 1 arrived in exam room at time 12.339101579534963
 Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 23
-Patient 0 arrived in Trauma room at time 23
-Patient 0 left Trauma room at time 24
-Patient 0 left the ER at time 24
+Patient 4 received by Triage at time 20
+Patient 0 left exam room at time 22.9959942903128
+Patient 3 left Trauma room at time 23.566660735122156
+Patient 1 left exam room at time 24.30412058773973
+Patient 2 left Trauma room at time 26.57668515746716
 Patient 5 arrived in ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 3 had a consultation at time 36.726187175346574
+Patient 3 discharged from the ER at time 36.726187175346574
+Patient 3 left the ER at time 36.726187175346574
+Patient 0 had a consultation at time 36.83409339351916
+Patient 0 admitted to the hospital at time 36.83409339351916
+Patient 0 left the ER at time 36.83409339351916
+Patient 4 completed Triage at time 37.586588608401385
+Patient 4 arrived in exam room at time 37.586588608401385
 Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 42
-Patient 1 received by Triage at time 42
-Patient 2 arrived in reception at time 42
-Patient 1 completed Triage at time 46
-Patient 1 left the ER at time 46
+Patient 6 received by Triage at time 40
+Patient 1 completed imaging at time 41.43350480374893
+Patient 6 completed Triage at time 42.660432183259935
+Patient 6 arrived in exam room at time 42.660432183259935
 Patient 7 arrived in ER at time 50
+Patient 7 arrived in Trauma room at time 50
+Patient 1 had a consultation at time 50.167417686743875
+Patient 1 admitted to the hospital at time 50.167417686743875
+Patient 1 left the ER at time 50.167417686743875
+Patient 5 left Trauma room at time 55.36334764330194
+Patient 5 completed imaging at time 58.86280501154958
 Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 67
-Patient 2 received by Triage at time 67
-Patient 3 arrived in reception at time 67
-Patient 2 completed Triage at time 69
-Patient 2 arrived in Trauma room at time 69
+Patient 8 arrived in Trauma room at time 60
+Patient 4 left exam room at time 63.67022678626035
+Patient 7 left Trauma room at time 67.14990940014032
+Patient 5 had a consultation at time 67.4645746163382
+Patient 5 discharged from the ER at time 67.4645746163382
+Patient 5 left the ER at time 67.4645746163382
 Patient 9 arrived in ER at time 70
-Patient 2 left Trauma room at time 71
-Patient 2 left the ER at time 71
+Patient 9 arrived in Trauma room at time 70
+Patient 4 had a consultation at time 73.65790667572796
+Patient 4 admitted to the hospital at time 73.65790667572796
+Patient 4 left the ER at time 73.65790667572796
+Patient 7 had a consultation at time 74.74523941924419
+Patient 7 discharged from the ER at time 74.74523941924419
+Patient 7 left the ER at time 74.74523941924419
+Patient 6 left exam room at time 75.30883646695074
 Patient 10 arrived in ER at time 80
+Patient 10 arrived in Trauma room at time 80
+Patient 8 left Trauma room at time 81.66787480735265
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 1 completed Triage at time 2.1931587348176946
+Patient 1 arrived in exam room at time 2.1931587348176946
 Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 13
-Patient 0 received by Triage at time 13
-Patient 1 arrived in reception at time 13
-Patient 0 completed Triage at time 18
-Patient 0 left the ER at time 18
+Patient 3 arrived in Trauma room at time 10
+Patient 1 left exam room at time 11.414986767680547
+Patient 3 left Trauma room at time 15.980841888196744
+Patient 3 had a consultation at time 18.69137575493623
+Patient 3 discharged from the ER at time 18.69137575493623
+Patient 3 left the ER at time 18.69137575493623
+Patient 2 left Trauma room at time 18.803635483049717
 Patient 4 arrived in ER at time 20
-Patient 1 left reception at time 28
-Patient 1 received by Triage at time 28
-Patient 2 arrived in reception at time 28
+Patient 4 arrived in Trauma room at time 20
+Patient 0 left Trauma room at time 21.994786482555547
+Patient 0 had a consultation at time 29.628504951174783
+Patient 0 admitted to the hospital at time 29.628504951174783
+Patient 0 left the ER at time 29.628504951174783
 Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 31
-Patient 1 left the ER at time 31
+Patient 5 received by Triage at time 30
+Patient 5 completed Triage at time 39.15954166334317
+Patient 5 arrived in exam room at time 39.15954166334317
 Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 40
-Patient 2 received by Triage at time 40
-Patient 3 arrived in reception at time 40
-Patient 2 completed Triage at time 44
-Patient 2 left the ER at time 44
+Patient 6 received by Triage at time 40
+Patient 2 had a consultation at time 44.65739238248282
+Patient 2 admitted to the hospital at time 44.65739238248282
+Patient 2 left the ER at time 44.65739238248282
+Patient 6 completed Triage at time 45.30383890937503
+Patient 6 arrived in exam room at time 45.30383890937503
+Patient 4 left Trauma room at time 47.86447835373345
 Patient 7 arrived in ER at time 50
+Patient 7 arrived in Trauma room at time 50
+Patient 5 left exam room at time 50.75472570283936
+Patient 5 had a consultation at time 52.35699390280647
+Patient 5 discharged from the ER at time 52.35699390280647
+Patient 5 left the ER at time 52.35699390280647
+Patient 4 had a consultation at time 53.94375462827468
+Patient 4 admitted to the hospital at time 53.94375462827468
+Patient 4 left the ER at time 53.94375462827468
+Patient 1 had a consultation at time 56.63909354584474
+Patient 1 admitted to the hospital at time 56.63909354584474
+Patient 1 left the ER at time 56.63909354584474
 Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 62
-Patient 3 received by Triage at time 62
-Patient 4 arrived in reception at time 62
-Patient 3 completed Triage at time 64
-Patient 3 arrived in Trauma room at time 64
+Patient 8 arrived in Trauma room at time 60
+Patient 7 left Trauma room at time 61.9775786863996
+Patient 6 left exam room at time 67.54244183941739
+Patient 6 had a consultation at time 68.88777935380087
+Patient 6 admitted to the hospital at time 68.88777935380087
+Patient 6 left the ER at time 68.88777935380087
 Patient 9 arrived in ER at time 70
-Patient 3 left Trauma room at time 73
-Patient 3 left the ER at time 73
+Patient 9 arrived in Trauma room at time 70
+Patient 7 had a consultation at time 73.40976888905175
+Patient 7 discharged from the ER at time 73.40976888905175
+Patient 7 left the ER at time 73.40976888905175
+Patient 8 left Trauma room at time 77.84670468647883
 Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 82
-Patient 4 received by Triage at time 82
-Patient 5 arrived in reception at time 82
-Patient 4 completed Triage at time 86
-Patient 4 left the ER at time 86
-Patient 5 left reception at time 88
-Patient 5 received by Triage at time 88
-Patient 6 arrived in reception at time 88
+Patient 10 received by Triage at time 80
+Patient 8 had a consultation at time 81.4274568298985
+Patient 8 admitted to the hospital at time 81.4274568298985
+Patient 8 left the ER at time 81.4274568298985
+Patient 10 completed Triage at time 81.93661206285879
+Patient 10 arrived in exam room at time 81.93661206285879
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 received by Triage at time 0
 Patient 3 arrived in ER at time 10
+Patient 3 received by Triage at time 10
+Patient 0 left Trauma room at time 14.622774329279508
+Patient 3 completed Triage at time 15.827281915564473
+Patient 3 arrived in exam room at time 15.827281915564473
+Patient 2 completed Triage at time 19.607710421560157
+Patient 2 arrived in exam room at time 19.607710421560157
 Patient 4 arrived in ER at time 20
+Patient 4 arrived in Trauma room at time 20
 Patient 5 arrived in ER at time 30
-Patient 0 left reception at time 30
-Patient 0 received by Triage at time 30
-Patient 1 arrived in reception at time 30
-Patient 1 left reception at time 38
-Patient 2 arrived in reception at time 38
-Patient 0 completed Triage at time 39
-Patient 0 left the ER at time 39
-Patient 1 received by Triage at time 39
+Patient 5 received by Triage at time 30
+Patient 5 completed Triage at time 31.437554019877435
+Patient 5 arrived in exam room at time 31.437554019877435
+Patient 2 left exam room at time 33.89375410177949
+Patient 0 had a consultation at time 34.576600478271175
+Patient 0 discharged from the ER at time 34.576600478271175
+Patient 0 left the ER at time 34.576600478271175
+Patient 2 had a consultation at time 35.20507652331531
+Patient 2 admitted to the hospital at time 35.20507652331531
+Patient 2 left the ER at time 35.20507652331531
+Patient 3 left exam room at time 35.91547571879356
+Patient 3 completed imaging at time 35.98918088941778
+Patient 1 left Trauma room at time 36.35528264935325
 Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 40
-Patient 1 arrived in Trauma room at time 40
-Patient 1 left Trauma room at time 41
-Patient 1 left the ER at time 41
+Patient 6 arrived in Trauma room at time 40
 Patient 7 arrived in ER at time 50
+Patient 7 arrived in Trauma room at time 50
+Patient 4 left Trauma room at time 50.19349667626798
+Patient 4 had a consultation at time 50.87277767569844
+Patient 4 admitted to the hospital at time 50.87277767569844
+Patient 4 left the ER at time 50.87277767569844
+Patient 5 left exam room at time 52.99730208212786
+Patient 1 had a consultation at time 56.42691936191425
+Patient 1 admitted to the hospital at time 56.42691936191425
+Patient 1 left the ER at time 56.42691936191425
+Patient 5 completed imaging at time 57.0213329384145
 Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 60
-Patient 2 received by Triage at time 60
-Patient 3 arrived in reception at time 60
-Patient 2 completed Triage at time 66
-Patient 2 left the ER at time 66
+Patient 8 received by Triage at time 60
+Patient 6 left Trauma room at time 63.64178156742648
+Patient 7 left Trauma room at time 64.38079198431954
+Patient 5 had a consultation at time 65.81423989241951
+Patient 5 admitted to the hospital at time 65.81423989241951
+Patient 5 left the ER at time 65.81423989241951
+Patient 8 completed Triage at time 68.27460285683992
+Patient 8 arrived in exam room at time 68.27460285683992
 Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 73
-Patient 3 received by Triage at time 73
-Patient 4 arrived in reception at time 73
-Patient 3 completed Triage at time 75
-Patient 3 left the ER at time 75
+Patient 9 arrived in Trauma room at time 70
+Patient 7 completed imaging at time 70.38386697759765
+Patient 7 had a consultation at time 71.69783143249056
+Patient 7 discharged from the ER at time 71.69783143249056
+Patient 7 left the ER at time 71.69783143249056
+Patient 3 had a consultation at time 74.80105801191135
+Patient 3 admitted to the hospital at time 74.80105801191135
+Patient 3 left the ER at time 74.80105801191135
 Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 80
-Patient 4 received by Triage at time 80
-Patient 5 arrived in reception at time 80
-Patient 4 completed Triage at time 84
-Patient 4 left the ER at time 84
+Patient 10 received by Triage at time 80
+Patient 9 left Trauma room at time 89.98029691892916
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 received by Triage at time 0
 Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 13
-Patient 0 received by Triage at time 13
-Patient 1 arrived in reception at time 13
-Patient 1 left reception at time 18
-Patient 2 arrived in reception at time 18
+Patient 3 arrived in Trauma room at time 10
 Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 21
-Patient 0 arrived in Trauma room at time 21
-Patient 1 received by Triage at time 21
-Patient 0 left Trauma room at time 25
-Patient 0 left the ER at time 25
-Patient 2 left reception at time 27
-Patient 3 arrived in reception at time 27
+Patient 4 received by Triage at time 20
+Patient 0 left Trauma room at time 21.86973421225792
+Patient 1 left Trauma room at time 23.767834602715634
+Patient 2 completed Triage at time 29.84869529012026
+Patient 2 arrived in exam room at time 29.84869529012026
 Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 30
-Patient 1 left the ER at time 30
-Patient 2 received by Triage at time 30
+Patient 5 received by Triage at time 30
+Patient 3 left Trauma room at time 31.521003210647024
+Patient 0 completed imaging at time 31.731758999479222
+Patient 4 completed Triage at time 35.09694720994629
+Patient 4 arrived in exam room at time 35.09694720994629
+Patient 5 completed Triage at time 36.19513755787382
+Patient 5 arrived in exam room at time 36.19513755787382
+Patient 3 had a consultation at time 36.64653266598623
+Patient 3 discharged from the ER at time 36.64653266598623
+Patient 3 left the ER at time 36.64653266598623
 Patient 6 arrived in ER at time 40
-Patient 2 completed Triage at time 40
-Patient 2 left the ER at time 40
-Patient 3 left reception at time 45
-Patient 3 received by Triage at time 45
-Patient 4 arrived in reception at time 45
+Patient 6 arrived in Trauma room at time 40
+Patient 1 completed imaging at time 42.08593686528644
+Patient 1 had a consultation at time 43.21994041072444
+Patient 1 admitted to the hospital at time 43.21994041072444
+Patient 1 left the ER at time 43.21994041072444
+Patient 0 had a consultation at time 44.04822221064169
+Patient 0 discharged from the ER at time 44.04822221064169
+Patient 0 left the ER at time 44.04822221064169
+Patient 6 left Trauma room at time 47.10950568702705
+Patient 2 left exam room at time 48.03900327102789
+Patient 4 left exam room at time 49.05868144678385
 Patient 7 arrived in ER at time 50
-Patient 3 completed Triage at time 55
-Patient 3 left the ER at time 55
-Patient 4 left reception at time 58
-Patient 4 received by Triage at time 58
-Patient 5 arrived in reception at time 58
+Patient 7 received by Triage at time 50
+Patient 5 left exam room at time 51.01342778502686
+Patient 5 completed imaging at time 56.91696229228563
+Patient 4 had a consultation at time 59.29982871720586
+Patient 4 discharged from the ER at time 59.29982871720586
+Patient 4 left the ER at time 59.29982871720586
 Patient 8 arrived in ER at time 60
-Patient 4 completed Triage at time 62
-Patient 4 left the ER at time 62
-Patient 5 left reception at time 63
-Patient 5 received by Triage at time 63
-Patient 6 arrived in reception at time 63
-Patient 5 completed Triage at time 65
-Patient 5 arrived in Trauma room at time 65
-Patient 5 left Trauma room at time 67
-Patient 5 left the ER at time 67
+Patient 8 received by Triage at time 60
+Patient 8 completed Triage at time 62.73045033923548
+Patient 8 arrived in exam room at time 62.73045033923548
+Patient 5 had a consultation at time 68.89164442844688
+Patient 5 admitted to the hospital at time 68.89164442844688
+Patient 5 left the ER at time 68.89164442844688
 Patient 9 arrived in ER at time 70
+Patient 9 received by Triage at time 70
+Patient 2 had a consultation at time 70.31661615828008
+Patient 2 discharged from the ER at time 70.31661615828008
+Patient 2 left the ER at time 70.31661615828008
+Patient 7 completed Triage at time 74.53915356548737
+Patient 7 arrived in exam room at time 74.53915356548737
+Patient 8 left exam room at time 77.68001917249302
 Patient 10 arrived in ER at time 80
-Patient 6 left reception at time 88
-Patient 6 received by Triage at time 88
-Patient 7 arrived in reception at time 88
+Patient 10 received by Triage at time 80
+Patient 6 completed imaging at time 81.4774617769874
+Patient 9 completed Triage at time 85.04030409569553
+Patient 9 arrived in exam room at time 85.04030409569553
+Patient 10 completed Triage at time 86.66288615799972
+Patient 10 arrived in exam room at time 86.66288615799972
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 6
-Patient 0 received by Triage at time 6
-Patient 1 arrived in reception at time 6
+Patient 0 received by Triage at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 0 completed Triage at time 4.724686854197132
+Patient 0 arrived in exam room at time 4.724686854197132
+Patient 2 left Trauma room at time 6.4158113161899895
 Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 13
-Patient 0 arrived in Trauma room at time 13
+Patient 3 received by Triage at time 10
+Patient 2 had a consultation at time 12.043176867854442
+Patient 2 admitted to the hospital at time 12.043176867854442
+Patient 2 left the ER at time 12.043176867854442
+Patient 3 completed Triage at time 14.22330809522245
+Patient 3 arrived in exam room at time 14.22330809522245
+Patient 1 left Trauma room at time 14.980760754977062
+Patient 0 left exam room at time 19.565391276049134
 Patient 4 arrived in ER at time 20
-Patient 0 left Trauma room at time 20
-Patient 0 left the ER at time 20
-Patient 1 left reception at time 26
-Patient 1 received by Triage at time 26
-Patient 2 arrived in reception at time 26
+Patient 4 arrived in Trauma room at time 20
+Patient 0 completed imaging at time 23.20194827678253
+Patient 3 left exam room at time 28.729756167606787
 Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 33
-Patient 1 left the ER at time 33
+Patient 5 arrived in Trauma room at time 30
+Patient 3 had a consultation at time 31.737248134990306
+Patient 3 discharged from the ER at time 31.737248134990306
+Patient 3 left the ER at time 31.737248134990306
+Patient 0 had a consultation at time 33.724487131627356
+Patient 0 admitted to the hospital at time 33.724487131627356
+Patient 0 left the ER at time 33.724487131627356
+Patient 1 completed imaging at time 36.97579656504119
+Patient 1 had a consultation at time 37.77801285037927
+Patient 1 admitted to the hospital at time 37.77801285037927
+Patient 1 left the ER at time 37.77801285037927
 Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 46
-Patient 2 received by Triage at time 46
-Patient 3 arrived in reception at time 46
+Patient 6 arrived in Trauma room at time 40
+Patient 4 left Trauma room at time 47.25125157134625
 Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 55
-Patient 3 left reception at time 55
-Patient 2 arrived in Trauma room at time 55
-Patient 3 received by Triage at time 55
-Patient 4 arrived in reception at time 55
-Patient 2 left Trauma room at time 57
-Patient 2 left the ER at time 57
+Patient 7 arrived in Trauma room at time 50
+Patient 5 left Trauma room at time 53.51201920825109
 Patient 8 arrived in ER at time 60
-Patient 3 completed Triage at time 64
-Patient 3 left the ER at time 64
+Patient 8 arrived in Trauma room at time 60
+Patient 6 left Trauma room at time 66.96038648111762
+Patient 6 had a consultation at time 67.67192787620168
+Patient 6 admitted to the hospital at time 67.67192787620168
+Patient 6 left the ER at time 67.67192787620168
 Patient 9 arrived in ER at time 70
+Patient 9 received by Triage at time 70
+Patient 9 completed Triage at time 71.39101167451804
+Patient 9 arrived in exam room at time 71.39101167451804
+Patient 7 left Trauma room at time 75.65134845391258
 Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 80
-Patient 4 received by Triage at time 80
-Patient 5 arrived in reception at time 80
-Patient 5 left reception at time 84
-Patient 6 arrived in reception at time 84
-Patient 4 completed Triage at time 86
-Patient 4 left the ER at time 86
-Patient 5 received by Triage at time 86
-Patient 5 completed Triage at time 89
-Patient 5 left the ER at time 89
+Patient 10 received by Triage at time 80
+Patient 8 left Trauma room at time 80.42122432828958
+Patient 4 completed imaging at time 80.89207653782849
+Patient 8 had a consultation at time 82.76322533032965
+Patient 8 admitted to the hospital at time 82.76322533032965
+Patient 8 left the ER at time 82.76322533032965
+Patient 7 had a consultation at time 83.15802822062987
+Patient 7 discharged from the ER at time 83.15802822062987
+Patient 7 left the ER at time 83.15802822062987
+Patient 9 left exam room at time 88.46316501588149
+Patient 5 had a consultation at time 89.10778643760463
+Patient 5 admitted to the hospital at time 89.10778643760463
+Patient 5 left the ER at time 89.10778643760463
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 1
-Patient 0 received by Triage at time 1
-Patient 1 arrived in reception at time 1
-Patient 0 completed Triage at time 6
-Patient 0 arrived in Trauma room at time 6
+Patient 0 arrived in Trauma room at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 arrived in Trauma room at time 0
 Patient 3 arrived in ER at time 10
-Patient 0 left Trauma room at time 15
-Patient 0 left the ER at time 15
-Patient 1 left reception at time 18
-Patient 1 received by Triage at time 18
-Patient 2 arrived in reception at time 18
+Patient 3 received by Triage at time 10
+Patient 1 left Trauma room at time 12.053252168514309
+Patient 1 had a consultation at time 14.972690867229709
+Patient 1 admitted to the hospital at time 14.972690867229709
+Patient 1 left the ER at time 14.972690867229709
+Patient 3 completed Triage at time 16.33205403208463
+Patient 3 arrived in exam room at time 16.33205403208463
+Patient 2 left Trauma room at time 19.42797441736235
 Patient 4 arrived in ER at time 20
-Patient 1 completed Triage at time 20
-Patient 1 left the ER at time 20
+Patient 4 received by Triage at time 20
+Patient 4 completed Triage at time 23.283870983160206
+Patient 4 arrived in exam room at time 23.283870983160206
+Patient 0 left Trauma room at time 28.982110770256533
 Patient 5 arrived in ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 3 left exam room at time 33.13825090158535
+Patient 0 completed imaging at time 39.63740169314077
 Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 46
-Patient 2 received by Triage at time 46
-Patient 3 arrived in reception at time 46
+Patient 6 received by Triage at time 40
+Patient 4 left exam room at time 41.3261334654829
+Patient 3 had a consultation at time 42.01613793708073
+Patient 3 discharged from the ER at time 42.01613793708073
+Patient 3 left the ER at time 42.01613793708073
+Patient 0 had a consultation at time 43.577033052944095
+Patient 0 discharged from the ER at time 43.577033052944095
+Patient 0 left the ER at time 43.577033052944095
+Patient 5 left Trauma room at time 44.02179256577245
 Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 55
-Patient 2 arrived in Trauma room at time 55
-Patient 2 left Trauma room at time 58
-Patient 2 left the ER at time 58
+Patient 7 received by Triage at time 50
+Patient 2 completed imaging at time 52.07397222447705
+Patient 4 had a consultation at time 53.91912081281064
+Patient 4 admitted to the hospital at time 53.91912081281064
+Patient 4 left the ER at time 53.91912081281064
+Patient 5 completed imaging at time 56.66063661237972
 Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 66
-Patient 3 received by Triage at time 66
-Patient 4 arrived in reception at time 66
+Patient 8 received by Triage at time 60
+Patient 6 completed Triage at time 62.30425037700627
+Patient 6 arrived in exam room at time 62.30425037700627
+Patient 2 had a consultation at time 62.97764901295603
+Patient 2 admitted to the hospital at time 62.97764901295603
+Patient 2 left the ER at time 62.97764901295603
+Patient 8 completed Triage at time 63.43302004975821
+Patient 8 arrived in exam room at time 63.43302004975821
+Patient 5 had a consultation at time 66.726114751275
+Patient 5 admitted to the hospital at time 66.726114751275
+Patient 5 left the ER at time 66.726114751275
 Patient 9 arrived in ER at time 70
-Patient 3 completed Triage at time 72
-Patient 3 arrived in Trauma room at time 72
+Patient 9 received by Triage at time 70
+Patient 7 completed Triage at time 75.0462472965576
+Patient 7 arrived in exam room at time 75.0462472965576
+Patient 8 left exam room at time 79.67319370691457
+Patient 8 had a consultation at time 79.96069499347807
+Patient 8 discharged from the ER at time 79.96069499347807
+Patient 8 left the ER at time 79.96069499347807
 Patient 10 arrived in ER at time 80
-Patient 3 left Trauma room at time 81
-Patient 3 left the ER at time 81
+Patient 10 arrived in Trauma room at time 80
+Patient 6 left exam room at time 81.3813388005209
+Patient 9 completed Triage at time 84.28280215767255
+Patient 9 arrived in exam room at time 84.28280215767255
+Patient 6 completed imaging at time 85.76520354797387
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 arrived in Trauma room at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 0 left Trauma room at time 9.196242327614167
 Patient 3 arrived in ER at time 10
+Patient 3 arrived in Trauma room at time 10
+Patient 0 completed imaging at time 11.17586723100037
 Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 25
-Patient 0 received by Triage at time 25
-Patient 1 arrived in reception at time 25
+Patient 4 arrived in Trauma room at time 20
+Patient 2 left Trauma room at time 26.159299093719653
+Patient 1 left Trauma room at time 26.304363762735655
+Patient 2 completed imaging at time 27.602533028972058
+Patient 3 left Trauma room at time 29.96221593356839
 Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 34
-Patient 0 arrived in Trauma room at time 34
+Patient 5 received by Triage at time 30
+Patient 0 had a consultation at time 32.52294988664151
+Patient 0 admitted to the hospital at time 32.52294988664151
+Patient 0 left the ER at time 32.52294988664151
+Patient 2 had a consultation at time 34.41652815673602
+Patient 2 admitted to the hospital at time 34.41652815673602
+Patient 2 left the ER at time 34.41652815673602
+Patient 1 had a consultation at time 36.49037074159054
+Patient 1 discharged from the ER at time 36.49037074159054
+Patient 1 left the ER at time 36.49037074159054
 Patient 6 arrived in ER at time 40
-Patient 0 left Trauma room at time 44
-Patient 0 left the ER at time 44
+Patient 6 received by Triage at time 40
+Patient 4 left Trauma room at time 42.72098341766178
+Patient 6 completed Triage at time 43.966325919880234
+Patient 6 arrived in exam room at time 43.966325919880234
+Patient 4 had a consultation at time 44.92182288796624
+Patient 4 discharged from the ER at time 44.92182288796624
+Patient 4 left the ER at time 44.92182288796624
+Patient 3 had a consultation at time 47.44698328364751
+Patient 3 discharged from the ER at time 47.44698328364751
+Patient 3 left the ER at time 47.44698328364751
 Patient 7 arrived in ER at time 50
-Patient 1 left reception at time 55
-Patient 1 received by Triage at time 55
-Patient 2 arrived in reception at time 55
+Patient 7 arrived in Trauma room at time 50
+Patient 5 completed Triage at time 58.983796353342996
+Patient 5 arrived in exam room at time 58.983796353342996
 Patient 8 arrived in ER at time 60
-Patient 1 completed Triage at time 61
-Patient 1 arrived in Trauma room at time 61
-Patient 1 left Trauma room at time 63
-Patient 1 left the ER at time 63
+Patient 8 arrived in Trauma room at time 60
+Patient 6 left exam room at time 60.317928629307644
 Patient 9 arrived in ER at time 70
-Patient 2 left reception at time 71
-Patient 2 received by Triage at time 71
-Patient 3 arrived in reception at time 71
-Patient 2 completed Triage at time 77
-Patient 2 left the ER at time 77
+Patient 9 received by Triage at time 70
+Patient 7 left Trauma room at time 71.37740065745459
+Patient 6 had a consultation at time 74.37340191914515
+Patient 6 discharged from the ER at time 74.37340191914515
+Patient 6 left the ER at time 74.37340191914515
+Patient 9 completed Triage at time 76.82422973289194
+Patient 9 arrived in exam room at time 76.82422973289194
 Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 8
-Patient 0 received by Triage at time 8
-Patient 1 arrived in reception at time 8
-Patient 0 completed Triage at time 9
-Patient 0 arrived in Trauma room at time 9
-Patient 3 arrived in ER at time 10
-Patient 0 left Trauma room at time 11
-Patient 0 left the ER at time 11
-Patient 1 left reception at time 16
-Patient 1 received by Triage at time 16
-Patient 2 arrived in reception at time 16
-Patient 4 arrived in ER at time 20
-Patient 1 completed Triage at time 24
-Patient 1 arrived in Trauma room at time 24
-Patient 5 arrived in ER at time 30
-Patient 1 left Trauma room at time 33
-Patient 1 left the ER at time 33
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 43
-Patient 2 received by Triage at time 43
-Patient 3 arrived in reception at time 43
-Patient 2 completed Triage at time 46
-Patient 2 left the ER at time 46
-Patient 3 left reception at time 48
-Patient 3 received by Triage at time 48
-Patient 4 arrived in reception at time 48
-Patient 7 arrived in ER at time 50
-Patient 4 left reception at time 54
-Patient 5 arrived in reception at time 54
-Patient 3 completed Triage at time 57
-Patient 3 left the ER at time 57
-Patient 4 received by Triage at time 57
-Patient 8 arrived in ER at time 60
-Patient 4 completed Triage at time 61
-Patient 4 arrived in Trauma room at time 61
-Patient 5 left reception at time 63
-Patient 5 received by Triage at time 63
-Patient 6 arrived in reception at time 63
-Patient 4 left Trauma room at time 66
-Patient 4 left the ER at time 66
-Patient 9 arrived in ER at time 70
-Patient 5 completed Triage at time 70
-Patient 5 left the ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 6 left reception at time 85
-Patient 6 received by Triage at time 85
-Patient 7 arrived in reception at time 85
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 17
-Patient 0 received by Triage at time 17
-Patient 1 arrived in reception at time 17
-Patient 4 arrived in ER at time 20
-Patient 1 left reception at time 21
-Patient 2 arrived in reception at time 21
-Patient 0 completed Triage at time 25
-Patient 0 arrived in Trauma room at time 25
-Patient 1 received by Triage at time 25
-Patient 0 left Trauma room at time 27
-Patient 0 left the ER at time 27
-Patient 2 left reception at time 29
-Patient 3 arrived in reception at time 29
-Patient 5 arrived in ER at time 30
-Patient 3 left reception at time 30
-Patient 4 arrived in reception at time 30
-Patient 1 completed Triage at time 31
-Patient 1 arrived in Trauma room at time 31
-Patient 2 received by Triage at time 31
-Patient 2 completed Triage at time 35
-Patient 3 received by Triage at time 35
-Patient 3 completed Triage at time 37
-Patient 6 arrived in ER at time 40
-Patient 1 left Trauma room at time 41
-Patient 1 left the ER at time 41
-Patient 2 arrived in Trauma room at time 41
-Patient 2 left Trauma room at time 45
-Patient 2 left the ER at time 45
-Patient 3 arrived in Trauma room at time 45
-Patient 3 left Trauma room at time 47
-Patient 3 left the ER at time 47
-Patient 4 left reception at time 49
-Patient 4 received by Triage at time 49
-Patient 5 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 4 completed Triage at time 50
-Patient 4 left the ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 5 left reception at time 77
-Patient 5 received by Triage at time 77
-Patient 6 arrived in reception at time 77
-Patient 5 completed Triage at time 79
-Patient 5 arrived in Trauma room at time 79
-Patient 10 arrived in ER at time 80
-Patient 5 left Trauma room at time 84
-Patient 5 left the ER at time 84
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 22
-Patient 0 received by Triage at time 22
-Patient 1 arrived in reception at time 22
-Patient 1 left reception at time 29
-Patient 2 arrived in reception at time 29
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 30
-Patient 0 arrived in Trauma room at time 30
-Patient 1 received by Triage at time 30
-Patient 6 arrived in ER at time 40
-Patient 0 left Trauma room at time 40
-Patient 0 left the ER at time 40
-Patient 1 completed Triage at time 40
-Patient 1 left the ER at time 40
-Patient 2 left reception at time 47
-Patient 2 received by Triage at time 47
-Patient 3 arrived in reception at time 47
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 51
-Patient 2 left the ER at time 51
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 73
-Patient 3 received by Triage at time 73
-Patient 4 arrived in reception at time 73
-Patient 10 arrived in ER at time 80
-Patient 3 completed Triage at time 80
-Patient 4 left reception at time 80
-Patient 3 arrived in Trauma room at time 80
-Patient 4 received by Triage at time 80
-Patient 5 arrived in reception at time 80
-Patient 3 left Trauma room at time 82
-Patient 3 left the ER at time 82
-Patient 4 completed Triage at time 87
-Patient 4 left the ER at time 87
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 14
-Patient 0 received by Triage at time 14
-Patient 1 arrived in reception at time 14
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 22
-Patient 0 arrived in Trauma room at time 22
-Patient 0 left Trauma room at time 24
-Patient 0 left the ER at time 24
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 42
-Patient 1 received by Triage at time 42
-Patient 2 arrived in reception at time 42
-Patient 1 completed Triage at time 43
-Patient 1 left the ER at time 43
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 55
-Patient 2 received by Triage at time 55
-Patient 3 arrived in reception at time 55
-Patient 2 completed Triage at time 57
-Patient 2 arrived in Trauma room at time 57
-Patient 8 arrived in ER at time 60
-Patient 2 left Trauma room at time 61
-Patient 2 left the ER at time 61
-Patient 3 left reception at time 63
-Patient 3 received by Triage at time 63
-Patient 4 arrived in reception at time 63
-Patient 9 arrived in ER at time 70
-Patient 3 completed Triage at time 72
-Patient 3 arrived in Trauma room at time 72
-Patient 4 left reception at time 78
-Patient 4 received by Triage at time 78
-Patient 5 arrived in reception at time 78
-Patient 3 left Trauma room at time 79
-Patient 3 left the ER at time 79
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 81
-Patient 4 left the ER at time 81
-Patient 5 left reception at time 87
-Patient 5 received by Triage at time 87
-Patient 6 arrived in reception at time 87
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 0 left reception at time 30
-Patient 0 received by Triage at time 30
-Patient 1 arrived in reception at time 30
-Patient 0 completed Triage at time 32
-Patient 0 arrived in Trauma room at time 32
-Patient 0 left Trauma room at time 33
-Patient 0 left the ER at time 33
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 45
-Patient 1 received by Triage at time 45
-Patient 2 arrived in reception at time 45
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 54
-Patient 1 arrived in Trauma room at time 54
-Patient 1 left Trauma room at time 56
-Patient 1 left the ER at time 56
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 2 left reception at time 72
-Patient 2 received by Triage at time 72
-Patient 3 arrived in reception at time 72
-Patient 2 completed Triage at time 76
-Patient 2 left the ER at time 76
-Patient 3 left reception at time 78
-Patient 3 received by Triage at time 78
-Patient 4 arrived in reception at time 78
-Patient 10 arrived in ER at time 80
-Patient 3 completed Triage at time 86
-Patient 3 arrived in Trauma room at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 29
-Patient 0 received by Triage at time 29
-Patient 1 arrived in reception at time 29
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 30
-Patient 0 left the ER at time 30
-Patient 1 left reception at time 35
-Patient 1 received by Triage at time 35
-Patient 2 arrived in reception at time 35
-Patient 1 completed Triage at time 36
-Patient 1 left the ER at time 36
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 48
-Patient 2 received by Triage at time 48
-Patient 3 arrived in reception at time 48
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 56
-Patient 2 left the ER at time 56
-Patient 3 left reception at time 58
-Patient 3 received by Triage at time 58
-Patient 4 arrived in reception at time 58
-Patient 8 arrived in ER at time 60
-Patient 3 completed Triage at time 67
-Patient 3 left the ER at time 67
-Patient 9 arrived in ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 80
-Patient 4 received by Triage at time 80
-Patient 5 arrived in reception at time 80
-Patient 4 completed Triage at time 83
-Patient 4 left the ER at time 83
-Patient 5 left reception at time 87
-Patient 5 received by Triage at time 87
-Patient 6 arrived in reception at time 87
-Patient 6 left reception at time 89
-Patient 7 arrived in reception at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 24
-Patient 0 received by Triage at time 24
-Patient 1 arrived in reception at time 24
-Patient 1 left reception at time 26
-Patient 2 arrived in reception at time 26
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 33
-Patient 0 left the ER at time 33
-Patient 1 received by Triage at time 33
-Patient 1 completed Triage at time 34
-Patient 1 arrived in Trauma room at time 34
-Patient 6 arrived in ER at time 40
-Patient 1 left Trauma room at time 44
-Patient 1 left the ER at time 44
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 50
-Patient 2 received by Triage at time 50
-Patient 3 arrived in reception at time 50
-Patient 2 completed Triage at time 58
-Patient 2 arrived in Trauma room at time 58
-Patient 2 left Trauma room at time 59
-Patient 2 left the ER at time 59
-Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 67
-Patient 3 received by Triage at time 67
-Patient 4 arrived in reception at time 67
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 70
-Patient 5 arrived in reception at time 70
-Patient 3 completed Triage at time 76
-Patient 3 arrived in Trauma room at time 76
-Patient 4 received by Triage at time 76
-Patient 3 left Trauma room at time 78
-Patient 3 left the ER at time 78
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 86
-Patient 4 arrived in Trauma room at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 13
-Patient 0 received by Triage at time 13
-Patient 1 arrived in reception at time 13
-Patient 0 completed Triage at time 15
-Patient 0 arrived in Trauma room at time 15
-Patient 4 arrived in ER at time 20
-Patient 0 left Trauma room at time 25
-Patient 0 left the ER at time 25
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 42
-Patient 1 received by Triage at time 42
-Patient 2 arrived in reception at time 42
-Patient 2 left reception at time 44
-Patient 3 arrived in reception at time 44
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 52
-Patient 1 arrived in Trauma room at time 52
-Patient 2 received by Triage at time 52
-Patient 1 left Trauma room at time 59
-Patient 1 left the ER at time 59
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 62
-Patient 2 left the ER at time 62
-Patient 3 left reception at time 64
-Patient 3 received by Triage at time 64
-Patient 4 arrived in reception at time 64
-Patient 3 completed Triage at time 69
-Patient 3 left the ER at time 69
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 71
-Patient 4 received by Triage at time 71
-Patient 5 arrived in reception at time 71
-Patient 4 completed Triage at time 75
-Patient 4 left the ER at time 75
-Patient 10 arrived in ER at time 80
-Patient 5 left reception at time 80
-Patient 5 received by Triage at time 80
-Patient 6 arrived in reception at time 80
-Patient 5 completed Triage at time 83
-Patient 5 left the ER at time 83
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 15
-Patient 0 received by Triage at time 15
-Patient 1 arrived in reception at time 15
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 21
-Patient 0 arrived in Trauma room at time 21
-Patient 0 left Trauma room at time 22
-Patient 0 left the ER at time 22
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 45
-Patient 1 received by Triage at time 45
-Patient 2 arrived in reception at time 45
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 53
-Patient 1 arrived in Trauma room at time 53
-Patient 1 left Trauma room at time 55
-Patient 1 left the ER at time 55
-Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 65
-Patient 2 received by Triage at time 65
-Patient 3 arrived in reception at time 65
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 72
-Patient 4 arrived in reception at time 72
-Patient 2 completed Triage at time 74
-Patient 2 left the ER at time 74
-Patient 3 received by Triage at time 74
-Patient 3 completed Triage at time 77
-Patient 3 left the ER at time 77
-Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 89
-Patient 4 received by Triage at time 89
-Patient 5 arrived in reception at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 8
-Patient 0 received by Triage at time 8
-Patient 1 arrived in reception at time 8
-Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 14
-Patient 0 arrived in Trauma room at time 14
-Patient 1 left reception at time 18
-Patient 1 received by Triage at time 18
-Patient 2 arrived in reception at time 18
-Patient 4 arrived in ER at time 20
-Patient 0 left Trauma room at time 22
-Patient 0 left the ER at time 22
-Patient 1 completed Triage at time 27
-Patient 1 left the ER at time 27
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 41
-Patient 2 received by Triage at time 41
-Patient 3 arrived in reception at time 41
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 51
-Patient 2 arrived in Trauma room at time 51
-Patient 8 arrived in ER at time 60
-Patient 2 left Trauma room at time 60
-Patient 2 left the ER at time 60
-Patient 3 left reception at time 67
-Patient 3 received by Triage at time 67
-Patient 4 arrived in reception at time 67
-Patient 9 arrived in ER at time 70
-Patient 3 completed Triage at time 72
-Patient 3 arrived in Trauma room at time 72
-Patient 3 left Trauma room at time 75
-Patient 3 left the ER at time 75
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 9
-Patient 0 received by Triage at time 9
-Patient 1 arrived in reception at time 9
-Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 11
-Patient 0 arrived in Trauma room at time 11
-Patient 4 arrived in ER at time 20
-Patient 0 left Trauma room at time 20
-Patient 0 left the ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 38
-Patient 1 received by Triage at time 38
-Patient 2 arrived in reception at time 38
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 41
-Patient 1 left the ER at time 41
-Patient 2 left reception at time 47
-Patient 2 received by Triage at time 47
-Patient 3 arrived in reception at time 47
-Patient 7 arrived in ER at time 50
-Patient 3 left reception at time 54
-Patient 4 arrived in reception at time 54
-Patient 2 completed Triage at time 57
-Patient 2 left the ER at time 57
-Patient 3 received by Triage at time 57
-Patient 8 arrived in ER at time 60
-Patient 3 completed Triage at time 61
-Patient 3 left the ER at time 61
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 77
-Patient 4 received by Triage at time 77
-Patient 5 arrived in reception at time 77
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 86
-Patient 4 left the ER at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 29
-Patient 0 received by Triage at time 29
-Patient 1 arrived in reception at time 29
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 30
-Patient 0 left the ER at time 30
-Patient 1 left reception at time 32
-Patient 1 received by Triage at time 32
-Patient 2 arrived in reception at time 32
-Patient 2 left reception at time 34
-Patient 3 arrived in reception at time 34
-Patient 3 left reception at time 35
-Patient 4 arrived in reception at time 35
-Patient 1 completed Triage at time 37
-Patient 1 arrived in Trauma room at time 37
-Patient 2 received by Triage at time 37
-Patient 6 arrived in ER at time 40
-Patient 2 completed Triage at time 40
-Patient 2 left the ER at time 40
-Patient 3 received by Triage at time 40
-Patient 1 left Trauma room at time 42
-Patient 1 left the ER at time 42
-Patient 4 left reception at time 46
-Patient 5 arrived in reception at time 46
-Patient 3 completed Triage at time 49
-Patient 3 left the ER at time 49
-Patient 4 received by Triage at time 49
-Patient 7 arrived in ER at time 50
-Patient 4 completed Triage at time 58
-Patient 4 arrived in Trauma room at time 58
-Patient 8 arrived in ER at time 60
-Patient 4 left Trauma room at time 60
-Patient 4 left the ER at time 60
-Patient 5 left reception at time 69
-Patient 5 received by Triage at time 69
-Patient 6 arrived in reception at time 69
-Patient 9 arrived in ER at time 70
-Patient 5 completed Triage at time 71
-Patient 5 arrived in Trauma room at time 71
-Patient 10 arrived in ER at time 80
-Patient 5 left Trauma room at time 80
-Patient 5 left the ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 2
-Patient 0 received by Triage at time 2
-Patient 1 arrived in reception at time 2
-Patient 0 completed Triage at time 8
-Patient 0 arrived in Trauma room at time 8
-Patient 3 arrived in ER at time 10
-Patient 0 left Trauma room at time 15
-Patient 0 left the ER at time 15
-Patient 4 arrived in ER at time 20
-Patient 1 left reception at time 21
-Patient 1 received by Triage at time 21
-Patient 2 arrived in reception at time 21
-Patient 2 left reception at time 23
-Patient 3 arrived in reception at time 23
-Patient 1 completed Triage at time 24
-Patient 1 left the ER at time 24
-Patient 2 received by Triage at time 24
-Patient 2 completed Triage at time 25
-Patient 2 left the ER at time 25
-Patient 5 arrived in ER at time 30
-Patient 3 left reception at time 33
-Patient 3 received by Triage at time 33
-Patient 4 arrived in reception at time 33
-Patient 3 completed Triage at time 37
-Patient 3 arrived in Trauma room at time 37
-Patient 3 left Trauma room at time 39
-Patient 3 left the ER at time 39
-Patient 6 arrived in ER at time 40
-Patient 7 arrived in ER at time 50
-Patient 4 left reception at time 55
-Patient 4 received by Triage at time 55
-Patient 5 arrived in reception at time 55
-Patient 8 arrived in ER at time 60
-Patient 4 completed Triage at time 61
-Patient 4 left the ER at time 61
-Patient 9 arrived in ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 5 left reception at time 80
-Patient 5 received by Triage at time 80
-Patient 6 arrived in reception at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 5
-Patient 0 received by Triage at time 5
-Patient 1 arrived in reception at time 5
-Patient 0 completed Triage at time 9
-Patient 0 arrived in Trauma room at time 9
-Patient 3 arrived in ER at time 10
-Patient 0 left Trauma room at time 12
-Patient 0 left the ER at time 12
-Patient 4 arrived in ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 33
-Patient 1 received by Triage at time 33
-Patient 2 arrived in reception at time 33
-Patient 2 left reception at time 34
-Patient 3 arrived in reception at time 34
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 40
-Patient 1 left the ER at time 40
-Patient 3 left reception at time 40
-Patient 2 received by Triage at time 40
-Patient 4 arrived in reception at time 40
-Patient 2 completed Triage at time 47
-Patient 2 arrived in Trauma room at time 47
-Patient 3 received by Triage at time 47
-Patient 7 arrived in ER at time 50
-Patient 3 completed Triage at time 50
-Patient 2 left Trauma room at time 52
-Patient 2 left the ER at time 52
-Patient 3 arrived in Trauma room at time 52
-Patient 3 left Trauma room at time 59
-Patient 3 left the ER at time 59
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 66
-Patient 4 received by Triage at time 66
-Patient 5 arrived in reception at time 66
-Patient 4 completed Triage at time 67
-Patient 4 left the ER at time 67
-Patient 9 arrived in ER at time 70
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 8
-Patient 0 received by Triage at time 8
-Patient 1 arrived in reception at time 8
-Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 12
-Patient 0 left the ER at time 12
-Patient 4 arrived in ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 35
-Patient 1 received by Triage at time 35
-Patient 2 arrived in reception at time 35
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 41
-Patient 1 arrived in Trauma room at time 41
-Patient 2 left reception at time 45
-Patient 1 left Trauma room at time 45
-Patient 1 left the ER at time 45
-Patient 2 received by Triage at time 45
-Patient 3 arrived in reception at time 45
-Patient 2 completed Triage at time 46
-Patient 2 arrived in Trauma room at time 46
-Patient 7 arrived in ER at time 50
-Patient 2 left Trauma room at time 53
-Patient 2 left the ER at time 53
-Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 67
-Patient 3 received by Triage at time 67
-Patient 4 arrived in reception at time 67
-Patient 9 arrived in ER at time 70
-Patient 3 completed Triage at time 73
-Patient 3 arrived in Trauma room at time 73
-Patient 4 left reception at time 76
-Patient 4 received by Triage at time 76
-Patient 5 arrived in reception at time 76
-Patient 3 left Trauma room at time 78
-Patient 3 left the ER at time 78
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 82
-Patient 4 left the ER at time 82
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 22
-Patient 0 received by Triage at time 22
-Patient 1 arrived in reception at time 22
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 31
-Patient 0 arrived in Trauma room at time 31
-Patient 1 left reception at time 33
-Patient 0 left Trauma room at time 33
-Patient 0 left the ER at time 33
-Patient 1 received by Triage at time 33
-Patient 2 arrived in reception at time 33
-Patient 1 completed Triage at time 38
-Patient 1 left the ER at time 38
-Patient 2 left reception at time 39
-Patient 2 received by Triage at time 39
-Patient 3 arrived in reception at time 39
-Patient 6 arrived in ER at time 40
-Patient 2 completed Triage at time 40
-Patient 2 left the ER at time 40
-Patient 3 left reception at time 43
-Patient 3 received by Triage at time 43
-Patient 4 arrived in reception at time 43
-Patient 3 completed Triage at time 49
-Patient 3 left the ER at time 49
-Patient 7 arrived in ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 67
-Patient 4 received by Triage at time 67
-Patient 5 arrived in reception at time 67
-Patient 9 arrived in ER at time 70
-Patient 4 completed Triage at time 74
-Patient 4 arrived in Trauma room at time 74
-Patient 10 arrived in ER at time 80
-Patient 4 left Trauma room at time 81
-Patient 4 left the ER at time 81
-Patient 5 left reception at time 87
-Patient 5 received by Triage at time 87
-Patient 6 arrived in reception at time 87
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 9
-Patient 0 received by Triage at time 9
-Patient 1 arrived in reception at time 9
-Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 10
-Patient 0 left the ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 32
-Patient 1 received by Triage at time 32
-Patient 2 arrived in reception at time 32
-Patient 1 completed Triage at time 33
-Patient 1 arrived in Trauma room at time 33
-Patient 1 left Trauma room at time 39
-Patient 1 left the ER at time 39
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 49
-Patient 2 received by Triage at time 49
-Patient 3 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 3 left reception at time 52
-Patient 4 arrived in reception at time 52
-Patient 2 completed Triage at time 56
-Patient 2 left the ER at time 56
-Patient 3 received by Triage at time 56
-Patient 8 arrived in ER at time 60
-Patient 3 completed Triage at time 66
-Patient 3 left the ER at time 66
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 74
-Patient 4 received by Triage at time 74
-Patient 5 arrived in reception at time 74
-Patient 4 completed Triage at time 76
-Patient 4 left the ER at time 76
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 17
-Patient 0 received by Triage at time 17
-Patient 1 arrived in reception at time 17
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 22
-Patient 0 left the ER at time 22
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 39
-Patient 1 received by Triage at time 39
-Patient 2 arrived in reception at time 39
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 45
-Patient 1 left the ER at time 45
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 52
-Patient 2 received by Triage at time 52
-Patient 3 arrived in reception at time 52
-Patient 3 left reception at time 57
-Patient 4 arrived in reception at time 57
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 61
-Patient 2 left the ER at time 61
-Patient 3 received by Triage at time 61
-Patient 4 left reception at time 64
-Patient 5 arrived in reception at time 64
-Patient 3 completed Triage at time 68
-Patient 3 arrived in Trauma room at time 68
-Patient 4 received by Triage at time 68
-Patient 9 arrived in ER at time 70
-Patient 3 left Trauma room at time 78
-Patient 3 left the ER at time 78
-Patient 4 completed Triage at time 78
-Patient 4 left the ER at time 78
-Patient 10 arrived in ER at time 80
-Patient 5 left reception at time 86
-Patient 5 received by Triage at time 86
-Patient 6 arrived in reception at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 27
-Patient 0 received by Triage at time 27
-Patient 1 arrived in reception at time 27
-Patient 0 completed Triage at time 28
-Patient 0 left the ER at time 28
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 37
-Patient 1 received by Triage at time 37
-Patient 2 arrived in reception at time 37
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 41
-Patient 1 left the ER at time 41
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 51
-Patient 2 received by Triage at time 51
-Patient 3 arrived in reception at time 51
-Patient 2 completed Triage at time 59
-Patient 2 left the ER at time 59
-Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 66
-Patient 3 received by Triage at time 66
-Patient 4 arrived in reception at time 66
-Patient 9 arrived in ER at time 70
-Patient 3 completed Triage at time 70
-Patient 3 left the ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 83
-Patient 4 received by Triage at time 83
-Patient 5 arrived in reception at time 83
-Patient 4 completed Triage at time 86
-Patient 4 arrived in Trauma room at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 17
-Patient 0 received by Triage at time 17
-Patient 1 arrived in reception at time 17
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 27
-Patient 0 arrived in Trauma room at time 27
-Patient 1 left reception at time 28
-Patient 1 received by Triage at time 28
-Patient 2 arrived in reception at time 28
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 31
-Patient 0 left the ER at time 31
-Patient 1 completed Triage at time 33
-Patient 1 arrived in Trauma room at time 33
-Patient 2 left reception at time 36
-Patient 1 left Trauma room at time 36
-Patient 1 left the ER at time 36
-Patient 2 received by Triage at time 36
-Patient 3 arrived in reception at time 36
-Patient 2 completed Triage at time 37
-Patient 2 arrived in Trauma room at time 37
-Patient 3 left reception at time 38
-Patient 3 received by Triage at time 38
-Patient 4 arrived in reception at time 38
-Patient 6 arrived in ER at time 40
-Patient 2 left Trauma room at time 45
-Patient 2 left the ER at time 45
-Patient 3 completed Triage at time 48
-Patient 3 arrived in Trauma room at time 48
-Patient 7 arrived in ER at time 50
-Patient 3 left Trauma room at time 56
-Patient 3 left the ER at time 56
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 66
-Patient 4 received by Triage at time 66
-Patient 5 arrived in reception at time 66
-Patient 9 arrived in ER at time 70
-Patient 4 completed Triage at time 73
-Patient 4 arrived in Trauma room at time 73
-Patient 10 arrived in ER at time 80
-Patient 4 left Trauma room at time 80
-Patient 4 left the ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 16
-Patient 0 received by Triage at time 16
-Patient 1 arrived in reception at time 16
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 23
-Patient 0 arrived in Trauma room at time 23
-Patient 1 left reception at time 24
-Patient 0 left Trauma room at time 24
-Patient 0 left the ER at time 24
-Patient 1 received by Triage at time 24
-Patient 2 arrived in reception at time 24
-Patient 1 completed Triage at time 26
-Patient 1 left the ER at time 26
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 49
-Patient 2 received by Triage at time 49
-Patient 3 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 53
-Patient 2 left the ER at time 53
-Patient 3 left reception at time 55
-Patient 3 received by Triage at time 55
-Patient 4 arrived in reception at time 55
-Patient 3 completed Triage at time 56
-Patient 3 arrived in Trauma room at time 56
-Patient 3 left Trauma room at time 58
-Patient 3 left the ER at time 58
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 73
-Patient 4 received by Triage at time 73
-Patient 5 arrived in reception at time 73
-Patient 5 left reception at time 78
-Patient 6 arrived in reception at time 78
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 81
-Patient 4 left the ER at time 81
-Patient 5 received by Triage at time 81
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 18
-Patient 0 received by Triage at time 18
-Patient 1 arrived in reception at time 18
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 28
-Patient 0 left the ER at time 28
-Patient 1 left reception at time 29
-Patient 1 received by Triage at time 29
-Patient 2 arrived in reception at time 29
-Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 39
-Patient 1 left the ER at time 39
-Patient 6 arrived in ER at time 40
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 56
-Patient 2 received by Triage at time 56
-Patient 3 arrived in reception at time 56
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 65
-Patient 2 arrived in Trauma room at time 65
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 71
-Patient 3 received by Triage at time 71
-Patient 4 arrived in reception at time 71
-Patient 2 left Trauma room at time 73
-Patient 2 left the ER at time 73
-Patient 3 completed Triage at time 79
-Patient 3 arrived in Trauma room at time 79
-Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 80
-Patient 4 received by Triage at time 80
-Patient 5 arrived in reception at time 80
-Patient 3 left Trauma room at time 84
-Patient 3 left the ER at time 84
-Patient 4 completed Triage at time 89
-Patient 4 arrived in Trauma room at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 15
-Patient 0 received by Triage at time 15
-Patient 1 arrived in reception at time 15
-Patient 0 completed Triage at time 17
-Patient 0 left the ER at time 17
-Patient 4 arrived in ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 38
-Patient 1 received by Triage at time 38
-Patient 2 arrived in reception at time 38
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 42
-Patient 1 left the ER at time 42
-Patient 2 left reception at time 47
-Patient 2 received by Triage at time 47
-Patient 3 arrived in reception at time 47
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 53
-Patient 2 arrived in Trauma room at time 53
-Patient 2 left Trauma room at time 56
-Patient 2 left the ER at time 56
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 76
-Patient 3 received by Triage at time 76
-Patient 4 arrived in reception at time 76
-Patient 3 completed Triage at time 79
-Patient 3 left the ER at time 79
-Patient 10 arrived in ER at time 80
-Patient 4 left reception at time 84
-Patient 4 received by Triage at time 84
-Patient 5 arrived in reception at time 84
-Patient 4 completed Triage at time 87
-Patient 4 arrived in Trauma room at time 87
-Patient 4 left Trauma room at time 89
-Patient 4 left the ER at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 14
-Patient 0 received by Triage at time 14
-Patient 1 arrived in reception at time 14
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 21
-Patient 0 left the ER at time 21
-Patient 1 left reception at time 25
-Patient 1 received by Triage at time 25
-Patient 2 arrived in reception at time 25
-Patient 2 left reception at time 27
-Patient 3 arrived in reception at time 27
-Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 32
-Patient 1 left the ER at time 32
-Patient 2 received by Triage at time 32
-Patient 3 left reception at time 34
-Patient 4 arrived in reception at time 34
-Patient 2 completed Triage at time 39
-Patient 2 arrived in Trauma room at time 39
-Patient 3 received by Triage at time 39
-Patient 6 arrived in ER at time 40
-Patient 3 completed Triage at time 46
-Patient 3 left the ER at time 46
-Patient 2 left Trauma room at time 49
-Patient 2 left the ER at time 49
-Patient 7 arrived in ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 63
-Patient 4 received by Triage at time 63
-Patient 5 arrived in reception at time 63
-Patient 4 completed Triage at time 64
-Patient 4 left the ER at time 64
-Patient 9 arrived in ER at time 70
-Patient 5 left reception at time 75
-Patient 5 received by Triage at time 75
-Patient 6 arrived in reception at time 75
-Patient 10 arrived in ER at time 80
-Patient 5 completed Triage at time 82
-Patient 5 left the ER at time 82
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 18
-Patient 0 received by Triage at time 18
-Patient 1 arrived in reception at time 18
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 27
-Patient 0 arrived in Trauma room at time 27
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 35
-Patient 0 left the ER at time 35
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 44
-Patient 1 received by Triage at time 44
-Patient 2 arrived in reception at time 44
-Patient 1 completed Triage at time 48
-Patient 1 left the ER at time 48
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 53
-Patient 2 received by Triage at time 53
-Patient 3 arrived in reception at time 53
-Patient 3 left reception at time 54
-Patient 4 arrived in reception at time 54
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 61
-Patient 2 left the ER at time 61
-Patient 3 received by Triage at time 61
-Patient 4 left reception at time 67
-Patient 5 arrived in reception at time 67
-Patient 3 completed Triage at time 68
-Patient 3 arrived in Trauma room at time 68
-Patient 4 received by Triage at time 68
-Patient 9 arrived in ER at time 70
-Patient 4 completed Triage at time 71
-Patient 3 left Trauma room at time 76
-Patient 3 left the ER at time 76
-Patient 4 arrived in Trauma room at time 76
-Patient 10 arrived in ER at time 80
-Patient 4 left Trauma room at time 83
-Patient 4 left the ER at time 83
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 19
-Patient 0 received by Triage at time 19
-Patient 1 arrived in reception at time 19
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 29
-Patient 0 arrived in Trauma room at time 29
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 31
-Patient 0 left the ER at time 31
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 41
-Patient 1 received by Triage at time 41
-Patient 2 arrived in reception at time 41
-Patient 2 left reception at time 46
-Patient 3 arrived in reception at time 46
-Patient 1 completed Triage at time 48
-Patient 1 left the ER at time 48
-Patient 2 received by Triage at time 48
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 51
-Patient 2 arrived in Trauma room at time 51
-Patient 2 left Trauma room at time 56
-Patient 2 left the ER at time 56
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 74
-Patient 3 received by Triage at time 74
-Patient 4 arrived in reception at time 74
-Patient 10 arrived in ER at time 80
-Patient 3 completed Triage at time 81
-Patient 3 arrived in Trauma room at time 81
-Patient 4 left reception at time 85
-Patient 4 received by Triage at time 85
-Patient 5 arrived in reception at time 85
-Patient 3 left Trauma room at time 89
-Patient 3 left the ER at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 25
-Patient 0 received by Triage at time 25
-Patient 1 arrived in reception at time 25
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 32
-Patient 0 left the ER at time 32
-Patient 1 left reception at time 34
-Patient 1 received by Triage at time 34
-Patient 2 arrived in reception at time 34
-Patient 1 completed Triage at time 39
-Patient 1 arrived in Trauma room at time 39
-Patient 6 arrived in ER at time 40
-Patient 1 left Trauma room at time 47
-Patient 1 left the ER at time 47
-Patient 7 arrived in ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 61
-Patient 2 received by Triage at time 61
-Patient 3 arrived in reception at time 61
-Patient 2 completed Triage at time 62
-Patient 2 arrived in Trauma room at time 62
-Patient 2 left Trauma room at time 68
-Patient 2 left the ER at time 68
-Patient 9 arrived in ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 3 left reception at time 85
-Patient 3 received by Triage at time 85
-Patient 4 arrived in reception at time 85
-Patient 3 completed Triage at time 89
-Patient 3 arrived in Trauma room at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 25
-Patient 0 received by Triage at time 25
-Patient 1 arrived in reception at time 25
-Patient 0 completed Triage at time 26
-Patient 0 arrived in Trauma room at time 26
-Patient 0 left Trauma room at time 27
-Patient 0 left the ER at time 27
-Patient 5 arrived in ER at time 30
-Patient 1 left reception at time 33
-Patient 1 received by Triage at time 33
-Patient 2 arrived in reception at time 33
-Patient 2 left reception at time 38
-Patient 3 arrived in reception at time 38
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 43
-Patient 1 arrived in Trauma room at time 43
-Patient 2 received by Triage at time 43
-Patient 2 completed Triage at time 45
-Patient 3 left reception at time 46
-Patient 3 received by Triage at time 46
-Patient 4 arrived in reception at time 46
-Patient 7 arrived in ER at time 50
-Patient 1 left Trauma room at time 51
-Patient 1 left the ER at time 51
-Patient 2 arrived in Trauma room at time 51
-Patient 3 completed Triage at time 54
-Patient 3 left the ER at time 54
-Patient 2 left Trauma room at time 56
-Patient 2 left the ER at time 56
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 69
-Patient 4 received by Triage at time 69
-Patient 5 arrived in reception at time 69
-Patient 9 arrived in ER at time 70
-Patient 4 completed Triage at time 72
-Patient 4 arrived in Trauma room at time 72
-Patient 4 left Trauma room at time 75
-Patient 4 left the ER at time 75
-Patient 10 arrived in ER at time 80
-Patient 5 left reception at time 89
-Patient 5 received by Triage at time 89
-Patient 6 arrived in reception at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 19
-Patient 0 received by Triage at time 19
-Patient 1 arrived in reception at time 19
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 20
-Patient 0 left the ER at time 20
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 49
-Patient 1 received by Triage at time 49
-Patient 2 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 59
-Patient 1 left the ER at time 59
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 2 left reception at time 71
-Patient 2 received by Triage at time 71
-Patient 3 arrived in reception at time 71
-Patient 2 completed Triage at time 78
-Patient 2 arrived in Trauma room at time 78
-Patient 10 arrived in ER at time 80
-Patient 2 left Trauma room at time 80
-Patient 2 left the ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 19
-Patient 0 received by Triage at time 19
-Patient 1 arrived in reception at time 19
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 23
-Patient 0 left the ER at time 23
-Patient 1 left reception at time 23
-Patient 1 received by Triage at time 23
-Patient 2 arrived in reception at time 23
-Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 33
-Patient 1 arrived in Trauma room at time 33
-Patient 6 arrived in ER at time 40
-Patient 1 left Trauma room at time 43
-Patient 1 left the ER at time 43
-Patient 2 left reception at time 49
-Patient 2 received by Triage at time 49
-Patient 3 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 50
-Patient 2 left the ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 3 left reception at time 61
-Patient 3 received by Triage at time 61
-Patient 4 arrived in reception at time 61
-Patient 4 left reception at time 64
-Patient 5 arrived in reception at time 64
-Patient 3 completed Triage at time 67
-Patient 3 left the ER at time 67
-Patient 4 received by Triage at time 67
-Patient 4 completed Triage at time 68
-Patient 4 left the ER at time 68
-Patient 9 arrived in ER at time 70
-Patient 10 arrived in ER at time 80
-Patient 5 left reception at time 81
-Patient 5 received by Triage at time 81
-Patient 6 arrived in reception at time 81
-Patient 6 left reception at time 85
-Patient 7 arrived in reception at time 85
-Patient 5 completed Triage at time 89
-Patient 5 left the ER at time 89
-Patient 6 received by Triage at time 89
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 23
-Patient 0 received by Triage at time 23
-Patient 1 arrived in reception at time 23
-Patient 0 completed Triage at time 26
-Patient 0 arrived in Trauma room at time 26
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 35
-Patient 0 left the ER at time 35
-Patient 1 left reception at time 37
-Patient 1 received by Triage at time 37
-Patient 2 arrived in reception at time 37
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 42
-Patient 1 left the ER at time 42
-Patient 7 arrived in ER at time 50
-Patient 2 left reception at time 57
-Patient 2 received by Triage at time 57
-Patient 3 arrived in reception at time 57
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 65
-Patient 2 left the ER at time 65
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 71
-Patient 3 received by Triage at time 71
-Patient 4 arrived in reception at time 71
-Patient 3 completed Triage at time 77
-Patient 3 arrived in Trauma room at time 77
-Patient 3 left Trauma room at time 79
-Patient 3 left the ER at time 79
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 9
-Patient 0 received by Triage at time 9
-Patient 1 arrived in reception at time 9
-Patient 3 arrived in ER at time 10
-Patient 0 completed Triage at time 17
-Patient 0 left the ER at time 17
-Patient 1 left reception at time 17
-Patient 1 received by Triage at time 17
-Patient 2 arrived in reception at time 17
-Patient 4 arrived in ER at time 20
-Patient 1 completed Triage at time 27
-Patient 1 left the ER at time 27
-Patient 5 arrived in ER at time 30
-Patient 2 left reception at time 37
-Patient 2 received by Triage at time 37
-Patient 3 arrived in reception at time 37
-Patient 3 left reception at time 38
-Patient 4 arrived in reception at time 38
-Patient 6 arrived in ER at time 40
-Patient 2 completed Triage at time 43
-Patient 2 left the ER at time 43
-Patient 3 received by Triage at time 43
-Patient 3 completed Triage at time 46
-Patient 3 left the ER at time 46
-Patient 7 arrived in ER at time 50
-Patient 4 left reception at time 54
-Patient 4 received by Triage at time 54
-Patient 5 arrived in reception at time 54
-Patient 4 completed Triage at time 58
-Patient 4 left the ER at time 58
-Patient 8 arrived in ER at time 60
-Patient 5 left reception at time 66
-Patient 5 received by Triage at time 66
-Patient 6 arrived in reception at time 66
-Patient 9 arrived in ER at time 70
-Patient 5 completed Triage at time 72
-Patient 5 left the ER at time 72
-Patient 6 left reception at time 75
-Patient 6 received by Triage at time 75
-Patient 7 arrived in reception at time 75
-Patient 7 left reception at time 76
-Patient 8 arrived in reception at time 76
-Patient 10 arrived in ER at time 80
-Patient 6 completed Triage at time 84
-Patient 6 arrived in Trauma room at time 84
-Patient 7 received by Triage at time 84
-Patient 6 left Trauma room at time 86
-Patient 6 left the ER at time 86
-Patient 7 completed Triage at time 88
-Patient 7 left the ER at time 88
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 16
-Patient 0 received by Triage at time 16
-Patient 1 arrived in reception at time 16
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 25
-Patient 0 arrived in Trauma room at time 25
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 33
-Patient 0 left the ER at time 33
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 41
-Patient 1 received by Triage at time 41
-Patient 2 arrived in reception at time 41
-Patient 1 completed Triage at time 49
-Patient 1 arrived in Trauma room at time 49
-Patient 7 arrived in ER at time 50
-Patient 1 left Trauma room at time 51
-Patient 1 left the ER at time 51
-Patient 2 left reception at time 56
-Patient 2 received by Triage at time 56
-Patient 3 arrived in reception at time 56
-Patient 8 arrived in ER at time 60
-Patient 2 completed Triage at time 61
-Patient 2 left the ER at time 61
-Patient 3 left reception at time 64
-Patient 3 received by Triage at time 64
-Patient 4 arrived in reception at time 64
-Patient 3 completed Triage at time 68
-Patient 3 left the ER at time 68
-Patient 9 arrived in ER at time 70
-Patient 4 left reception at time 74
-Patient 4 received by Triage at time 74
-Patient 5 arrived in reception at time 74
-Patient 10 arrived in ER at time 80
-Patient 4 completed Triage at time 82
-Patient 4 left the ER at time 82
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 14
-Patient 0 received by Triage at time 14
-Patient 1 arrived in reception at time 14
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 23
-Patient 0 left the ER at time 23
-Patient 1 left reception at time 25
-Patient 1 received by Triage at time 25
-Patient 2 arrived in reception at time 25
-Patient 5 arrived in ER at time 30
-Patient 1 completed Triage at time 33
-Patient 1 left the ER at time 33
-Patient 2 left reception at time 34
-Patient 2 received by Triage at time 34
-Patient 3 arrived in reception at time 34
-Patient 2 completed Triage at time 39
-Patient 2 arrived in Trauma room at time 39
-Patient 6 arrived in ER at time 40
-Patient 3 left reception at time 42
-Patient 3 received by Triage at time 42
-Patient 4 arrived in reception at time 42
-Patient 2 left Trauma room at time 43
-Patient 2 left the ER at time 43
-Patient 4 left reception at time 46
-Patient 5 arrived in reception at time 46
-Patient 3 completed Triage at time 48
-Patient 3 arrived in Trauma room at time 48
-Patient 4 received by Triage at time 48
-Patient 7 arrived in ER at time 50
-Patient 3 left Trauma room at time 52
-Patient 3 left the ER at time 52
-Patient 4 completed Triage at time 52
-Patient 4 left the ER at time 52
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 5 left reception at time 70
-Patient 5 received by Triage at time 70
-Patient 6 arrived in reception at time 70
-Patient 5 completed Triage at time 75
-Patient 5 left the ER at time 75
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 4
-Patient 0 received by Triage at time 4
-Patient 1 arrived in reception at time 4
-Patient 0 completed Triage at time 8
-Patient 0 arrived in Trauma room at time 8
-Patient 3 arrived in ER at time 10
-Patient 1 left reception at time 14
-Patient 0 left Trauma room at time 14
-Patient 0 left the ER at time 14
-Patient 1 received by Triage at time 14
-Patient 2 arrived in reception at time 14
-Patient 1 completed Triage at time 17
-Patient 1 arrived in Trauma room at time 17
-Patient 4 arrived in ER at time 20
-Patient 2 left reception at time 24
-Patient 2 received by Triage at time 24
-Patient 3 arrived in reception at time 24
-Patient 1 left Trauma room at time 26
-Patient 1 left the ER at time 26
-Patient 2 completed Triage at time 27
-Patient 2 arrived in Trauma room at time 27
-Patient 2 left Trauma room at time 28
-Patient 2 left the ER at time 28
-Patient 5 arrived in ER at time 30
-Patient 3 left reception at time 33
-Patient 3 received by Triage at time 33
-Patient 4 arrived in reception at time 33
-Patient 6 arrived in ER at time 40
-Patient 3 completed Triage at time 42
-Patient 3 arrived in Trauma room at time 42
-Patient 4 left reception at time 43
-Patient 4 received by Triage at time 43
-Patient 5 arrived in reception at time 43
-Patient 4 completed Triage at time 45
-Patient 7 arrived in ER at time 50
-Patient 3 left Trauma room at time 50
-Patient 3 left the ER at time 50
-Patient 4 arrived in Trauma room at time 50
-Patient 8 arrived in ER at time 60
-Patient 4 left Trauma room at time 60
-Patient 4 left the ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 5 left reception at time 71
-Patient 5 received by Triage at time 71
-Patient 6 arrived in reception at time 71
-Patient 5 completed Triage at time 76
-Patient 5 left the ER at time 76
-Patient 10 arrived in ER at time 80
-Patient 6 left reception at time 87
-Patient 6 received by Triage at time 87
-Patient 7 arrived in reception at time 87
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 0 left reception at time 6
-Patient 0 received by Triage at time 6
-Patient 1 arrived in reception at time 6
-Patient 0 completed Triage at time 7
-Patient 0 left the ER at time 7
-Patient 3 arrived in ER at time 10
-Patient 1 left reception at time 15
-Patient 1 received by Triage at time 15
-Patient 2 arrived in reception at time 15
-Patient 1 completed Triage at time 17
-Patient 1 arrived in Trauma room at time 17
-Patient 4 arrived in ER at time 20
-Patient 1 left Trauma room at time 24
-Patient 1 left the ER at time 24
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 2 left reception at time 42
-Patient 2 received by Triage at time 42
-Patient 3 arrived in reception at time 42
-Patient 3 left reception at time 45
-Patient 4 arrived in reception at time 45
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 50
-Patient 2 arrived in Trauma room at time 50
-Patient 3 received by Triage at time 50
-Patient 2 left Trauma room at time 53
-Patient 2 left the ER at time 53
-Patient 3 completed Triage at time 53
-Patient 3 left the ER at time 53
-Patient 8 arrived in ER at time 60
-Patient 4 left reception at time 64
-Patient 4 received by Triage at time 64
-Patient 5 arrived in reception at time 64
-Patient 4 completed Triage at time 66
-Patient 4 arrived in Trauma room at time 66
-Patient 9 arrived in ER at time 70
-Patient 5 left reception at time 72
-Patient 5 received by Triage at time 72
-Patient 6 arrived in reception at time 72
-Patient 4 left Trauma room at time 75
-Patient 4 left the ER at time 75
-Patient 5 completed Triage at time 79
-Patient 5 arrived in Trauma room at time 79
-Patient 10 arrived in ER at time 80
-Patient 5 left Trauma room at time 88
-Patient 5 left the ER at time 88
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 0 left reception at time 13
-Patient 0 received by Triage at time 13
-Patient 1 arrived in reception at time 13
-Patient 4 arrived in ER at time 20
-Patient 0 completed Triage at time 21
-Patient 0 left the ER at time 21
-Patient 5 arrived in ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 43
-Patient 1 received by Triage at time 43
-Patient 2 arrived in reception at time 43
-Patient 1 completed Triage at time 48
-Patient 1 left the ER at time 48
-Patient 7 arrived in ER at time 50
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 2 left reception at time 71
-Patient 2 received by Triage at time 71
-Patient 3 arrived in reception at time 71
-Patient 2 completed Triage at time 76
-Patient 2 arrived in Trauma room at time 76
-Patient 10 arrived in ER at time 80
-Patient 2 left Trauma room at time 86
-Patient 2 left the ER at time 86
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 24
-Patient 0 received by Triage at time 24
-Patient 1 arrived in reception at time 24
-Patient 0 completed Triage at time 26
-Patient 0 arrived in Trauma room at time 26
-Patient 5 arrived in ER at time 30
-Patient 0 left Trauma room at time 30
-Patient 0 left the ER at time 30
-Patient 6 arrived in ER at time 40
-Patient 1 left reception at time 49
-Patient 1 received by Triage at time 49
-Patient 2 arrived in reception at time 49
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 54
-Patient 1 arrived in Trauma room at time 54
-Patient 1 left Trauma room at time 57
-Patient 1 left the ER at time 57
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 2 left reception at time 71
-Patient 2 received by Triage at time 71
-Patient 3 arrived in reception at time 71
-Patient 2 completed Triage at time 75
-Patient 2 arrived in Trauma room at time 75
-Patient 3 left reception at time 77
-Patient 3 received by Triage at time 77
-Patient 4 arrived in reception at time 77
-Patient 2 left Trauma room at time 78
-Patient 2 left the ER at time 78
-Patient 3 completed Triage at time 78
-Patient 3 left the ER at time 78
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 23
-Patient 0 received by Triage at time 23
-Patient 1 arrived in reception at time 23
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 33
-Patient 0 left the ER at time 33
-Patient 1 left reception at time 39
-Patient 1 received by Triage at time 39
-Patient 2 arrived in reception at time 39
-Patient 6 arrived in ER at time 40
-Patient 1 completed Triage at time 40
-Patient 1 left the ER at time 40
-Patient 2 left reception at time 47
-Patient 2 received by Triage at time 47
-Patient 3 arrived in reception at time 47
-Patient 7 arrived in ER at time 50
-Patient 2 completed Triage at time 52
-Patient 2 left the ER at time 52
-Patient 8 arrived in ER at time 60
-Patient 9 arrived in ER at time 70
-Patient 3 left reception at time 70
-Patient 3 received by Triage at time 70
-Patient 4 arrived in reception at time 70
-Patient 3 completed Triage at time 72
-Patient 3 arrived in Trauma room at time 72
-Patient 3 left Trauma room at time 77
-Patient 3 left the ER at time 77
-Patient 10 arrived in ER at time 80
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in reception at time 0
-Patient 3 arrived in ER at time 10
-Patient 4 arrived in ER at time 20
-Patient 0 left reception at time 26
-Patient 0 received by Triage at time 26
-Patient 1 arrived in reception at time 26
-Patient 5 arrived in ER at time 30
-Patient 0 completed Triage at time 36
-Patient 0 arrived in Trauma room at time 36
-Patient 6 arrived in ER at time 40
-Patient 0 left Trauma room at time 43
-Patient 0 left the ER at time 43
-Patient 1 left reception at time 48
-Patient 1 received by Triage at time 48
-Patient 2 arrived in reception at time 48
-Patient 7 arrived in ER at time 50
-Patient 1 completed Triage at time 50
-Patient 1 arrived in Trauma room at time 50
-Patient 1 left Trauma room at time 53
-Patient 1 left the ER at time 53
-Patient 8 arrived in ER at time 60
-Patient 2 left reception at time 66
-Patient 2 received by Triage at time 66
-Patient 3 arrived in reception at time 66
-Patient 9 arrived in ER at time 70
-Patient 2 completed Triage at time 71
-Patient 2 arrived in Trauma room at time 71
-Patient 2 left Trauma room at time 73
-Patient 2 left the ER at time 73
-Patient 10 arrived in ER at time 80
+Patient 10 received by Triage at time 80
+Patient 5 left exam room at time 81.44242231456634
+Patient 10 completed Triage at time 81.70100744320575
+Patient 10 arrived in exam room at time 81.70100744320575
+Patient 7 completed imaging at time 83.36862818939517
+Patient 5 had a consultation at time 85.12982098971625
+Patient 5 discharged from the ER at time 85.12982098971625
+Patient 5 left the ER at time 85.12982098971625
+Patient 9 left exam room at time 89.3177852324066
 Simulation ends
