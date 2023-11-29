@@ -169,9 +169,7 @@ def run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_ex
 # %%
 def get_average_wait_time(wait_times):
     average_wait = statistics.mean(wait_times)
-    minutes, frac_minutes = divmod(average_wait, 1)
-    seconds = frac_minutes * 60
-    return round(minutes), round(seconds)
+    return average_wait
 
 
 # %%
@@ -201,8 +199,8 @@ def main():
         env.process(run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms,num_imaging_rooms))
         env.run(until=120)
 
-        mins, secs = get_average_wait_time(wait_times)
-        average_waiting_times.append(mins * 60 + secs)
+        avg_wait_time = get_average_wait_time(wait_times)
+        average_waiting_times.append(avg_wait_time)
     log_event("Simulation ends")
     total_average_waiting_time = sum(average_waiting_times) / total_simulation_runs
 

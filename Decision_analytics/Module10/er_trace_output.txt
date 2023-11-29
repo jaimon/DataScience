@@ -4,132 +4,174 @@ Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
 Patient 0 received by Triage at time 0
-Patient 1 arrived in Trauma room at time 0
-Patient 2 received by Triage at time 0
-Patient 0 completed Triage at time 2.839677147493177
-Patient 0 arrived in exam room at time 2.839677147493177
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 1 completed Triage at time 9.099884473031704
+Patient 1 arrived in exam room at time 9.099884473031704
 Patient 3 arrived in ER at time 10
 Patient 3 arrived in Trauma room at time 10
-Patient 1 left Trauma room at time 12.021691480170993
-Patient 2 completed Triage at time 12.994199141551743
-Patient 2 arrived in exam room at time 12.994199141551743
-Patient 1 completed imaging at time 15.262318501680934
+Patient 0 completed Triage at time 13.200499965523376
+Patient 0 arrived in exam room at time 13.200499965523376
+Patient 2 left Trauma room at time 17.575994845591755
 Patient 4 arrived in ER at time 20
-Patient 4 received by Triage at time 20
-Patient 4 completed Triage at time 21.52241876143126
-Patient 4 arrived in exam room at time 21.52241876143126
-Patient 0 left exam room at time 29.26352787266585
+Patient 4 arrived in Trauma room at time 20
+Patient 1 left exam room at time 24.183983742701486
+Patient 0 left exam room at time 26.07924781406851
+Patient 1 had a consultation at time 29.140405351317888
+Patient 1 discharged from the ER at time 29.140405351317888
+Patient 1 left the ER at time 29.140405351317888
 Patient 5 arrived in ER at time 30
 Patient 5 arrived in Trauma room at time 30
-Patient 2 left exam room at time 31.755505590921953
-Patient 1 had a consultation at time 32.053728032227966
-Patient 1 discharged from the ER at time 32.053728032227966
-Patient 1 left the ER at time 32.053728032227966
-Patient 4 left exam room at time 32.1693114979017
+Patient 0 completed imaging at time 30.416821355784254
+Patient 2 had a consultation at time 32.97075658297658
+Patient 2 admitted to the hospital at time 32.97075658297658
+Patient 2 left the ER at time 32.97075658297658
+Patient 0 had a consultation at time 33.75476282124805
+Patient 0 admitted to the hospital at time 33.75476282124805
+Patient 0 left the ER at time 33.75476282124805
+Patient 3 left Trauma room at time 34.58186432901951
+Patient 3 had a consultation at time 37.15789038944516
+Patient 3 discharged from the ER at time 37.15789038944516
+Patient 3 left the ER at time 37.15789038944516
+Patient 4 left Trauma room at time 38.712009900941
 Patient 6 arrived in ER at time 40
-Patient 6 received by Triage at time 40
-Patient 4 had a consultation at time 41.7883116520463
-Patient 4 admitted to the hospital at time 41.7883116520463
-Patient 4 left the ER at time 41.7883116520463
-Patient 3 left Trauma room at time 42.4514641053114
-Patient 0 completed imaging at time 43.62835799416173
-Patient 5 left Trauma room at time 46.57739714680384
-Patient 5 had a consultation at time 48.65286293235294
-Patient 5 admitted to the hospital at time 48.65286293235294
-Patient 5 left the ER at time 48.65286293235294
+Patient 6 arrived in Trauma room at time 40
 Patient 7 arrived in ER at time 50
-Patient 7 received by Triage at time 50
-Patient 2 had a consultation at time 53.56493079598726
-Patient 2 admitted to the hospital at time 53.56493079598726
-Patient 2 left the ER at time 53.56493079598726
-Patient 0 had a consultation at time 57.19544844594704
-Patient 0 discharged from the ER at time 57.19544844594704
-Patient 0 left the ER at time 57.19544844594704
+Patient 7 arrived in Trauma room at time 50
+Patient 6 left Trauma room at time 50.38888238100889
+Patient 5 left Trauma room at time 52.54450696725824
+Patient 4 had a consultation at time 57.82505095420265
+Patient 4 admitted to the hospital at time 57.82505095420265
+Patient 4 left the ER at time 57.82505095420265
 Patient 8 arrived in ER at time 60
 Patient 8 received by Triage at time 60
+Patient 6 completed imaging at time 68.49722525171805
+Patient 5 completed imaging at time 69.26070104954036
+Patient 7 left Trauma room at time 69.80388615459512
 Patient 9 arrived in ER at time 70
 Patient 9 received by Triage at time 70
-Patient 3 completed imaging at time 71.55170868840793
-Patient 7 completed Triage at time 72.14736214844066
-Patient 7 arrived in exam room at time 72.14736214844066
-Patient 6 completed Triage at time 77.09927147641535
-Patient 6 arrived in exam room at time 77.09927147641535
-Patient 9 completed Triage at time 77.47244224893346
-Patient 9 arrived in exam room at time 77.47244224893346
+Patient 7 completed imaging at time 70.42574405948852
+Patient 8 completed Triage at time 72.53423956569208
+Patient 8 arrived in exam room at time 72.53423956569208
+Patient 9 completed Triage at time 74.93488649408756
+Patient 9 arrived in exam room at time 74.93488649408756
+Patient 7 had a consultation at time 75.08558397880385
+Patient 7 discharged from the ER at time 75.08558397880385
+Patient 7 left the ER at time 75.08558397880385
 Patient 10 arrived in ER at time 80
 Patient 10 arrived in Trauma room at time 80
-Patient 8 completed Triage at time 82.25942807598115
-Patient 8 arrived in exam room at time 82.25942807598115
-Patient 3 had a consultation at time 86.89860135874119
-Patient 3 discharged from the ER at time 86.89860135874119
-Patient 3 left the ER at time 86.89860135874119
-Patient 9 left exam room at time 87.22318684776991
-Patient 7 left exam room at time 87.27091217455119
+Patient 9 left exam room at time 83.12356686324667
+Patient 6 had a consultation at time 85.87201480974545
+Patient 6 admitted to the hospital at time 85.87201480974545
+Patient 6 left the ER at time 85.87201480974545
+Patient 11 arrived in ER at time 90
+Patient 11 received by Triage at time 90
+Patient 9 completed imaging at time 90.2902222508191
+Patient 11 completed Triage at time 90.5707872440754
+Patient 11 arrived in exam room at time 90.5707872440754
+Patient 8 left exam room at time 98.24285855849166
+Patient 12 arrived in ER at time 100
+Patient 12 arrived in Trauma room at time 100
+Patient 8 completed imaging at time 100.08354990108911
+Patient 8 had a consultation at time 103.07155316812386
+Patient 8 admitted to the hospital at time 103.07155316812386
+Patient 8 left the ER at time 103.07155316812386
+Patient 5 had a consultation at time 104.10238024015925
+Patient 5 discharged from the ER at time 104.10238024015925
+Patient 5 left the ER at time 104.10238024015925
+Patient 11 left exam room at time 106.26886008132512
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 9 had a consultation at time 116.62212899508077
+Patient 9 discharged from the ER at time 116.62212899508077
+Patient 9 left the ER at time 116.62212899508077
+Patient 12 left Trauma room at time 117.28755812583316
+Patient 11 had a consultation at time 117.34596282538052
+Patient 11 discharged from the ER at time 117.34596282538052
+Patient 11 left the ER at time 117.34596282538052
+Patient 10 left Trauma room at time 119.88885916737435
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
 Patient 0 arrived in Trauma room at time 0
 Patient 1 arrived in Trauma room at time 0
-Patient 2 arrived in Trauma room at time 0
+Patient 2 received by Triage at time 0
+Patient 2 completed Triage at time 7.843006680903953
+Patient 2 arrived in exam room at time 7.843006680903953
 Patient 3 arrived in ER at time 10
-Patient 3 received by Triage at time 10
-Patient 1 left Trauma room at time 10.20093046232357
-Patient 3 completed Triage at time 10.950120699516717
-Patient 3 arrived in exam room at time 10.950120699516717
-Patient 0 left Trauma room at time 17.622215390005685
-Patient 1 completed imaging at time 18.169453180259698
-Patient 2 left Trauma room at time 18.431118675195183
-Patient 1 had a consultation at time 19.074249049052785
-Patient 1 admitted to the hospital at time 19.074249049052785
-Patient 1 left the ER at time 19.074249049052785
-Patient 2 had a consultation at time 19.944587639839764
-Patient 2 admitted to the hospital at time 19.944587639839764
-Patient 2 left the ER at time 19.944587639839764
+Patient 3 arrived in Trauma room at time 10
+Patient 1 left Trauma room at time 14.501126430823579
+Patient 1 completed imaging at time 14.91042056268069
 Patient 4 arrived in ER at time 20
 Patient 4 arrived in Trauma room at time 20
-Patient 0 completed imaging at time 25.02164294977639
-Patient 0 had a consultation at time 28.236902397042982
-Patient 0 discharged from the ER at time 28.236902397042982
-Patient 0 left the ER at time 28.236902397042982
+Patient 1 had a consultation at time 20.447863718768097
+Patient 1 discharged from the ER at time 20.447863718768097
+Patient 1 left the ER at time 20.447863718768097
+Patient 0 left Trauma room at time 21.083034804138407
+Patient 2 left exam room at time 21.28067827696874
+Patient 0 had a consultation at time 22.69546661427128
+Patient 0 admitted to the hospital at time 22.69546661427128
+Patient 0 left the ER at time 22.69546661427128
 Patient 5 arrived in ER at time 30
-Patient 5 received by Triage at time 30
-Patient 3 left exam room at time 31.63545032827876
-Patient 3 completed imaging at time 32.39910333541488
-Patient 5 completed Triage at time 32.72219987969093
-Patient 5 arrived in exam room at time 32.72219987969093
-Patient 4 left Trauma room at time 36.8613854444108
-Patient 4 had a consultation at time 38.87687466116638
-Patient 4 discharged from the ER at time 38.87687466116638
-Patient 4 left the ER at time 38.87687466116638
+Patient 5 arrived in Trauma room at time 30
+Patient 2 had a consultation at time 34.247527250856955
+Patient 2 discharged from the ER at time 34.247527250856955
+Patient 2 left the ER at time 34.247527250856955
+Patient 3 left Trauma room at time 37.01458511902257
+Patient 4 left Trauma room at time 39.05915093217297
 Patient 6 arrived in ER at time 40
-Patient 6 arrived in Trauma room at time 40
+Patient 6 received by Triage at time 40
+Patient 5 left Trauma room at time 43.11381145786061
+Patient 4 completed imaging at time 45.34335467308323
 Patient 7 arrived in ER at time 50
 Patient 7 arrived in Trauma room at time 50
-Patient 5 left exam room at time 50.522888682336664
-Patient 3 had a consultation at time 59.64254842827335
-Patient 3 discharged from the ER at time 59.64254842827335
-Patient 3 left the ER at time 59.64254842827335
+Patient 3 completed imaging at time 51.25912113833833
+Patient 6 completed Triage at time 53.99135269365756
+Patient 6 arrived in exam room at time 53.99135269365756
+Patient 3 had a consultation at time 56.52025419313169
+Patient 3 discharged from the ER at time 56.52025419313169
+Patient 3 left the ER at time 56.52025419313169
+Patient 5 completed imaging at time 56.70116978636743
 Patient 8 arrived in ER at time 60
-Patient 8 arrived in Trauma room at time 60
-Patient 6 left Trauma room at time 61.55747256024562
-Patient 7 left Trauma room at time 66.39299631354268
-Patient 5 completed imaging at time 69.52807752338114
+Patient 8 received by Triage at time 60
+Patient 4 had a consultation at time 61.101026492404415
+Patient 4 discharged from the ER at time 61.101026492404415
+Patient 4 left the ER at time 61.101026492404415
+Patient 8 completed Triage at time 62.06832765412192
+Patient 8 arrived in exam room at time 62.06832765412192
+Patient 7 left Trauma room at time 66.6199678055221
+Patient 5 had a consultation at time 67.27108436299544
+Patient 5 discharged from the ER at time 67.27108436299544
+Patient 5 left the ER at time 67.27108436299544
+Patient 7 had a consultation at time 67.65010826173429
+Patient 7 discharged from the ER at time 67.65010826173429
+Patient 7 left the ER at time 67.65010826173429
 Patient 9 arrived in ER at time 70
-Patient 9 received by Triage at time 70
-Patient 8 left Trauma room at time 78.71788011667516
+Patient 9 arrived in Trauma room at time 70
+Patient 6 left exam room at time 76.15607138193323
+Patient 8 left exam room at time 77.20465832395563
+Patient 6 had a consultation at time 78.25621828651308
+Patient 6 admitted to the hospital at time 78.25621828651308
+Patient 6 left the ER at time 78.25621828651308
 Patient 10 arrived in ER at time 80
 Patient 10 received by Triage at time 80
-Patient 9 completed Triage at time 82.89517172443831
-Patient 9 arrived in exam room at time 82.89517172443831
-Patient 6 had a consultation at time 83.68752806373872
-Patient 6 admitted to the hospital at time 83.68752806373872
-Patient 6 left the ER at time 83.68752806373872
-Patient 10 completed Triage at time 84.63350118876323
-Patient 10 arrived in exam room at time 84.63350118876323
-Patient 5 had a consultation at time 88.95674066091794
-Patient 5 admitted to the hospital at time 88.95674066091794
-Patient 5 left the ER at time 88.95674066091794
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 9 left Trauma room at time 93.73422358593648
+Patient 8 had a consultation at time 98.50740681844596
+Patient 8 discharged from the ER at time 98.50740681844596
+Patient 8 left the ER at time 98.50740681844596
+Patient 10 completed Triage at time 99.74535239924498
+Patient 10 arrived in exam room at time 99.74535239924498
+Patient 12 arrived in ER at time 100
+Patient 12 received by Triage at time 100
+Patient 12 completed Triage at time 100.9856260933438
+Patient 12 arrived in exam room at time 100.9856260933438
+Patient 11 left Trauma room at time 103.93592261214113
+Patient 11 completed imaging at time 106.29435595162731
+Patient 13 arrived in ER at time 110
+Patient 13 received by Triage at time 110
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
@@ -137,322 +179,173 @@ Patient 2 arrived in ER at time 0
 Patient 0 arrived in Trauma room at time 0
 Patient 1 received by Triage at time 0
 Patient 2 arrived in Trauma room at time 0
+Patient 1 completed Triage at time 9.613463188206712
+Patient 1 arrived in exam room at time 9.613463188206712
 Patient 3 arrived in ER at time 10
 Patient 3 arrived in Trauma room at time 10
-Patient 1 completed Triage at time 12.174784027709343
-Patient 1 arrived in exam room at time 12.174784027709343
-Patient 2 left Trauma room at time 17.88184583057598
 Patient 4 arrived in ER at time 20
-Patient 4 arrived in Trauma room at time 20
-Patient 2 had a consultation at time 22.215458821095332
-Patient 2 admitted to the hospital at time 22.215458821095332
-Patient 2 left the ER at time 22.215458821095332
-Patient 3 left Trauma room at time 27.357264094308686
-Patient 3 had a consultation at time 27.634615008436096
-Patient 3 admitted to the hospital at time 27.634615008436096
-Patient 3 left the ER at time 27.634615008436096
-Patient 1 left exam room at time 28.79725516815111
+Patient 4 received by Triage at time 20
+Patient 4 completed Triage at time 25.01425426963643
+Patient 4 arrived in exam room at time 25.01425426963643
+Patient 1 left exam room at time 25.23209349081727
+Patient 0 left Trauma room at time 25.71910903262716
+Patient 2 left Trauma room at time 27.628196415755568
 Patient 5 arrived in ER at time 30
-Patient 5 arrived in Trauma room at time 30
-Patient 1 had a consultation at time 30.29943799123306
-Patient 1 admitted to the hospital at time 30.29943799123306
-Patient 1 left the ER at time 30.29943799123306
-Patient 0 left Trauma room at time 33.2630038976158
-Patient 4 left Trauma room at time 35.661889934494965
-Patient 5 left Trauma room at time 37.41441481755868
+Patient 5 received by Triage at time 30
+Patient 1 had a consultation at time 30.01008056375781
+Patient 1 discharged from the ER at time 30.01008056375781
+Patient 1 left the ER at time 30.01008056375781
+Patient 0 had a consultation at time 31.943618882805957
+Patient 0 admitted to the hospital at time 31.943618882805957
+Patient 0 left the ER at time 31.943618882805957
+Patient 3 left Trauma room at time 34.630212697845046
+Patient 5 completed Triage at time 36.913885919533584
+Patient 5 arrived in exam room at time 36.913885919533584
+Patient 4 left exam room at time 38.69979742668435
 Patient 6 arrived in ER at time 40
 Patient 6 arrived in Trauma room at time 40
-Patient 0 completed imaging at time 40.1406098630471
-Patient 4 completed imaging at time 43.469935705306895
+Patient 2 had a consultation at time 42.230130967538756
+Patient 2 discharged from the ER at time 42.230130967538756
+Patient 2 left the ER at time 42.230130967538756
+Patient 3 completed imaging at time 45.55453593014259
 Patient 7 arrived in ER at time 50
 Patient 7 arrived in Trauma room at time 50
-Patient 5 had a consultation at time 50.144723645013116
-Patient 5 admitted to the hospital at time 50.144723645013116
-Patient 5 left the ER at time 50.144723645013116
-Patient 4 had a consultation at time 52.70610494524392
-Patient 4 discharged from the ER at time 52.70610494524392
-Patient 4 left the ER at time 52.70610494524392
-Patient 0 had a consultation at time 56.09412664186458
-Patient 0 discharged from the ER at time 56.09412664186458
-Patient 0 left the ER at time 56.09412664186458
+Patient 3 had a consultation at time 52.39558116551581
+Patient 3 discharged from the ER at time 52.39558116551581
+Patient 3 left the ER at time 52.39558116551581
+Patient 6 left Trauma room at time 53.82583580151887
+Patient 6 had a consultation at time 58.80870815739293
+Patient 6 admitted to the hospital at time 58.80870815739293
+Patient 6 left the ER at time 58.80870815739293
 Patient 8 arrived in ER at time 60
-Patient 8 received by Triage at time 60
-Patient 8 completed Triage at time 62.823962525201566
-Patient 8 arrived in exam room at time 62.823962525201566
-Patient 6 left Trauma room at time 63.039456902687384
-Patient 6 had a consultation at time 64.32711649566276
-Patient 6 discharged from the ER at time 64.32711649566276
-Patient 6 left the ER at time 64.32711649566276
-Patient 8 left exam room at time 68.60243872430283
+Patient 8 arrived in Trauma room at time 60
+Patient 5 left exam room at time 61.58586870474622
+Patient 7 left Trauma room at time 66.5530337251079
+Patient 7 had a consultation at time 67.8967934615687
+Patient 7 admitted to the hospital at time 67.8967934615687
+Patient 7 left the ER at time 67.8967934615687
 Patient 9 arrived in ER at time 70
-Patient 9 received by Triage at time 70
-Patient 7 left Trauma room at time 76.71918452290761
-Patient 9 completed Triage at time 78.36908480074464
-Patient 9 arrived in exam room at time 78.36908480074464
+Patient 9 arrived in Trauma room at time 70
 Patient 10 arrived in ER at time 80
-Patient 10 received by Triage at time 80
-Patient 10 completed Triage at time 84.52406638732701
-Patient 10 arrived in exam room at time 84.52406638732701
-Patient 8 completed imaging at time 85.41593136801819
-Patient 7 completed imaging at time 87.66943183762926
+Patient 10 arrived in Trauma room at time 80
+Patient 5 completed imaging at time 85.65268265049426
+Patient 8 left Trauma room at time 86.9899933437793
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 8 had a consultation at time 90.6663206623036
+Patient 8 admitted to the hospital at time 90.6663206623036
+Patient 8 left the ER at time 90.6663206623036
+Patient 9 left Trauma room at time 92.48696801484189
+Patient 10 left Trauma room at time 97.34377842056503
+Patient 12 arrived in ER at time 100
+Patient 12 received by Triage at time 100
+Patient 12 completed Triage at time 100.7495419741256
+Patient 12 arrived in exam room at time 100.7495419741256
+Patient 10 completed imaging at time 104.30884988409045
+Patient 9 completed imaging at time 105.43020804643142
+Patient 13 arrived in ER at time 110
+Patient 13 received by Triage at time 110
+Patient 13 completed Triage at time 110.30554246266937
+Patient 13 arrived in exam room at time 110.30554246266937
+Patient 5 had a consultation at time 110.44701773618272
+Patient 5 admitted to the hospital at time 110.44701773618272
+Patient 5 left the ER at time 110.44701773618272
+Patient 11 left Trauma room at time 110.95514197208425
+Patient 10 had a consultation at time 117.24896101038206
+Patient 10 discharged from the ER at time 117.24896101038206
+Patient 10 left the ER at time 117.24896101038206
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
 Patient 0 received by Triage at time 0
-Patient 1 received by Triage at time 0
-Patient 2 arrived in Trauma room at time 0
-Patient 0 completed Triage at time 9.440881055639883
-Patient 0 arrived in exam room at time 9.440881055639883
-Patient 3 arrived in ER at time 10
-Patient 3 arrived in Trauma room at time 10
-Patient 1 completed Triage at time 12.339101579534963
-Patient 1 arrived in exam room at time 12.339101579534963
-Patient 4 arrived in ER at time 20
-Patient 4 received by Triage at time 20
-Patient 0 left exam room at time 22.9959942903128
-Patient 3 left Trauma room at time 23.566660735122156
-Patient 1 left exam room at time 24.30412058773973
-Patient 2 left Trauma room at time 26.57668515746716
-Patient 5 arrived in ER at time 30
-Patient 5 arrived in Trauma room at time 30
-Patient 3 had a consultation at time 36.726187175346574
-Patient 3 discharged from the ER at time 36.726187175346574
-Patient 3 left the ER at time 36.726187175346574
-Patient 0 had a consultation at time 36.83409339351916
-Patient 0 admitted to the hospital at time 36.83409339351916
-Patient 0 left the ER at time 36.83409339351916
-Patient 4 completed Triage at time 37.586588608401385
-Patient 4 arrived in exam room at time 37.586588608401385
-Patient 6 arrived in ER at time 40
-Patient 6 received by Triage at time 40
-Patient 1 completed imaging at time 41.43350480374893
-Patient 6 completed Triage at time 42.660432183259935
-Patient 6 arrived in exam room at time 42.660432183259935
-Patient 7 arrived in ER at time 50
-Patient 7 arrived in Trauma room at time 50
-Patient 1 had a consultation at time 50.167417686743875
-Patient 1 admitted to the hospital at time 50.167417686743875
-Patient 1 left the ER at time 50.167417686743875
-Patient 5 left Trauma room at time 55.36334764330194
-Patient 5 completed imaging at time 58.86280501154958
-Patient 8 arrived in ER at time 60
-Patient 8 arrived in Trauma room at time 60
-Patient 4 left exam room at time 63.67022678626035
-Patient 7 left Trauma room at time 67.14990940014032
-Patient 5 had a consultation at time 67.4645746163382
-Patient 5 discharged from the ER at time 67.4645746163382
-Patient 5 left the ER at time 67.4645746163382
-Patient 9 arrived in ER at time 70
-Patient 9 arrived in Trauma room at time 70
-Patient 4 had a consultation at time 73.65790667572796
-Patient 4 admitted to the hospital at time 73.65790667572796
-Patient 4 left the ER at time 73.65790667572796
-Patient 7 had a consultation at time 74.74523941924419
-Patient 7 discharged from the ER at time 74.74523941924419
-Patient 7 left the ER at time 74.74523941924419
-Patient 6 left exam room at time 75.30883646695074
-Patient 10 arrived in ER at time 80
-Patient 10 arrived in Trauma room at time 80
-Patient 8 left Trauma room at time 81.66787480735265
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in Trauma room at time 0
-Patient 1 received by Triage at time 0
-Patient 2 arrived in Trauma room at time 0
-Patient 1 completed Triage at time 2.1931587348176946
-Patient 1 arrived in exam room at time 2.1931587348176946
-Patient 3 arrived in ER at time 10
-Patient 3 arrived in Trauma room at time 10
-Patient 1 left exam room at time 11.414986767680547
-Patient 3 left Trauma room at time 15.980841888196744
-Patient 3 had a consultation at time 18.69137575493623
-Patient 3 discharged from the ER at time 18.69137575493623
-Patient 3 left the ER at time 18.69137575493623
-Patient 2 left Trauma room at time 18.803635483049717
-Patient 4 arrived in ER at time 20
-Patient 4 arrived in Trauma room at time 20
-Patient 0 left Trauma room at time 21.994786482555547
-Patient 0 had a consultation at time 29.628504951174783
-Patient 0 admitted to the hospital at time 29.628504951174783
-Patient 0 left the ER at time 29.628504951174783
-Patient 5 arrived in ER at time 30
-Patient 5 received by Triage at time 30
-Patient 5 completed Triage at time 39.15954166334317
-Patient 5 arrived in exam room at time 39.15954166334317
-Patient 6 arrived in ER at time 40
-Patient 6 received by Triage at time 40
-Patient 2 had a consultation at time 44.65739238248282
-Patient 2 admitted to the hospital at time 44.65739238248282
-Patient 2 left the ER at time 44.65739238248282
-Patient 6 completed Triage at time 45.30383890937503
-Patient 6 arrived in exam room at time 45.30383890937503
-Patient 4 left Trauma room at time 47.86447835373345
-Patient 7 arrived in ER at time 50
-Patient 7 arrived in Trauma room at time 50
-Patient 5 left exam room at time 50.75472570283936
-Patient 5 had a consultation at time 52.35699390280647
-Patient 5 discharged from the ER at time 52.35699390280647
-Patient 5 left the ER at time 52.35699390280647
-Patient 4 had a consultation at time 53.94375462827468
-Patient 4 admitted to the hospital at time 53.94375462827468
-Patient 4 left the ER at time 53.94375462827468
-Patient 1 had a consultation at time 56.63909354584474
-Patient 1 admitted to the hospital at time 56.63909354584474
-Patient 1 left the ER at time 56.63909354584474
-Patient 8 arrived in ER at time 60
-Patient 8 arrived in Trauma room at time 60
-Patient 7 left Trauma room at time 61.9775786863996
-Patient 6 left exam room at time 67.54244183941739
-Patient 6 had a consultation at time 68.88777935380087
-Patient 6 admitted to the hospital at time 68.88777935380087
-Patient 6 left the ER at time 68.88777935380087
-Patient 9 arrived in ER at time 70
-Patient 9 arrived in Trauma room at time 70
-Patient 7 had a consultation at time 73.40976888905175
-Patient 7 discharged from the ER at time 73.40976888905175
-Patient 7 left the ER at time 73.40976888905175
-Patient 8 left Trauma room at time 77.84670468647883
-Patient 10 arrived in ER at time 80
-Patient 10 received by Triage at time 80
-Patient 8 had a consultation at time 81.4274568298985
-Patient 8 admitted to the hospital at time 81.4274568298985
-Patient 8 left the ER at time 81.4274568298985
-Patient 10 completed Triage at time 81.93661206285879
-Patient 10 arrived in exam room at time 81.93661206285879
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in Trauma room at time 0
 Patient 1 arrived in Trauma room at time 0
 Patient 2 received by Triage at time 0
-Patient 3 arrived in ER at time 10
-Patient 3 received by Triage at time 10
-Patient 0 left Trauma room at time 14.622774329279508
-Patient 3 completed Triage at time 15.827281915564473
-Patient 3 arrived in exam room at time 15.827281915564473
-Patient 2 completed Triage at time 19.607710421560157
-Patient 2 arrived in exam room at time 19.607710421560157
-Patient 4 arrived in ER at time 20
-Patient 4 arrived in Trauma room at time 20
-Patient 5 arrived in ER at time 30
-Patient 5 received by Triage at time 30
-Patient 5 completed Triage at time 31.437554019877435
-Patient 5 arrived in exam room at time 31.437554019877435
-Patient 2 left exam room at time 33.89375410177949
-Patient 0 had a consultation at time 34.576600478271175
-Patient 0 discharged from the ER at time 34.576600478271175
-Patient 0 left the ER at time 34.576600478271175
-Patient 2 had a consultation at time 35.20507652331531
-Patient 2 admitted to the hospital at time 35.20507652331531
-Patient 2 left the ER at time 35.20507652331531
-Patient 3 left exam room at time 35.91547571879356
-Patient 3 completed imaging at time 35.98918088941778
-Patient 1 left Trauma room at time 36.35528264935325
-Patient 6 arrived in ER at time 40
-Patient 6 arrived in Trauma room at time 40
-Patient 7 arrived in ER at time 50
-Patient 7 arrived in Trauma room at time 50
-Patient 4 left Trauma room at time 50.19349667626798
-Patient 4 had a consultation at time 50.87277767569844
-Patient 4 admitted to the hospital at time 50.87277767569844
-Patient 4 left the ER at time 50.87277767569844
-Patient 5 left exam room at time 52.99730208212786
-Patient 1 had a consultation at time 56.42691936191425
-Patient 1 admitted to the hospital at time 56.42691936191425
-Patient 1 left the ER at time 56.42691936191425
-Patient 5 completed imaging at time 57.0213329384145
-Patient 8 arrived in ER at time 60
-Patient 8 received by Triage at time 60
-Patient 6 left Trauma room at time 63.64178156742648
-Patient 7 left Trauma room at time 64.38079198431954
-Patient 5 had a consultation at time 65.81423989241951
-Patient 5 admitted to the hospital at time 65.81423989241951
-Patient 5 left the ER at time 65.81423989241951
-Patient 8 completed Triage at time 68.27460285683992
-Patient 8 arrived in exam room at time 68.27460285683992
-Patient 9 arrived in ER at time 70
-Patient 9 arrived in Trauma room at time 70
-Patient 7 completed imaging at time 70.38386697759765
-Patient 7 had a consultation at time 71.69783143249056
-Patient 7 discharged from the ER at time 71.69783143249056
-Patient 7 left the ER at time 71.69783143249056
-Patient 3 had a consultation at time 74.80105801191135
-Patient 3 admitted to the hospital at time 74.80105801191135
-Patient 3 left the ER at time 74.80105801191135
-Patient 10 arrived in ER at time 80
-Patient 10 received by Triage at time 80
-Patient 9 left Trauma room at time 89.98029691892916
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in Trauma room at time 0
-Patient 1 arrived in Trauma room at time 0
-Patient 2 received by Triage at time 0
+Patient 2 completed Triage at time 0.804360602489465
+Patient 2 arrived in exam room at time 0.804360602489465
 Patient 3 arrived in ER at time 10
 Patient 3 arrived in Trauma room at time 10
+Patient 2 left exam room at time 12.497225746557246
+Patient 3 left Trauma room at time 14.031670358751043
+Patient 0 completed Triage at time 14.178508736625153
+Patient 0 arrived in exam room at time 14.178508736625153
+Patient 2 completed imaging at time 15.17684236184285
+Patient 1 left Trauma room at time 15.534943186261126
+Patient 3 completed imaging at time 16.970340115427472
 Patient 4 arrived in ER at time 20
-Patient 4 received by Triage at time 20
-Patient 0 left Trauma room at time 21.86973421225792
-Patient 1 left Trauma room at time 23.767834602715634
-Patient 2 completed Triage at time 29.84869529012026
-Patient 2 arrived in exam room at time 29.84869529012026
+Patient 4 arrived in Trauma room at time 20
+Patient 1 completed imaging at time 20.37604867912348
+Patient 3 had a consultation at time 23.35493469835074
+Patient 3 discharged from the ER at time 23.35493469835074
+Patient 3 left the ER at time 23.35493469835074
+Patient 2 had a consultation at time 24.965054078666093
+Patient 2 discharged from the ER at time 24.965054078666093
+Patient 2 left the ER at time 24.965054078666093
+Patient 1 had a consultation at time 29.0155838371797
+Patient 1 admitted to the hospital at time 29.0155838371797
+Patient 1 left the ER at time 29.0155838371797
 Patient 5 arrived in ER at time 30
 Patient 5 received by Triage at time 30
-Patient 3 left Trauma room at time 31.521003210647024
-Patient 0 completed imaging at time 31.731758999479222
-Patient 4 completed Triage at time 35.09694720994629
-Patient 4 arrived in exam room at time 35.09694720994629
-Patient 5 completed Triage at time 36.19513755787382
-Patient 5 arrived in exam room at time 36.19513755787382
-Patient 3 had a consultation at time 36.64653266598623
-Patient 3 discharged from the ER at time 36.64653266598623
-Patient 3 left the ER at time 36.64653266598623
+Patient 5 completed Triage at time 30.608855032112867
+Patient 5 arrived in exam room at time 30.608855032112867
+Patient 0 left exam room at time 32.72356183997981
+Patient 5 left exam room at time 34.82839575683189
 Patient 6 arrived in ER at time 40
-Patient 6 arrived in Trauma room at time 40
-Patient 1 completed imaging at time 42.08593686528644
-Patient 1 had a consultation at time 43.21994041072444
-Patient 1 admitted to the hospital at time 43.21994041072444
-Patient 1 left the ER at time 43.21994041072444
-Patient 0 had a consultation at time 44.04822221064169
-Patient 0 discharged from the ER at time 44.04822221064169
-Patient 0 left the ER at time 44.04822221064169
-Patient 6 left Trauma room at time 47.10950568702705
-Patient 2 left exam room at time 48.03900327102789
-Patient 4 left exam room at time 49.05868144678385
+Patient 6 received by Triage at time 40
+Patient 5 had a consultation at time 43.662435229195886
+Patient 5 discharged from the ER at time 43.662435229195886
+Patient 5 left the ER at time 43.662435229195886
+Patient 4 left Trauma room at time 44.71605980993211
+Patient 0 completed imaging at time 48.023537424812424
+Patient 6 completed Triage at time 49.22358344613394
+Patient 6 arrived in exam room at time 49.22358344613394
 Patient 7 arrived in ER at time 50
 Patient 7 received by Triage at time 50
-Patient 5 left exam room at time 51.01342778502686
-Patient 5 completed imaging at time 56.91696229228563
-Patient 4 had a consultation at time 59.29982871720586
-Patient 4 discharged from the ER at time 59.29982871720586
-Patient 4 left the ER at time 59.29982871720586
+Patient 0 had a consultation at time 51.523940578092116
+Patient 0 discharged from the ER at time 51.523940578092116
+Patient 0 left the ER at time 51.523940578092116
+Patient 4 had a consultation at time 53.418346330541894
+Patient 4 admitted to the hospital at time 53.418346330541894
+Patient 4 left the ER at time 53.418346330541894
+Patient 7 completed Triage at time 55.012768141696725
+Patient 7 arrived in exam room at time 55.012768141696725
 Patient 8 arrived in ER at time 60
-Patient 8 received by Triage at time 60
-Patient 8 completed Triage at time 62.73045033923548
-Patient 8 arrived in exam room at time 62.73045033923548
-Patient 5 had a consultation at time 68.89164442844688
-Patient 5 admitted to the hospital at time 68.89164442844688
-Patient 5 left the ER at time 68.89164442844688
+Patient 8 arrived in Trauma room at time 60
+Patient 6 left exam room at time 65.9699029471943
+Patient 7 left exam room at time 67.66621750353235
+Patient 7 had a consultation at time 69.46287250024757
+Patient 7 admitted to the hospital at time 69.46287250024757
+Patient 7 left the ER at time 69.46287250024757
 Patient 9 arrived in ER at time 70
-Patient 9 received by Triage at time 70
-Patient 2 had a consultation at time 70.31661615828008
-Patient 2 discharged from the ER at time 70.31661615828008
-Patient 2 left the ER at time 70.31661615828008
-Patient 7 completed Triage at time 74.53915356548737
-Patient 7 arrived in exam room at time 74.53915356548737
-Patient 8 left exam room at time 77.68001917249302
+Patient 9 arrived in Trauma room at time 70
+Patient 6 completed imaging at time 78.49674963472589
 Patient 10 arrived in ER at time 80
 Patient 10 received by Triage at time 80
-Patient 6 completed imaging at time 81.4774617769874
-Patient 9 completed Triage at time 85.04030409569553
-Patient 9 arrived in exam room at time 85.04030409569553
-Patient 10 completed Triage at time 86.66288615799972
-Patient 10 arrived in exam room at time 86.66288615799972
+Patient 6 had a consultation at time 82.87241096377629
+Patient 6 admitted to the hospital at time 82.87241096377629
+Patient 6 left the ER at time 82.87241096377629
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 8 left Trauma room at time 92.99278731370043
+Patient 10 completed Triage at time 94.31706275601309
+Patient 10 arrived in exam room at time 94.31706275601309
+Patient 8 had a consultation at time 94.34299668469498
+Patient 8 discharged from the ER at time 94.34299668469498
+Patient 8 left the ER at time 94.34299668469498
+Patient 9 left Trauma room at time 95.9653851191014
+Patient 12 arrived in ER at time 100
+Patient 12 arrived in Trauma room at time 100
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 10 left exam room at time 110.64840887979308
+Patient 10 had a consultation at time 111.23524644245954
+Patient 10 admitted to the hospital at time 111.23524644245954
+Patient 10 left the ER at time 111.23524644245954
+Patient 12 left Trauma room at time 114.23639827714254
+Patient 11 left Trauma room at time 115.43653356046873
+Patient 11 had a consultation at time 118.42889335823506
+Patient 11 admitted to the hospital at time 118.42889335823506
+Patient 11 left the ER at time 118.42889335823506
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
@@ -460,195 +353,537 @@ Patient 2 arrived in ER at time 0
 Patient 0 received by Triage at time 0
 Patient 1 arrived in Trauma room at time 0
 Patient 2 arrived in Trauma room at time 0
-Patient 0 completed Triage at time 4.724686854197132
-Patient 0 arrived in exam room at time 4.724686854197132
-Patient 2 left Trauma room at time 6.4158113161899895
 Patient 3 arrived in ER at time 10
 Patient 3 received by Triage at time 10
-Patient 2 had a consultation at time 12.043176867854442
-Patient 2 admitted to the hospital at time 12.043176867854442
-Patient 2 left the ER at time 12.043176867854442
-Patient 3 completed Triage at time 14.22330809522245
-Patient 3 arrived in exam room at time 14.22330809522245
-Patient 1 left Trauma room at time 14.980760754977062
-Patient 0 left exam room at time 19.565391276049134
+Patient 0 completed Triage at time 10.000249195215481
+Patient 0 arrived in exam room at time 10.000249195215481
+Patient 3 completed Triage at time 14.492288320005237
+Patient 3 arrived in exam room at time 14.492288320005237
+Patient 1 left Trauma room at time 18.892090572507403
 Patient 4 arrived in ER at time 20
 Patient 4 arrived in Trauma room at time 20
-Patient 0 completed imaging at time 23.20194827678253
-Patient 3 left exam room at time 28.729756167606787
+Patient 0 left exam room at time 21.782748520574472
+Patient 1 had a consultation at time 23.273486789797225
+Patient 1 discharged from the ER at time 23.273486789797225
+Patient 1 left the ER at time 23.273486789797225
+Patient 2 left Trauma room at time 23.727924394571982
+Patient 3 left exam room at time 23.829508593828763
+Patient 0 completed imaging at time 25.433592966298963
+Patient 0 had a consultation at time 26.44473290491651
+Patient 0 discharged from the ER at time 26.44473290491651
+Patient 0 left the ER at time 26.44473290491651
 Patient 5 arrived in ER at time 30
 Patient 5 arrived in Trauma room at time 30
-Patient 3 had a consultation at time 31.737248134990306
-Patient 3 discharged from the ER at time 31.737248134990306
-Patient 3 left the ER at time 31.737248134990306
-Patient 0 had a consultation at time 33.724487131627356
-Patient 0 admitted to the hospital at time 33.724487131627356
-Patient 0 left the ER at time 33.724487131627356
-Patient 1 completed imaging at time 36.97579656504119
-Patient 1 had a consultation at time 37.77801285037927
-Patient 1 admitted to the hospital at time 37.77801285037927
-Patient 1 left the ER at time 37.77801285037927
+Patient 3 completed imaging at time 30.637530961185046
+Patient 2 completed imaging at time 30.649903782732345
+Patient 3 had a consultation at time 34.060149728906715
+Patient 3 discharged from the ER at time 34.060149728906715
+Patient 3 left the ER at time 34.060149728906715
+Patient 5 left Trauma room at time 36.99728476650684
 Patient 6 arrived in ER at time 40
 Patient 6 arrived in Trauma room at time 40
-Patient 4 left Trauma room at time 47.25125157134625
-Patient 7 arrived in ER at time 50
-Patient 7 arrived in Trauma room at time 50
-Patient 5 left Trauma room at time 53.51201920825109
-Patient 8 arrived in ER at time 60
-Patient 8 arrived in Trauma room at time 60
-Patient 6 left Trauma room at time 66.96038648111762
-Patient 6 had a consultation at time 67.67192787620168
-Patient 6 admitted to the hospital at time 67.67192787620168
-Patient 6 left the ER at time 67.67192787620168
-Patient 9 arrived in ER at time 70
-Patient 9 received by Triage at time 70
-Patient 9 completed Triage at time 71.39101167451804
-Patient 9 arrived in exam room at time 71.39101167451804
-Patient 7 left Trauma room at time 75.65134845391258
-Patient 10 arrived in ER at time 80
-Patient 10 received by Triage at time 80
-Patient 8 left Trauma room at time 80.42122432828958
-Patient 4 completed imaging at time 80.89207653782849
-Patient 8 had a consultation at time 82.76322533032965
-Patient 8 admitted to the hospital at time 82.76322533032965
-Patient 8 left the ER at time 82.76322533032965
-Patient 7 had a consultation at time 83.15802822062987
-Patient 7 discharged from the ER at time 83.15802822062987
-Patient 7 left the ER at time 83.15802822062987
-Patient 9 left exam room at time 88.46316501588149
-Patient 5 had a consultation at time 89.10778643760463
-Patient 5 admitted to the hospital at time 89.10778643760463
-Patient 5 left the ER at time 89.10778643760463
-ER simulation run starts
-Patient 0 arrived in ER at time 0
-Patient 1 arrived in ER at time 0
-Patient 2 arrived in ER at time 0
-Patient 0 arrived in Trauma room at time 0
-Patient 1 arrived in Trauma room at time 0
-Patient 2 arrived in Trauma room at time 0
-Patient 3 arrived in ER at time 10
-Patient 3 received by Triage at time 10
-Patient 1 left Trauma room at time 12.053252168514309
-Patient 1 had a consultation at time 14.972690867229709
-Patient 1 admitted to the hospital at time 14.972690867229709
-Patient 1 left the ER at time 14.972690867229709
-Patient 3 completed Triage at time 16.33205403208463
-Patient 3 arrived in exam room at time 16.33205403208463
-Patient 2 left Trauma room at time 19.42797441736235
-Patient 4 arrived in ER at time 20
-Patient 4 received by Triage at time 20
-Patient 4 completed Triage at time 23.283870983160206
-Patient 4 arrived in exam room at time 23.283870983160206
-Patient 0 left Trauma room at time 28.982110770256533
-Patient 5 arrived in ER at time 30
-Patient 5 arrived in Trauma room at time 30
-Patient 3 left exam room at time 33.13825090158535
-Patient 0 completed imaging at time 39.63740169314077
-Patient 6 arrived in ER at time 40
-Patient 6 received by Triage at time 40
-Patient 4 left exam room at time 41.3261334654829
-Patient 3 had a consultation at time 42.01613793708073
-Patient 3 discharged from the ER at time 42.01613793708073
-Patient 3 left the ER at time 42.01613793708073
-Patient 0 had a consultation at time 43.577033052944095
-Patient 0 discharged from the ER at time 43.577033052944095
-Patient 0 left the ER at time 43.577033052944095
-Patient 5 left Trauma room at time 44.02179256577245
+Patient 2 had a consultation at time 41.469579475800685
+Patient 2 discharged from the ER at time 41.469579475800685
+Patient 2 left the ER at time 41.469579475800685
+Patient 5 completed imaging at time 42.78377679750953
+Patient 5 had a consultation at time 42.94489595468429
+Patient 5 discharged from the ER at time 42.94489595468429
+Patient 5 left the ER at time 42.94489595468429
+Patient 4 left Trauma room at time 44.421433406127704
 Patient 7 arrived in ER at time 50
 Patient 7 received by Triage at time 50
-Patient 2 completed imaging at time 52.07397222447705
-Patient 4 had a consultation at time 53.91912081281064
-Patient 4 admitted to the hospital at time 53.91912081281064
-Patient 4 left the ER at time 53.91912081281064
-Patient 5 completed imaging at time 56.66063661237972
+Patient 7 completed Triage at time 53.856467200607824
+Patient 7 arrived in exam room at time 53.856467200607824
 Patient 8 arrived in ER at time 60
-Patient 8 received by Triage at time 60
-Patient 6 completed Triage at time 62.30425037700627
-Patient 6 arrived in exam room at time 62.30425037700627
-Patient 2 had a consultation at time 62.97764901295603
-Patient 2 admitted to the hospital at time 62.97764901295603
-Patient 2 left the ER at time 62.97764901295603
-Patient 8 completed Triage at time 63.43302004975821
-Patient 8 arrived in exam room at time 63.43302004975821
-Patient 5 had a consultation at time 66.726114751275
-Patient 5 admitted to the hospital at time 66.726114751275
-Patient 5 left the ER at time 66.726114751275
+Patient 8 arrived in Trauma room at time 60
+Patient 4 completed imaging at time 67.59301701916445
 Patient 9 arrived in ER at time 70
 Patient 9 received by Triage at time 70
-Patient 7 completed Triage at time 75.0462472965576
-Patient 7 arrived in exam room at time 75.0462472965576
-Patient 8 left exam room at time 79.67319370691457
-Patient 8 had a consultation at time 79.96069499347807
-Patient 8 discharged from the ER at time 79.96069499347807
-Patient 8 left the ER at time 79.96069499347807
+Patient 6 left Trauma room at time 70.4600747944467
+Patient 4 had a consultation at time 70.88209587518843
+Patient 4 admitted to the hospital at time 70.88209587518843
+Patient 4 left the ER at time 70.88209587518843
+Patient 6 completed imaging at time 72.19271112309717
+Patient 7 left exam room at time 74.69898535990018
+Patient 10 arrived in ER at time 80
+Patient 10 received by Triage at time 80
+Patient 6 had a consultation at time 80.43415014599077
+Patient 6 admitted to the hospital at time 80.43415014599077
+Patient 6 left the ER at time 80.43415014599077
+Patient 7 completed imaging at time 80.6562187751861
+Patient 8 left Trauma room at time 81.7484879553934
+Patient 7 had a consultation at time 84.90553168837242
+Patient 7 admitted to the hospital at time 84.90553168837242
+Patient 7 left the ER at time 84.90553168837242
+Patient 9 completed Triage at time 87.60438000645345
+Patient 9 arrived in exam room at time 87.60438000645345
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 10 completed Triage at time 93.55911772913093
+Patient 10 arrived in exam room at time 93.55911772913093
+Patient 8 had a consultation at time 95.33086945573716
+Patient 8 admitted to the hospital at time 95.33086945573716
+Patient 8 left the ER at time 95.33086945573716
+Patient 12 arrived in ER at time 100
+Patient 12 arrived in Trauma room at time 100
+Patient 11 left Trauma room at time 100.82641906768609
+Patient 10 left exam room at time 101.97037349765733
+Patient 9 left exam room at time 105.07433255303113
+Patient 13 arrived in ER at time 110
+Patient 13 received by Triage at time 110
+Patient 10 completed imaging at time 113.61163600334189
+Patient 12 left Trauma room at time 114.85963988050823
+Patient 9 had a consultation at time 116.18090972807597
+Patient 9 admitted to the hospital at time 116.18090972807597
+Patient 9 left the ER at time 116.18090972807597
+ER simulation run starts
+Patient 0 arrived in ER at time 0
+Patient 1 arrived in ER at time 0
+Patient 2 arrived in ER at time 0
+Patient 0 received by Triage at time 0
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 3 arrived in ER at time 10
+Patient 3 arrived in Trauma room at time 10
+Patient 1 completed Triage at time 10.722973425063342
+Patient 1 arrived in exam room at time 10.722973425063342
+Patient 4 arrived in ER at time 20
+Patient 4 arrived in Trauma room at time 20
+Patient 2 left Trauma room at time 22.595870565293136
+Patient 1 left exam room at time 26.412294378071728
+Patient 3 left Trauma room at time 28.936926629016487
+Patient 5 arrived in ER at time 30
+Patient 5 received by Triage at time 30
+Patient 5 completed Triage at time 32.13356209808997
+Patient 5 arrived in exam room at time 32.13356209808997
+Patient 3 had a consultation at time 33.51090251583248
+Patient 3 admitted to the hospital at time 33.51090251583248
+Patient 3 left the ER at time 33.51090251583248
+Patient 4 left Trauma room at time 37.75841297788702
+Patient 6 arrived in ER at time 40
+Patient 6 received by Triage at time 40
+Patient 6 completed Triage at time 42.212586588413465
+Patient 6 arrived in exam room at time 42.212586588413465
+Patient 2 had a consultation at time 48.363855293308795
+Patient 2 discharged from the ER at time 48.363855293308795
+Patient 2 left the ER at time 48.363855293308795
+Patient 5 left exam room at time 49.84708979252996
+Patient 4 completed imaging at time 49.881935685671706
+Patient 7 arrived in ER at time 50
+Patient 7 received by Triage at time 50
+Patient 7 completed Triage at time 50.125923617426714
+Patient 7 arrived in exam room at time 50.125923617426714
+Patient 0 completed Triage at time 52.420627779709896
+Patient 0 arrived in exam room at time 52.420627779709896
+Patient 4 had a consultation at time 55.40355973465028
+Patient 4 admitted to the hospital at time 55.40355973465028
+Patient 4 left the ER at time 55.40355973465028
+Patient 6 left exam room at time 59.7244058795602
+Patient 8 arrived in ER at time 60
+Patient 8 arrived in Trauma room at time 60
+Patient 6 had a consultation at time 65.26590077353019
+Patient 6 admitted to the hospital at time 65.26590077353019
+Patient 6 left the ER at time 65.26590077353019
+Patient 9 arrived in ER at time 70
+Patient 9 arrived in Trauma room at time 70
+Patient 7 left exam room at time 71.50102686468085
+Patient 0 left exam room at time 71.58197000841858
+Patient 7 completed imaging at time 72.49926962936786
+Patient 0 had a consultation at time 73.85765228859395
+Patient 0 admitted to the hospital at time 73.85765228859395
+Patient 0 left the ER at time 73.85765228859395
+Patient 10 arrived in ER at time 80
+Patient 10 received by Triage at time 80
+Patient 8 left Trauma room at time 82.21853274130484
+Patient 10 completed Triage at time 82.5759543516297
+Patient 10 arrived in exam room at time 82.5759543516297
+Patient 7 had a consultation at time 84.98779001913212
+Patient 7 discharged from the ER at time 84.98779001913212
+Patient 7 left the ER at time 84.98779001913212
+Patient 1 completed imaging at time 85.51949640614683
+Patient 9 left Trauma room at time 85.86636701897791
+Patient 1 had a consultation at time 88.19417729282628
+Patient 1 admitted to the hospital at time 88.19417729282628
+Patient 1 left the ER at time 88.19417729282628
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 9 completed imaging at time 90.95237179246426
+Patient 5 had a consultation at time 94.8191547537848
+Patient 5 admitted to the hospital at time 94.8191547537848
+Patient 5 left the ER at time 94.8191547537848
+Patient 10 left exam room at time 95.653072425089
+Patient 9 had a consultation at time 96.63557088026735
+Patient 9 admitted to the hospital at time 96.63557088026735
+Patient 9 left the ER at time 96.63557088026735
+Patient 12 arrived in ER at time 100
+Patient 12 received by Triage at time 100
+Patient 11 left Trauma room at time 104.94217194705097
+Patient 11 had a consultation at time 105.01255294507233
+Patient 11 discharged from the ER at time 105.01255294507233
+Patient 11 left the ER at time 105.01255294507233
+Patient 13 arrived in ER at time 110
+Patient 13 received by Triage at time 110
+Patient 12 completed Triage at time 111.29591932498238
+Patient 12 arrived in exam room at time 111.29591932498238
+Patient 8 had a consultation at time 114.35631290851768
+Patient 8 admitted to the hospital at time 114.35631290851768
+Patient 8 left the ER at time 114.35631290851768
+ER simulation run starts
+Patient 0 arrived in ER at time 0
+Patient 1 arrived in ER at time 0
+Patient 2 arrived in ER at time 0
+Patient 0 received by Triage at time 0
+Patient 1 received by Triage at time 0
+Patient 2 received by Triage at time 0
+Patient 0 completed Triage at time 0.4542758337199592
+Patient 0 arrived in exam room at time 0.4542758337199592
+Patient 1 completed Triage at time 6.751895811258175
+Patient 1 arrived in exam room at time 6.751895811258175
+Patient 3 arrived in ER at time 10
+Patient 3 arrived in Trauma room at time 10
+Patient 2 completed Triage at time 11.555343695730711
+Patient 2 arrived in exam room at time 11.555343695730711
+Patient 0 left exam room at time 12.94269670789887
+Patient 4 arrived in ER at time 20
+Patient 4 received by Triage at time 20
+Patient 1 left exam room at time 25.782209159958008
+Patient 3 left Trauma room at time 27.488768671270282
+Patient 0 had a consultation at time 27.674441004668623
+Patient 0 discharged from the ER at time 27.674441004668623
+Patient 0 left the ER at time 27.674441004668623
+Patient 5 arrived in ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 1 completed imaging at time 31.8764842291412
+Patient 2 left exam room at time 32.02529175348456
+Patient 1 had a consultation at time 32.86138865433752
+Patient 1 discharged from the ER at time 32.86138865433752
+Patient 1 left the ER at time 32.86138865433752
+Patient 4 completed Triage at time 33.4837718509326
+Patient 4 arrived in exam room at time 33.4837718509326
+Patient 2 had a consultation at time 36.27335912623333
+Patient 2 admitted to the hospital at time 36.27335912623333
+Patient 2 left the ER at time 36.27335912623333
+Patient 6 arrived in ER at time 40
+Patient 6 received by Triage at time 40
+Patient 6 completed Triage at time 41.974320073189915
+Patient 6 arrived in exam room at time 41.974320073189915
+Patient 5 left Trauma room at time 42.7558330477942
+Patient 3 completed imaging at time 44.13529555140286
+Patient 5 had a consultation at time 48.856679321506164
+Patient 5 discharged from the ER at time 48.856679321506164
+Patient 5 left the ER at time 48.856679321506164
+Patient 4 left exam room at time 49.15078057151968
+Patient 7 arrived in ER at time 50
+Patient 7 arrived in Trauma room at time 50
+Patient 6 left exam room at time 53.05916620177622
+Patient 4 completed imaging at time 58.805012548833275
+Patient 8 arrived in ER at time 60
+Patient 8 received by Triage at time 60
+Patient 3 had a consultation at time 61.89204552230046
+Patient 3 discharged from the ER at time 61.89204552230046
+Patient 3 left the ER at time 61.89204552230046
+Patient 4 had a consultation at time 62.11331940291413
+Patient 4 admitted to the hospital at time 62.11331940291413
+Patient 4 left the ER at time 62.11331940291413
+Patient 6 had a consultation at time 62.668532673808414
+Patient 6 discharged from the ER at time 62.668532673808414
+Patient 6 left the ER at time 62.668532673808414
+Patient 8 completed Triage at time 65.21382223130058
+Patient 8 arrived in exam room at time 65.21382223130058
+Patient 9 arrived in ER at time 70
+Patient 9 arrived in Trauma room at time 70
+Patient 7 left Trauma room at time 72.04763662030646
+Patient 7 had a consultation at time 76.68537879335233
+Patient 7 discharged from the ER at time 76.68537879335233
+Patient 7 left the ER at time 76.68537879335233
 Patient 10 arrived in ER at time 80
 Patient 10 arrived in Trauma room at time 80
-Patient 6 left exam room at time 81.3813388005209
-Patient 9 completed Triage at time 84.28280215767255
-Patient 9 arrived in exam room at time 84.28280215767255
-Patient 6 completed imaging at time 85.76520354797387
+Patient 9 left Trauma room at time 85.75293642905368
+Patient 10 left Trauma room at time 86.57317360294677
+Patient 11 arrived in ER at time 90
+Patient 11 received by Triage at time 90
+Patient 10 completed imaging at time 90.77685927541643
+Patient 9 completed imaging at time 91.53199222822556
+Patient 8 left exam room at time 91.90820715244915
+Patient 12 arrived in ER at time 100
+Patient 12 arrived in Trauma room at time 100
+Patient 11 completed Triage at time 103.618993449671
+Patient 11 arrived in exam room at time 103.618993449671
+Patient 10 had a consultation at time 106.04937345368549
+Patient 10 admitted to the hospital at time 106.04937345368549
+Patient 10 left the ER at time 106.04937345368549
+Patient 9 had a consultation at time 108.51213104671562
+Patient 9 admitted to the hospital at time 108.51213104671562
+Patient 9 left the ER at time 108.51213104671562
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 12 left Trauma room at time 110.85325802518123
+Patient 11 left exam room at time 115.07376730316662
+Patient 8 had a consultation at time 118.22540362889856
+Patient 8 discharged from the ER at time 118.22540362889856
+Patient 8 left the ER at time 118.22540362889856
+ER simulation run starts
+Patient 0 arrived in ER at time 0
+Patient 1 arrived in ER at time 0
+Patient 2 arrived in ER at time 0
+Patient 0 received by Triage at time 0
+Patient 1 received by Triage at time 0
+Patient 2 received by Triage at time 0
+Patient 1 completed Triage at time 1.423661359857418
+Patient 1 arrived in exam room at time 1.423661359857418
+Patient 3 arrived in ER at time 10
+Patient 3 arrived in Trauma room at time 10
+Patient 2 completed Triage at time 10.450209380472232
+Patient 2 arrived in exam room at time 10.450209380472232
+Patient 0 completed Triage at time 17.711300916061397
+Patient 0 arrived in exam room at time 17.711300916061397
+Patient 4 arrived in ER at time 20
+Patient 4 arrived in Trauma room at time 20
+Patient 1 left exam room at time 27.90859052821999
+Patient 5 arrived in ER at time 30
+Patient 5 arrived in Trauma room at time 30
+Patient 2 left exam room at time 30.288211354435646
+Patient 1 had a consultation at time 30.50445286993402
+Patient 1 admitted to the hospital at time 30.50445286993402
+Patient 1 left the ER at time 30.50445286993402
+Patient 4 left Trauma room at time 35.276893182468825
+Patient 3 left Trauma room at time 36.524042471532084
+Patient 6 arrived in ER at time 40
+Patient 6 received by Triage at time 40
+Patient 2 had a consultation at time 40.57623800161227
+Patient 2 discharged from the ER at time 40.57623800161227
+Patient 2 left the ER at time 40.57623800161227
+Patient 0 left exam room at time 41.06435517513884
+Patient 6 completed Triage at time 42.232975790639635
+Patient 6 arrived in exam room at time 42.232975790639635
+Patient 3 had a consultation at time 44.80854331484599
+Patient 3 admitted to the hospital at time 44.80854331484599
+Patient 3 left the ER at time 44.80854331484599
+Patient 0 completed imaging at time 48.02778487194695
+Patient 0 had a consultation at time 49.07490482536395
+Patient 0 admitted to the hospital at time 49.07490482536395
+Patient 0 left the ER at time 49.07490482536395
+Patient 7 arrived in ER at time 50
+Patient 7 received by Triage at time 50
+Patient 5 left Trauma room at time 50.60900300526522
+Patient 5 had a consultation at time 51.31625300408014
+Patient 5 admitted to the hospital at time 51.31625300408014
+Patient 5 left the ER at time 51.31625300408014
+Patient 7 completed Triage at time 53.166865487551895
+Patient 7 arrived in exam room at time 53.166865487551895
+Patient 6 left exam room at time 56.80318438086339
+Patient 8 arrived in ER at time 60
+Patient 8 arrived in Trauma room at time 60
+Patient 7 left exam room at time 60.05105789196817
+Patient 6 completed imaging at time 60.65240418960165
+Patient 6 had a consultation at time 68.33028922691123
+Patient 6 discharged from the ER at time 68.33028922691123
+Patient 6 left the ER at time 68.33028922691123
+Patient 9 arrived in ER at time 70
+Patient 9 arrived in Trauma room at time 70
+Patient 8 left Trauma room at time 73.68199601620852
+Patient 10 arrived in ER at time 80
+Patient 10 arrived in Trauma room at time 80
+Patient 7 had a consultation at time 85.94229490836827
+Patient 7 discharged from the ER at time 85.94229490836827
+Patient 7 left the ER at time 85.94229490836827
+Patient 11 arrived in ER at time 90
+Patient 11 arrived in Trauma room at time 90
+Patient 4 completed imaging at time 94.39668705536363
+Patient 4 had a consultation at time 97.89422824799917
+Patient 4 discharged from the ER at time 97.89422824799917
+Patient 4 left the ER at time 97.89422824799917
+Patient 9 left Trauma room at time 98.95220281103238
+Patient 8 completed imaging at time 99.28166573389827
+Patient 9 completed imaging at time 99.35040458906417
+Patient 10 left Trauma room at time 99.94119307746196
+Patient 12 arrived in ER at time 100
+Patient 12 arrived in Trauma room at time 100
+Patient 10 had a consultation at time 100.5921988453605
+Patient 10 discharged from the ER at time 100.5921988453605
+Patient 10 left the ER at time 100.5921988453605
+Patient 11 left Trauma room at time 105.609940485275
+Patient 8 had a consultation at time 106.40170171496582
+Patient 8 admitted to the hospital at time 106.40170171496582
+Patient 8 left the ER at time 106.40170171496582
+Patient 11 had a consultation at time 107.13837817952289
+Patient 11 discharged from the ER at time 107.13837817952289
+Patient 11 left the ER at time 107.13837817952289
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 12 left Trauma room at time 111.05501555288747
 ER simulation run starts
 Patient 0 arrived in ER at time 0
 Patient 1 arrived in ER at time 0
 Patient 2 arrived in ER at time 0
 Patient 0 arrived in Trauma room at time 0
 Patient 1 arrived in Trauma room at time 0
-Patient 2 arrived in Trauma room at time 0
-Patient 0 left Trauma room at time 9.196242327614167
+Patient 2 received by Triage at time 0
+Patient 0 left Trauma room at time 9.716927316995877
 Patient 3 arrived in ER at time 10
-Patient 3 arrived in Trauma room at time 10
-Patient 0 completed imaging at time 11.17586723100037
+Patient 3 received by Triage at time 10
 Patient 4 arrived in ER at time 20
 Patient 4 arrived in Trauma room at time 20
-Patient 2 left Trauma room at time 26.159299093719653
-Patient 1 left Trauma room at time 26.304363762735655
-Patient 2 completed imaging at time 27.602533028972058
-Patient 3 left Trauma room at time 29.96221593356839
+Patient 1 left Trauma room at time 23.680646111243497
+Patient 0 had a consultation at time 25.036903372527444
+Patient 0 discharged from the ER at time 25.036903372527444
+Patient 0 left the ER at time 25.036903372527444
+Patient 2 completed Triage at time 29.24264068675699
+Patient 2 arrived in exam room at time 29.24264068675699
 Patient 5 arrived in ER at time 30
 Patient 5 received by Triage at time 30
-Patient 0 had a consultation at time 32.52294988664151
-Patient 0 admitted to the hospital at time 32.52294988664151
-Patient 0 left the ER at time 32.52294988664151
-Patient 2 had a consultation at time 34.41652815673602
-Patient 2 admitted to the hospital at time 34.41652815673602
-Patient 2 left the ER at time 34.41652815673602
-Patient 1 had a consultation at time 36.49037074159054
-Patient 1 discharged from the ER at time 36.49037074159054
-Patient 1 left the ER at time 36.49037074159054
+Patient 5 completed Triage at time 36.789053954934296
+Patient 5 arrived in exam room at time 36.789053954934296
+Patient 5 left exam room at time 39.91434649990879
 Patient 6 arrived in ER at time 40
-Patient 6 received by Triage at time 40
-Patient 4 left Trauma room at time 42.72098341766178
-Patient 6 completed Triage at time 43.966325919880234
-Patient 6 arrived in exam room at time 43.966325919880234
-Patient 4 had a consultation at time 44.92182288796624
-Patient 4 discharged from the ER at time 44.92182288796624
-Patient 4 left the ER at time 44.92182288796624
-Patient 3 had a consultation at time 47.44698328364751
-Patient 3 discharged from the ER at time 47.44698328364751
-Patient 3 left the ER at time 47.44698328364751
+Patient 6 arrived in Trauma room at time 40
+Patient 4 left Trauma room at time 40.61323958770174
+Patient 4 completed imaging at time 42.003466761252916
+Patient 2 left exam room at time 45.525047155097624
+Patient 5 completed imaging at time 48.13466344471834
 Patient 7 arrived in ER at time 50
 Patient 7 arrived in Trauma room at time 50
-Patient 5 completed Triage at time 58.983796353342996
-Patient 5 arrived in exam room at time 58.983796353342996
+Patient 1 had a consultation at time 50.963282523596185
+Patient 1 discharged from the ER at time 50.963282523596185
+Patient 1 left the ER at time 50.963282523596185
+Patient 6 left Trauma room at time 57.22127385136068
+Patient 8 arrived in ER at time 60
+Patient 8 received by Triage at time 60
+Patient 3 completed Triage at time 60.85193882425081
+Patient 3 arrived in exam room at time 60.85193882425081
+Patient 2 had a consultation at time 63.260749875012436
+Patient 2 admitted to the hospital at time 63.260749875012436
+Patient 2 left the ER at time 63.260749875012436
+Patient 8 completed Triage at time 66.21769157534418
+Patient 8 arrived in exam room at time 66.21769157534418
+Patient 7 left Trauma room at time 67.60444706516606
+Patient 9 arrived in ER at time 70
+Patient 9 arrived in Trauma room at time 70
+Patient 4 had a consultation at time 72.81430284424087
+Patient 4 discharged from the ER at time 72.81430284424087
+Patient 4 left the ER at time 72.81430284424087
+Patient 6 completed imaging at time 78.14827246662279
+Patient 10 arrived in ER at time 80
+Patient 10 arrived in Trauma room at time 80
+Patient 8 left exam room at time 80.8599742085121
+Patient 5 had a consultation at time 82.40106044602156
+Patient 5 discharged from the ER at time 82.40106044602156
+Patient 5 left the ER at time 82.40106044602156
+Patient 3 left exam room at time 84.064295722941
+Patient 8 completed imaging at time 84.11380551989824
+Patient 6 had a consultation at time 87.36372523852566
+Patient 6 discharged from the ER at time 87.36372523852566
+Patient 6 left the ER at time 87.36372523852566
+Patient 3 had a consultation at time 88.14296698559167
+Patient 3 discharged from the ER at time 88.14296698559167
+Patient 3 left the ER at time 88.14296698559167
+Patient 9 left Trauma room at time 88.87021714977493
+Patient 11 arrived in ER at time 90
+Patient 11 received by Triage at time 90
+Patient 10 left Trauma room at time 96.15725062833474
+Patient 12 arrived in ER at time 100
+Patient 12 received by Triage at time 100
+Patient 9 completed imaging at time 101.4812607889175
+Patient 8 had a consultation at time 104.85144016305874
+Patient 8 discharged from the ER at time 104.85144016305874
+Patient 8 left the ER at time 104.85144016305874
+Patient 9 had a consultation at time 105.49867797005639
+Patient 9 admitted to the hospital at time 105.49867797005639
+Patient 9 left the ER at time 105.49867797005639
+Patient 12 completed Triage at time 108.60062896300668
+Patient 12 arrived in exam room at time 108.60062896300668
+Patient 10 had a consultation at time 109.22476693526883
+Patient 10 discharged from the ER at time 109.22476693526883
+Patient 10 left the ER at time 109.22476693526883
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 11 completed Triage at time 112.57416398402916
+Patient 11 arrived in exam room at time 112.57416398402916
+ER simulation run starts
+Patient 0 arrived in ER at time 0
+Patient 1 arrived in ER at time 0
+Patient 2 arrived in ER at time 0
+Patient 0 arrived in Trauma room at time 0
+Patient 1 received by Triage at time 0
+Patient 2 arrived in Trauma room at time 0
+Patient 1 completed Triage at time 3.8990041291822357
+Patient 1 arrived in exam room at time 3.8990041291822357
+Patient 0 left Trauma room at time 8.920562099072166
+Patient 3 arrived in ER at time 10
+Patient 3 received by Triage at time 10
+Patient 0 completed imaging at time 10.371270252916595
+Patient 4 arrived in ER at time 20
+Patient 4 arrived in Trauma room at time 20
+Patient 1 left exam room at time 21.682965280366336
+Patient 2 left Trauma room at time 22.703133837474784
+Patient 2 had a consultation at time 25.62904778691433
+Patient 2 discharged from the ER at time 25.62904778691433
+Patient 2 left the ER at time 25.62904778691433
+Patient 0 had a consultation at time 29.512799414487553
+Patient 0 discharged from the ER at time 29.512799414487553
+Patient 0 left the ER at time 29.512799414487553
+Patient 5 arrived in ER at time 30
+Patient 5 received by Triage at time 30
+Patient 5 completed Triage at time 34.12459216611245
+Patient 5 arrived in exam room at time 34.12459216611245
+Patient 4 left Trauma room at time 34.63957031949139
+Patient 3 completed Triage at time 35.904140178680606
+Patient 3 arrived in exam room at time 35.904140178680606
+Patient 6 arrived in ER at time 40
+Patient 6 received by Triage at time 40
+Patient 4 completed imaging at time 40.409864910689194
+Patient 4 had a consultation at time 41.064828284990526
+Patient 4 discharged from the ER at time 41.064828284990526
+Patient 4 left the ER at time 41.064828284990526
+Patient 6 completed Triage at time 41.38728896399285
+Patient 6 arrived in exam room at time 41.38728896399285
+Patient 1 had a consultation at time 45.552619833415065
+Patient 1 admitted to the hospital at time 45.552619833415065
+Patient 1 left the ER at time 45.552619833415065
+Patient 3 left exam room at time 48.50309318665524
+Patient 7 arrived in ER at time 50
+Patient 7 received by Triage at time 50
+Patient 5 left exam room at time 54.108614902006714
+Patient 6 left exam room at time 58.67378505349396
+Patient 3 had a consultation at time 59.885062631973106
+Patient 3 discharged from the ER at time 59.885062631973106
+Patient 3 left the ER at time 59.885062631973106
 Patient 8 arrived in ER at time 60
 Patient 8 arrived in Trauma room at time 60
-Patient 6 left exam room at time 60.317928629307644
+Patient 7 completed Triage at time 67.99291344373108
+Patient 7 arrived in exam room at time 67.99291344373108
 Patient 9 arrived in ER at time 70
-Patient 9 received by Triage at time 70
-Patient 7 left Trauma room at time 71.37740065745459
-Patient 6 had a consultation at time 74.37340191914515
-Patient 6 discharged from the ER at time 74.37340191914515
-Patient 6 left the ER at time 74.37340191914515
-Patient 9 completed Triage at time 76.82422973289194
-Patient 9 arrived in exam room at time 76.82422973289194
+Patient 9 arrived in Trauma room at time 70
+Patient 6 completed imaging at time 77.22191556629217
+Patient 8 left Trauma room at time 79.38180380478532
 Patient 10 arrived in ER at time 80
-Patient 10 received by Triage at time 80
-Patient 5 left exam room at time 81.44242231456634
-Patient 10 completed Triage at time 81.70100744320575
-Patient 10 arrived in exam room at time 81.70100744320575
-Patient 7 completed imaging at time 83.36862818939517
-Patient 5 had a consultation at time 85.12982098971625
-Patient 5 discharged from the ER at time 85.12982098971625
-Patient 5 left the ER at time 85.12982098971625
-Patient 9 left exam room at time 89.3177852324066
+Patient 10 arrived in Trauma room at time 80
+Patient 5 completed imaging at time 80.3851263305269
+Patient 8 had a consultation at time 83.56317804963057
+Patient 8 admitted to the hospital at time 83.56317804963057
+Patient 8 left the ER at time 83.56317804963057
+Patient 7 left exam room at time 85.13417138258623
+Patient 5 had a consultation at time 85.95156249383388
+Patient 5 admitted to the hospital at time 85.95156249383388
+Patient 5 left the ER at time 85.95156249383388
+Patient 9 left Trauma room at time 89.31846026892364
+Patient 7 had a consultation at time 89.63432872844875
+Patient 7 discharged from the ER at time 89.63432872844875
+Patient 7 left the ER at time 89.63432872844875
+Patient 11 arrived in ER at time 90
+Patient 11 received by Triage at time 90
+Patient 11 completed Triage at time 90.56965451070907
+Patient 11 arrived in exam room at time 90.56965451070907
+Patient 12 arrived in ER at time 100
+Patient 12 received by Triage at time 100
+Patient 11 left exam room at time 100.94630796200046
+Patient 6 had a consultation at time 103.04843210609351
+Patient 6 discharged from the ER at time 103.04843210609351
+Patient 6 left the ER at time 103.04843210609351
+Patient 10 left Trauma room at time 103.07861232405727
+Patient 12 completed Triage at time 109.02800930135675
+Patient 12 arrived in exam room at time 109.02800930135675
+Patient 13 arrived in ER at time 110
+Patient 13 arrived in Trauma room at time 110
+Patient 9 completed imaging at time 112.37442599028046
 Simulation ends
