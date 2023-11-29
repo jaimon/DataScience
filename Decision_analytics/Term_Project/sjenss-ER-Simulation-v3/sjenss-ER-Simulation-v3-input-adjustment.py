@@ -43,56 +43,69 @@ class ER(object):
         self.imaging_rooms = simpy.Resource(env, num_imaging_rooms)
         self.consultation = simpy.Resource(env, num_doctors)  # Assuming doctors do the consultation
 
-# Try to make these service times more realistic
-
-#service times for arrival
+    # Service times for arrival
     def arrival(self, patient):
         # Exponential distribution of 12 patients per hour (12 patients will arrive at the ER per hour)
-        lambda_arrival = 12
-        service_time = np.random.exponential(5)
+        arrival_rate = 12 / 60
+        service_time = np.random.exponential(1 / arrival_rate)
         yield self.env.timeout(service_time)
+        self.env.process(self.reception_process(patient))
         event_data = ['Arrival', patient, self.env.now]
+    
+    # Process for going through reception (check-in)
+    def reception_process(self, patient):
+        with self.reception.request() as request:
+            yield request
+            reception_service_time = np.random.exponential(5) # 5 minutes per patient on average for check-in
+            yield self.env.timeout(reception_service_time)
+            event_data = ['Reception', patient, self.env.now]
 
 
-#service times for triage
+    # Service times for triage
     def triage(self, patient):
-        # Triage takes about 10 minutes on average (6 per hour)
-        lambda_triage = 6
-        service_time = np.random.exponential(10)
-        yield self.env.timeout(service_time)
-        event_data = ['Triage', patient, self.env.now]
+        with self.nurses.request() as request:
+            yield request
+            # Triage takes about 10 minutes on average (6 per hour)
+            service_time = np.random.exponential(10)
+            yield self.env.timeout(service_time)
+            event_data = ['Triage', patient, self.env.now]
 
-#service times for exam rooms
+    # Service times for exam rooms
     def exam_room(self, patient):
-        # An exam room will occupied for approximately 30 minutes on average (2 occupants per hour)
-        lambda_exam_room = 2
-        service_time = np.random.exponential(30)
-        yield self.env.timeout(service_time)
-        event_data = ['Exam_room', patient, self.env.now]
+        with self.exam_rooms.request() as request:
+            yield request
+            # An exam room will occupied for approximately 30 minutes on average (2 occupants per hour)
+            service_time = np.random.exponential(30)
+            yield self.env.timeout(service_time)
+            event_data = ['Exam_room', patient, self.env.now]
 
-
-#service times for trauma rooms
+    # Service times for trauma rooms
     def trauma_room(self, patient):
-        # A trauma room will be occupied for approximately 45 minutes on average (1.33 occupants per hour)
-        lambda_trauma_room = 1.33
-        service_time = np.random.exponential(45)
-        yield self.env.timeout(service_time)
-        event_data = ['Trauma_room', patient, self.env.now]
+        with self.trauma_rooms.request() as request:
+            yield request
+            # A trauma room will be occupied for approximately 45 minutes on average (1.33 occupants per hour)
+            service_time = np.random.exponential(45)
+            yield self.env.timeout(service_time)
+            event_data = ['Trauma_room', patient, self.env.now]
 
 
-#service times for imaging
+    # Service times for imaging
     def imaging(self, patient):
-        # Imaging takes approximately 15 minutes on average (4 per hour)
-        imaging_lambda = 4
-        service_time = np.random.exponential(15)
-        yield self.env.timeout(service_time)
+        with self.imaging_rooms.request() as request:
+            yield request
+            # Imaging takes approximately 15 minutes on average (4 per hour)
+            service_time = np.random.exponential(15)
+            yield self.env.timeout(service_time)
+            event_data = ['Imaging', patient, self.env.now]
 
-#service times for doctor consultation
+    # Service times for doctor consultation
     def doctor_consultation(self, patient):
+        with self.doctors.request() as request:
+            yield request
         # A doctor consultation takes 12 minutes on average (5 per hour)
-        consultation_lambda = 5
         service_time = np.random.exponential(12)
         yield self.env.timeout(service_time)
+        event_data = ['Consultation', patient, self.env.now]
 
 # %%
 def go_to_er(env, patient, er_instance):
@@ -110,7 +123,7 @@ def go_to_er(env, patient, er_instance):
     needs_immediate_care = random.random() < 0.1
 
     if needs_immediate_care:
-         with er_instance.doctors.request() as request:
+         with er_instance.trauma_rooms.request() as request: # Changed resource request to trauma room
             yield request
             trauma_start_time = env.now
             log_event(f"Patient {patient} arrived in Trauma room at time {trauma_start_time}")
@@ -156,7 +169,7 @@ def go_to_er(env, patient, er_instance):
             log_event(f"Patient {patient} completed imaging at time {env.now}")
             
     # Doctor consultation for every patient
-    with er_instance.consultation.request() as request:
+    with er_instance.doctors.request() as request: # resource request changed to doctor from consultation
         yield request
         yield env.process(er_instance.doctor_consultation(patient))
         log_event(f"Patient {patient} had a consultation at time {env.now}")
@@ -181,13 +194,15 @@ def run_er(env, num_reception, num_nurses, num_doctors, num_trauma_rooms, num_ex
         env.process(go_to_er(env, patient, er_instance))
 
     while True:
-        yield env.timeout(10)  # Wait a bit before generating a new patient 
+        yield env.timeout(np.random.exponential(10))  # Wait a bit before generating a new patient 
 
         patient += 1
         env.process(go_to_er(env, patient, er_instance))
 
 # %%
 def get_average_wait_time(wait_times):
+    if not wait_times:
+        return 0, 0
     average_wait = statistics.mean(wait_times)
     minutes, frac_minutes = divmod(average_wait, 1)
     seconds = frac_minutes * 60
@@ -209,7 +224,7 @@ def get_user_input():
 def main():
     # Reset the CSV file at the start
     write_event_to_csv([], mode='w')
-    # random.seed(42)
+    random.seed(42)
     num_reception, num_nurses, num_doctors, num_trauma_rooms, num_exam_rooms,num_imaging_rooms = get_user_input()
     
     total_simulation_runs = 10
@@ -236,42 +251,4 @@ if __name__ == "__main__":
     main()
 
 #%%
-
-"""
-Edge Testing Results:
-
-Low edge testing:
-Inputs:
-    - Input # of receptionists working: 1
-    - Input # of nurses working: 1
-    - Input # of doctors working: 1
-    - Input # of trauma rooms: 1
-    - Input # of exam rooms: 1
-    - Input # of testing rooms: 1
-Results:
-    - Goal not achieved. The total average time in the ER is one hour or more.
-    - The total average waiting time across 10 runs is 67.70 minutes.
-    
-High edge testing:
-Inputs:
-    - Input # of receptionists working: 100
-    - Input # of nurses working: 100
-    - Input # of doctors working: 100
-    - Input # of trauma rooms: 100
-    - Input # of exam rooms: 100
-    - Input # of testing rooms: 100
-Results:
-    - Goal not achieved. The total average time in the ER is one hour or more.
-    - The total average waiting time across 10 runs is 64.90 minutes.
-"""
-
-"""
-Test:
-    - Input # of receptionists working: 5 (increase to 10 doesn't achieve goal)
-    - Input # of nurses working: 15 (increase to 20 doesn't achieve goal)
-    - Input # of doctors working: 10 (increase to 15 doesn't achieve goal)
-    - Input # of trauma rooms: 10 (increase to 15 doesn't achieve goal)
-    - Input # of exam rooms: 20 (increase to 25 doesn't achieve goal)
-    - Input # of testing rooms: 10! (5 doesn't achieve goal)
-"""
 
